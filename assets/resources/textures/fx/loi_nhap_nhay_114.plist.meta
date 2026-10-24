@@ -1,0 +1,155 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "456c0": {
+      "importer": "sprite-frame",
+      "uuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d@456c0",
+      "displayName": "",
+      "id": "456c0",
+      "name": "loi_nhap_nhay_114_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 30,
+        "height": 45,
+        "rawWidth": 30,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9d0d51f8-a344-418e-b0aa-8c9fdf941774@6c48a",
+        "atlasUuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "03b30": {
+      "importer": "sprite-frame",
+      "uuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d@03b30",
+      "displayName": "",
+      "id": "03b30",
+      "name": "loi_nhap_nhay_114_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 30,
+        "trimY": 0,
+        "width": 30,
+        "height": 45,
+        "rawWidth": 30,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9d0d51f8-a344-418e-b0aa-8c9fdf941774@6c48a",
+        "atlasUuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3125c": {
+      "importer": "sprite-frame",
+      "uuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d@3125c",
+      "displayName": "",
+      "id": "3125c",
+      "name": "loi_nhap_nhay_114_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 60,
+        "trimY": 0,
+        "width": 30,
+        "height": 45,
+        "rawWidth": 30,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9d0d51f8-a344-418e-b0aa-8c9fdf941774@6c48a",
+        "atlasUuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "loi_nhap_nhay_114.png",
+    "format": 2,
+    "uuid": "3e141c91-a0eb-4349-a84f-868ac0c5ee9d",
+    "textureUuid": "9d0d51f8-a344-418e-b0aa-8c9fdf941774@6c48a"
+  }
+}

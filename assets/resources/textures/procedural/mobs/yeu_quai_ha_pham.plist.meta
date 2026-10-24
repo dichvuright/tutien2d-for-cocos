@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "e2502": {
+      "importer": "sprite-frame",
+      "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9@e2502",
+      "displayName": "",
+      "id": "e2502",
+      "name": "yeu_quai_ha_pham_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b0407529-b2fd-4865-8632-8fbf55abe719@6c48a",
+        "atlasUuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9083d": {
+      "importer": "sprite-frame",
+      "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9@9083d",
+      "displayName": "",
+      "id": "9083d",
+      "name": "yeu_quai_ha_pham_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b0407529-b2fd-4865-8632-8fbf55abe719@6c48a",
+        "atlasUuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8968e": {
+      "importer": "sprite-frame",
+      "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9@8968e",
+      "displayName": "",
+      "id": "8968e",
+      "name": "yeu_quai_ha_pham_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b0407529-b2fd-4865-8632-8fbf55abe719@6c48a",
+        "atlasUuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "515ba": {
+      "importer": "sprite-frame",
+      "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9@515ba",
+      "displayName": "",
+      "id": "515ba",
+      "name": "yeu_quai_ha_pham_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b0407529-b2fd-4865-8632-8fbf55abe719@6c48a",
+        "atlasUuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "yeu_quai_ha_pham.png",
+    "format": 2,
+    "uuid": "db6e4a0f-580d-449e-b02e-cabf4fcad4c9",
+    "textureUuid": "b0407529-b2fd-4865-8632-8fbf55abe719@6c48a"
+  }
+}

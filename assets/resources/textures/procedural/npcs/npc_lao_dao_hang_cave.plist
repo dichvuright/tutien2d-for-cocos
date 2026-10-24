@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>npc_lao_dao_hang_cave_00</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{64,64}}</string>
+        <key>offset</key>
+        <string>{0,0}</string>
+        <key>rotated</key>
+        <false/>
+        <key>sourceColorRect</key>
+        <string>{{0,0},{64,64}}</string>
+        <key>sourceSize</key>
+        <string>{64,64}</string>
+      </dict>
+      <key>npc_lao_dao_hang_cave_01</key>
+      <dict>
+        <key>frame</key>
+        <string>{{64,0},{64,64}}</string>
+        <key>offset</key>
+        <string>{0,0}</string>
+        <key>rotated</key>
+        <false/>
+        <key>sourceColorRect</key>
+        <string>{{0,0},{64,64}}</string>
+        <key>sourceSize</key>
+        <string>{64,64}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>npc_lao_dao_hang_cave.png</string>
+      <key>size</key>
+      <string>{128,64}</string>
+      <key>textureFileName</key>
+      <string>npc_lao_dao_hang_cave.png</string>
+    </dict>
+  </dict>
+</plist>

@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "e2f4f": {
+      "importer": "sprite-frame",
+      "uuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da@e2f4f",
+      "displayName": "",
+      "id": "e2f4f",
+      "name": "npc_van_bao_phuong_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3f150c26-4bdc-4e33-a9c8-00082485a9c8@6c48a",
+        "atlasUuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "abcbc": {
+      "importer": "sprite-frame",
+      "uuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da@abcbc",
+      "displayName": "",
+      "id": "abcbc",
+      "name": "npc_van_bao_phuong_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3f150c26-4bdc-4e33-a9c8-00082485a9c8@6c48a",
+        "atlasUuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_van_bao_phuong.png",
+    "format": 2,
+    "uuid": "78ebfe9f-961b-4fab-908e-096d6cfa02da",
+    "textureUuid": "3f150c26-4bdc-4e33-a9c8-00082485a9c8@6c48a"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "7dd6a": {
+      "importer": "sprite-frame",
+      "uuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726@7dd6a",
+      "displayName": "",
+      "id": "7dd6a",
+      "name": "npc_chinh_dao_ho_phap_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "36b52e9b-0408-4500-a0f8-0b46c2f3bca5@6c48a",
+        "atlasUuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ed1d": {
+      "importer": "sprite-frame",
+      "uuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726@7ed1d",
+      "displayName": "",
+      "id": "7ed1d",
+      "name": "npc_chinh_dao_ho_phap_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "36b52e9b-0408-4500-a0f8-0b46c2f3bca5@6c48a",
+        "atlasUuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_chinh_dao_ho_phap.png",
+    "format": 2,
+    "uuid": "31bd36d5-41cb-424b-9f6a-ac488a1a7726",
+    "textureUuid": "36b52e9b-0408-4500-a0f8-0b46c2f3bca5@6c48a"
+  }
+}

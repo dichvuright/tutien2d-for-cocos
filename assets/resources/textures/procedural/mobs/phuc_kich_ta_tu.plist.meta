@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "f4505": {
+      "importer": "sprite-frame",
+      "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa@f4505",
+      "displayName": "",
+      "id": "f4505",
+      "name": "phuc_kich_ta_tu_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1aed2c5c-233d-4888-adba-9794ef8fa3c0@6c48a",
+        "atlasUuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57cf6": {
+      "importer": "sprite-frame",
+      "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa@57cf6",
+      "displayName": "",
+      "id": "57cf6",
+      "name": "phuc_kich_ta_tu_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1aed2c5c-233d-4888-adba-9794ef8fa3c0@6c48a",
+        "atlasUuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "76a3a": {
+      "importer": "sprite-frame",
+      "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa@76a3a",
+      "displayName": "",
+      "id": "76a3a",
+      "name": "phuc_kich_ta_tu_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1aed2c5c-233d-4888-adba-9794ef8fa3c0@6c48a",
+        "atlasUuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b119c": {
+      "importer": "sprite-frame",
+      "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa@b119c",
+      "displayName": "",
+      "id": "b119c",
+      "name": "phuc_kich_ta_tu_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1aed2c5c-233d-4888-adba-9794ef8fa3c0@6c48a",
+        "atlasUuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "phuc_kich_ta_tu.png",
+    "format": 2,
+    "uuid": "7a75292f-72b7-49ff-8abf-9485164d67aa",
+    "textureUuid": "1aed2c5c-233d-4888-adba-9794ef8fa3c0@6c48a"
+  }
+}

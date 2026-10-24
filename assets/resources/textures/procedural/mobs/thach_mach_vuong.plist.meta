@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "f62e0": {
+      "importer": "sprite-frame",
+      "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3@f62e0",
+      "displayName": "",
+      "id": "f62e0",
+      "name": "thach_mach_vuong_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5382e1b-a018-465a-8275-c027fb9926a7@6c48a",
+        "atlasUuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b657b": {
+      "importer": "sprite-frame",
+      "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3@b657b",
+      "displayName": "",
+      "id": "b657b",
+      "name": "thach_mach_vuong_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5382e1b-a018-465a-8275-c027fb9926a7@6c48a",
+        "atlasUuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a100": {
+      "importer": "sprite-frame",
+      "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3@7a100",
+      "displayName": "",
+      "id": "7a100",
+      "name": "thach_mach_vuong_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5382e1b-a018-465a-8275-c027fb9926a7@6c48a",
+        "atlasUuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f8a0": {
+      "importer": "sprite-frame",
+      "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3@8f8a0",
+      "displayName": "",
+      "id": "8f8a0",
+      "name": "thach_mach_vuong_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5382e1b-a018-465a-8275-c027fb9926a7@6c48a",
+        "atlasUuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "thach_mach_vuong.png",
+    "format": 2,
+    "uuid": "bcf57f3c-dc18-4db5-ac28-71b658564ab3",
+    "textureUuid": "e5382e1b-a018-465a-8275-c027fb9926a7@6c48a"
+  }
+}

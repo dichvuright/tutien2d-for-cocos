@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "1609533a-2e78-4a61-a06d-b8f2e8130494",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "a8c15": {
+      "importer": "sprite-frame",
+      "uuid": "1609533a-2e78-4a61-a06d-b8f2e8130494@a8c15",
+      "displayName": "",
+      "id": "a8c15",
+      "name": "npc_ly_thanh_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "88934683-7bc8-468e-b5d2-9af6a9750132@6c48a",
+        "atlasUuid": "1609533a-2e78-4a61-a06d-b8f2e8130494",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "521d7": {
+      "importer": "sprite-frame",
+      "uuid": "1609533a-2e78-4a61-a06d-b8f2e8130494@521d7",
+      "displayName": "",
+      "id": "521d7",
+      "name": "npc_ly_thanh_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "88934683-7bc8-468e-b5d2-9af6a9750132@6c48a",
+        "atlasUuid": "1609533a-2e78-4a61-a06d-b8f2e8130494",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_ly_thanh.png",
+    "format": 2,
+    "uuid": "1609533a-2e78-4a61-a06d-b8f2e8130494",
+    "textureUuid": "88934683-7bc8-468e-b5d2-9af6a9750132@6c48a"
+  }
+}

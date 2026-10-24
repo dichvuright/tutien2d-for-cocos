@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "0302a110-a1ad-4f16-828f-14a1311a97a6",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "0302a110-a1ad-4f16-828f-14a1311a97a6@6c48a",
+      "displayName": "loi_si_dieu_side_wing",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "0302a110-a1ad-4f16-828f-14a1311a97a6",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "0302a110-a1ad-4f16-828f-14a1311a97a6@f9941",
+      "displayName": "loi_si_dieu_side_wing",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -12,
+        "offsetY": -12.5,
+        "trimX": 0,
+        "trimY": 65,
+        "width": 1378,
+        "height": 1017,
+        "rawWidth": 1402,
+        "rawHeight": 1122,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -689,
+            -508.5,
+            0,
+            689,
+            -508.5,
+            0,
+            -689,
+            508.5,
+            0,
+            689,
+            508.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            1057,
+            1378,
+            1057,
+            0,
+            40,
+            1378,
+            40
+          ],
+          "nuv": [
+            0,
+            0.035650623885918005,
+            0.9828815977175464,
+            0.035650623885918005,
+            0,
+            0.9420677361853832,
+            0.9828815977175464,
+            0.9420677361853832
+          ],
+          "minPos": [
+            -689,
+            -508.5,
+            0
+          ],
+          "maxPos": [
+            689,
+            508.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0302a110-a1ad-4f16-828f-14a1311a97a6@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "0302a110-a1ad-4f16-828f-14a1311a97a6@6c48a"
+  }
+}

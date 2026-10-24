@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "3391d": {
+      "importer": "sprite-frame",
+      "uuid": "f6acaef1-7ed7-4291-804c-12445785014a@3391d",
+      "displayName": "",
+      "id": "3391d",
+      "name": "hoang_cuu_bao_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2713cb5-f70e-4035-ac11-7032b60eca9b@6c48a",
+        "atlasUuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10e2a": {
+      "importer": "sprite-frame",
+      "uuid": "f6acaef1-7ed7-4291-804c-12445785014a@10e2a",
+      "displayName": "",
+      "id": "10e2a",
+      "name": "hoang_cuu_bao_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2713cb5-f70e-4035-ac11-7032b60eca9b@6c48a",
+        "atlasUuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fec7b": {
+      "importer": "sprite-frame",
+      "uuid": "f6acaef1-7ed7-4291-804c-12445785014a@fec7b",
+      "displayName": "",
+      "id": "fec7b",
+      "name": "hoang_cuu_bao_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2713cb5-f70e-4035-ac11-7032b60eca9b@6c48a",
+        "atlasUuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fc6fc": {
+      "importer": "sprite-frame",
+      "uuid": "f6acaef1-7ed7-4291-804c-12445785014a@fc6fc",
+      "displayName": "",
+      "id": "fc6fc",
+      "name": "hoang_cuu_bao_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2713cb5-f70e-4035-ac11-7032b60eca9b@6c48a",
+        "atlasUuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "hoang_cuu_bao.png",
+    "format": 2,
+    "uuid": "f6acaef1-7ed7-4291-804c-12445785014a",
+    "textureUuid": "e2713cb5-f70e-4035-ac11-7032b60eca9b@6c48a"
+  }
+}

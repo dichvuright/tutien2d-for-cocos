@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "127dd": {
+      "importer": "sprite-frame",
+      "uuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0@127dd",
+      "displayName": "",
+      "id": "127dd",
+      "name": "npc_tong_mon_quan_su_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "066e3e08-05f9-46c4-8bf6-fc224080446a@6c48a",
+        "atlasUuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b157": {
+      "importer": "sprite-frame",
+      "uuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0@9b157",
+      "displayName": "",
+      "id": "9b157",
+      "name": "npc_tong_mon_quan_su_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "066e3e08-05f9-46c4-8bf6-fc224080446a@6c48a",
+        "atlasUuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_tong_mon_quan_su.png",
+    "format": 2,
+    "uuid": "bca2a61f-3880-4286-a50d-9af6d559ffb0",
+    "textureUuid": "066e3e08-05f9-46c4-8bf6-fc224080446a@6c48a"
+  }
+}

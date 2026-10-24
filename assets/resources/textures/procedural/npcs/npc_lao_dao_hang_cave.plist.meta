@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "d9b89": {
+      "importer": "sprite-frame",
+      "uuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7@d9b89",
+      "displayName": "",
+      "id": "d9b89",
+      "name": "npc_lao_dao_hang_cave_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b99c1c49-ebe4-4831-a474-2abac93f595d@6c48a",
+        "atlasUuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c41a7": {
+      "importer": "sprite-frame",
+      "uuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7@c41a7",
+      "displayName": "",
+      "id": "c41a7",
+      "name": "npc_lao_dao_hang_cave_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b99c1c49-ebe4-4831-a474-2abac93f595d@6c48a",
+        "atlasUuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_lao_dao_hang_cave.png",
+    "format": 2,
+    "uuid": "02263fc1-ab3a-4462-b85c-8bcb6e90ddc7",
+    "textureUuid": "b99c1c49-ebe4-4831-a474-2abac93f595d@6c48a"
+  }
+}

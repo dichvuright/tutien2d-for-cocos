@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "0d47b": {
+      "importer": "sprite-frame",
+      "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b@0d47b",
+      "displayName": "",
+      "id": "0d47b",
+      "name": "chap_phap_tuan_ve_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "886a87a3-d860-4773-9bdb-d764c55f8428@6c48a",
+        "atlasUuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4240": {
+      "importer": "sprite-frame",
+      "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b@e4240",
+      "displayName": "",
+      "id": "e4240",
+      "name": "chap_phap_tuan_ve_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "886a87a3-d860-4773-9bdb-d764c55f8428@6c48a",
+        "atlasUuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6d5c": {
+      "importer": "sprite-frame",
+      "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b@c6d5c",
+      "displayName": "",
+      "id": "c6d5c",
+      "name": "chap_phap_tuan_ve_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "886a87a3-d860-4773-9bdb-d764c55f8428@6c48a",
+        "atlasUuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43de4": {
+      "importer": "sprite-frame",
+      "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b@43de4",
+      "displayName": "",
+      "id": "43de4",
+      "name": "chap_phap_tuan_ve_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "886a87a3-d860-4773-9bdb-d764c55f8428@6c48a",
+        "atlasUuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "chap_phap_tuan_ve.png",
+    "format": 2,
+    "uuid": "8d6d2138-e544-4010-9ae1-d53f25d3bb5b",
+    "textureUuid": "886a87a3-d860-4773-9bdb-d764c55f8428@6c48a"
+  }
+}

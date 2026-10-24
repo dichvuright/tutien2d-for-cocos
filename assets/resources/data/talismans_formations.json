@@ -1,0 +1,340 @@
+{
+  "talismans": {
+    "thanh_tam": {
+      "id": "thanh_tam",
+      "sp": 2,
+      "item": "phu_thanh_tam",
+      "short": "Thanh Tâm",
+      "name": "Thanh Tâm Phù",
+      "element": "Vô",
+      "aim": "self",
+      "cooldown": 10,
+      "restoreMp": 50,
+      "tip": "Hồi tối đa 50 Linh Lực tức thì."
+    },
+    "kim_giap": {
+      "id": "kim_giap",
+      "sp": 3,
+      "item": "phu_kim_giap",
+      "short": "Kim Giáp",
+      "name": "Kim Giáp Phù",
+      "element": "Kim",
+      "aim": "self",
+      "cooldown": 20,
+      "shield": 20,
+      "duration": 10,
+      "tip": "Hộ thuẫn 20 điểm, tan sau 10 giây hoặc khi cạn."
+    },
+    "toc_hanh": {
+      "id": "toc_hanh",
+      "sp": 2,
+      "item": "phu_toc_hanh",
+      "short": "Tốc Hành",
+      "name": "Tốc Hành Phù",
+      "element": "Phong",
+      "aim": "self",
+      "cooldown": 15,
+      "speedMult": 1.3,
+      "duration": 8,
+      "tip": "Chạy nhanh thêm 30% trong 8 giây."
+    },
+    "han_bang": {
+      "id": "han_bang",
+      "sp": 3,
+      "item": "phu_han_bang",
+      "short": "Hàn Băng",
+      "name": "Hàn Băng Phù",
+      "element": "Thuỷ",
+      "aim": "point",
+      "cooldown": 8,
+      "range": 112,
+      "pickR": 28,
+      "dmg": 2,
+      "slowMult": 0.5,
+      "slowTime": 3,
+      "tip": "Một mục tiêu: 2 sát thương, chậm 50% trong 3 giây."
+    },
+    "loi_dong": {
+      "id": "loi_dong",
+      "sp": 3,
+      "item": "phu_loi_dong",
+      "short": "Lôi Động",
+      "name": "Lôi Động Phù",
+      "element": "Lôi",
+      "aim": "point",
+      "cooldown": 10,
+      "range": 280,
+      "radius": 24,
+      "telegraph": 0.15,
+      "dmg": 5,
+      "stunTime": 0.5,
+      "tip": "Sét giáng điểm đã chọn sau 0,15 giây: 5 sát thương, choáng 0,5 giây."
+    },
+    "hoa_phu": {
+      "id": "hoa_phu",
+      "sp": 3,
+      "item": "phu_hoa",
+      "short": "Hoả Phù",
+      "name": "Hoả Phù",
+      "element": "Hoả",
+      "aim": "dir",
+      "cooldown": 6,
+      "range": 128,
+      "speed": 240,
+      "hitR": 12,
+      "blastR": 24,
+      "dmg": 4,
+      "maxBoltsPerChar": 2,
+      "maxBoltsPerRoom": 64,
+      "tip": "Một quả lửa bay thẳng, chạm là nổ trong bán kính 24."
+    },
+    "tho_don": {
+      "id": "tho_don",
+      "sp": 2,
+      "item": "phu_tho_don",
+      "short": "Thổ Độn",
+      "name": "Thổ Độn Phù",
+      "element": "Thổ",
+      "aim": "dir",
+      "cooldown": 12,
+      "dash": 128,
+      "sweepStep": 8,
+      "minDash": 32,
+      "tip": "Lướt tối đa 128 điểm theo hướng đang đi, dừng trước vật cản. Dùng được cả khi đang bay."
+    },
+    "kim_o": {
+      "id": "kim_o",
+      "sp": 3,
+      "item": "phu_kim_o",
+      "short": "Kim Ô",
+      "name": "Kim Ô Phù",
+      "element": "Hoả",
+      "aim": "dir",
+      "cooldown": 30,
+      "range": 300,
+      "width": 28,
+      "delay": 0.7,
+      "step": 0.1,
+      "profile": [
+        0.129,
+        0.516,
+        0.712,
+        0.834,
+        0.92,
+        0.975,
+        1
+      ],
+      "tail": 0.16,
+      "coef": 14,
+      "burn": {
+        "time": 6,
+        "dpsCoef": 0.8
+      },
+      "maxPerChar": 1,
+      "minRealm": "truc_co_1",
+      "tip": "Kim Ô lửa lao thẳng 300 bước theo hướng ngắm, xuyên mọi kẻ trên đường: sát thương gấp 14 lần đòn chuẩn cảnh giới, thiêu đốt 6 giây."
+    },
+    "kim_long": {
+      "id": "kim_long",
+      "sp": 3,
+      "item": "phu_kim_long",
+      "short": "Kim Long",
+      "name": "Kim Long Phù",
+      "element": "Kim",
+      "aim": "self",
+      "cooldown": 30,
+      "coef": 14,
+      "duration": 12,
+      "regen": {
+        "time": 6,
+        "dpsCoef": 0.8
+      },
+      "minRealm": "truc_co_1",
+      "tip": "Kim Long hộ thân: giáp gấp 14 lần đòn chuẩn cảnh giới, hồi giáp thêm trong 6 giây, tan sau 12 giây."
+    }
+  },
+  "talismanShop": [
+    {
+      "id": "thanh_tam",
+      "cost": 50
+    },
+    {
+      "id": "toc_hanh",
+      "cost": 80
+    },
+    {
+      "id": "han_bang",
+      "cost": 120
+    },
+    {
+      "id": "tho_don",
+      "cost": 200
+    },
+    {
+      "id": "kim_giap",
+      "cost": 250
+    },
+    {
+      "id": "hoa_phu",
+      "cost": 300
+    },
+    {
+      "id": "loi_dong",
+      "cost": 500
+    },
+    {
+      "id": "kim_o",
+      "cost": 2000
+    },
+    {
+      "id": "kim_long",
+      "cost": 2000
+    }
+  ],
+  "formations": {
+    "liet_hoa": {
+      "id": "liet_hoa",
+      "item": "tran_ban_liet_hoa",
+      "name": "Liệt Hỏa Trận",
+      "reusable": true,
+      "aim": "point",
+      "effect": "damage",
+      "range": 112,
+      "radius": 96,
+      "coreHp": 16,
+      "maxTargets": 4,
+      "damage": 2,
+      "pvpDamage": 8,
+      "dmgCoef": 0.22,
+      "pvpCoef": 0.5,
+      "effectIntervalMs": 1000,
+      "activationMp": 25,
+      "setupStones": 3,
+      "upkeepStones": 1,
+      "durationMs": 10000,
+      "cooldownMs": 25000
+    },
+    "tu_linh": {
+      "id": "tu_linh",
+      "item": "tran_ban_tu_linh",
+      "name": "Tụ Linh Trận",
+      "reusable": true,
+      "aim": "self",
+      "effect": "restore_mp",
+      "radius": 96,
+      "coreHp": 12,
+      "restoreMp": 6,
+      "mpCoef": 0.4,
+      "effectIntervalMs": 1000,
+      "activationMp": 10,
+      "setupStones": 2,
+      "upkeepStones": 1,
+      "durationMs": 15000,
+      "cooldownMs": 25000
+    },
+    "loan_loi_hoa": {
+      "id": "loan_loi_hoa",
+      "item": "tran_ban_loan_loi_hoa",
+      "name": "Loạn Lôi Hỏa Trận",
+      "reusable": true,
+      "aim": "point",
+      "effect": "stun_bolt",
+      "range": 128,
+      "radius": 120,
+      "coreHp": 22,
+      "windupMs": 5000,
+      "damage": 5,
+      "pvpDamage": 12,
+      "boltStunMs": 1000,
+      "boltsPerTick": 1,
+      "effectIntervalMs": 1000,
+      "activationMp": 45,
+      "setupStones": 5,
+      "upkeepStones": 2,
+      "durationMs": 9000,
+      "cooldownMs": 45000
+    },
+    "tu_tuong": {
+      "id": "tu_tuong",
+      "item": "tran_ban_tu_tuong",
+      "name": "Tứ Tượng Trận",
+      "aim": "point",
+      "effect": "tu_tuong",
+      "range": 112,
+      "radius": 176,
+      "coreHp": 150,
+      "reusable": true,
+      "minRealm": "ket_dan_1",
+      "eyeRegen": 3,
+      "pairShare": 0.5,
+      "maxTargets": 6,
+      "coef": 1,
+      "stackStep": 0.25,
+      "maxStacks": 12,
+      "guardHpPct": 0.02,
+      "guardMpPct": 0.03,
+      "effectIntervalMs": 500,
+      "activationMp": 60,
+      "setupStones": 20,
+      "upkeepStones": 2,
+      "durationMs": 30000,
+      "cooldownMs": 90000
+    },
+    "dao_gia": {
+      "id": "dao_gia",
+      "item": "tran_ban_dao_gia",
+      "name": "Đạo Gia Bát Quái Trận",
+      "aim": "point",
+      "effect": "dao_gia",
+      "range": 112,
+      "radius": 176,
+      "coreHp": 600,
+      "reusable": true,
+      "dao": "chinh",
+      "maxTargets": 5,
+      "effectIntervalMs": 1000,
+      "activationMp": 60,
+      "setupStones": 20,
+      "upkeepStones": 2,
+      "durationMs": 30000,
+      "cooldownMs": 90000
+    },
+    "ma_dao": {
+      "id": "ma_dao",
+      "item": "tran_ban_ma_dao",
+      "name": "Ma Đạo Cửu U Trận",
+      "aim": "point",
+      "effect": "cuu_u",
+      "range": 112,
+      "radius": 176,
+      "coreHp": 600,
+      "reusable": true,
+      "dao": "ma",
+      "maxTargets": 5,
+      "effectIntervalMs": 1000,
+      "activationMp": 60,
+      "setupStones": 20,
+      "upkeepStones": 2,
+      "durationMs": 30000,
+      "cooldownMs": 90000
+    }
+  },
+  "formationShop": [
+    {
+      "id": "liet_hoa",
+      "cost": 2000
+    },
+    {
+      "id": "tu_linh",
+      "cost": 2000
+    },
+    {
+      "id": "loan_loi_hoa",
+      "cost": 20000
+    },
+    {
+      "id": "tu_tuong",
+      "cost": 100000
+    }
+  ]
+}

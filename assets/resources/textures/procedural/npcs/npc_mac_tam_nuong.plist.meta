@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "61fa6": {
+      "importer": "sprite-frame",
+      "uuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8@61fa6",
+      "displayName": "",
+      "id": "61fa6",
+      "name": "npc_mac_tam_nuong_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "86d12ca7-c90e-4afc-a1b5-a76ee92db84d@6c48a",
+        "atlasUuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c2bc1": {
+      "importer": "sprite-frame",
+      "uuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8@c2bc1",
+      "displayName": "",
+      "id": "c2bc1",
+      "name": "npc_mac_tam_nuong_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "86d12ca7-c90e-4afc-a1b5-a76ee92db84d@6c48a",
+        "atlasUuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_mac_tam_nuong.png",
+    "format": 2,
+    "uuid": "541865d0-bb1d-44fb-8cc2-0c4a9b40d5c8",
+    "textureUuid": "86d12ca7-c90e-4afc-a1b5-a76ee92db84d@6c48a"
+  }
+}

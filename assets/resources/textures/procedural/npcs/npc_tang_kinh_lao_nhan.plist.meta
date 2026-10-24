@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "36c32": {
+      "importer": "sprite-frame",
+      "uuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7@36c32",
+      "displayName": "",
+      "id": "36c32",
+      "name": "npc_tang_kinh_lao_nhan_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "64d25639-8fc5-409d-8703-afd8140cc5a2@6c48a",
+        "atlasUuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dabe7": {
+      "importer": "sprite-frame",
+      "uuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7@dabe7",
+      "displayName": "",
+      "id": "dabe7",
+      "name": "npc_tang_kinh_lao_nhan_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "64d25639-8fc5-409d-8703-afd8140cc5a2@6c48a",
+        "atlasUuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_tang_kinh_lao_nhan.png",
+    "format": 2,
+    "uuid": "2dbe5507-de86-4109-a5a1-71f6ffa33cd7",
+    "textureUuid": "64d25639-8fc5-409d-8703-afd8140cc5a2@6c48a"
+  }
+}

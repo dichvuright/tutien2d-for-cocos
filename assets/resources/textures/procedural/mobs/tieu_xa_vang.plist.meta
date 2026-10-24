@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "dd965": {
+      "importer": "sprite-frame",
+      "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35@dd965",
+      "displayName": "",
+      "id": "dd965",
+      "name": "tieu_xa_vang_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c586168-b906-472b-8ee3-d55e1f2a5cb7@6c48a",
+        "atlasUuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f7e7": {
+      "importer": "sprite-frame",
+      "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35@4f7e7",
+      "displayName": "",
+      "id": "4f7e7",
+      "name": "tieu_xa_vang_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 128,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c586168-b906-472b-8ee3-d55e1f2a5cb7@6c48a",
+        "atlasUuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60c9c": {
+      "importer": "sprite-frame",
+      "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35@60c9c",
+      "displayName": "",
+      "id": "60c9c",
+      "name": "tieu_xa_vang_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 256,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c586168-b906-472b-8ee3-d55e1f2a5cb7@6c48a",
+        "atlasUuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb56d": {
+      "importer": "sprite-frame",
+      "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35@eb56d",
+      "displayName": "",
+      "id": "eb56d",
+      "name": "tieu_xa_vang_03",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 384,
+        "trimY": 0,
+        "width": 128,
+        "height": 128,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c586168-b906-472b-8ee3-d55e1f2a5cb7@6c48a",
+        "atlasUuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "tieu_xa_vang.png",
+    "format": 2,
+    "uuid": "ff66390c-6fd9-4d77-b9ea-5d5217f2ee35",
+    "textureUuid": "9c586168-b906-472b-8ee3-d55e1f2a5cb7@6c48a"
+  }
+}

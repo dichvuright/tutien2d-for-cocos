@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "d7d314e4-82a2-4900-87f9-048be03bbce7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "7fa32": {
+      "importer": "sprite-frame",
+      "uuid": "d7d314e4-82a2-4900-87f9-048be03bbce7@7fa32",
+      "displayName": "",
+      "id": "7fa32",
+      "name": "yl_hac_tien_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 154,
+        "height": 120,
+        "rawWidth": 154,
+        "rawHeight": 120,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c5959d0a-b449-4d7a-b158-63eaebef9e83@6c48a",
+        "atlasUuid": "d7d314e4-82a2-4900-87f9-048be03bbce7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8ad8": {
+      "importer": "sprite-frame",
+      "uuid": "d7d314e4-82a2-4900-87f9-048be03bbce7@d8ad8",
+      "displayName": "",
+      "id": "d8ad8",
+      "name": "yl_hac_tien_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 154,
+        "trimY": 0,
+        "width": 154,
+        "height": 120,
+        "rawWidth": 154,
+        "rawHeight": 120,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c5959d0a-b449-4d7a-b158-63eaebef9e83@6c48a",
+        "atlasUuid": "d7d314e4-82a2-4900-87f9-048be03bbce7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "yl_hac_tien.png",
+    "format": 2,
+    "uuid": "d7d314e4-82a2-4900-87f9-048be03bbce7",
+    "textureUuid": "c5959d0a-b449-4d7a-b158-63eaebef9e83@6c48a"
+  }
+}

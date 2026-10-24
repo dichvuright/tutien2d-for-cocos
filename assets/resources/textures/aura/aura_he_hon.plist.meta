@@ -1,0 +1,155 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "90142": {
+      "importer": "sprite-frame",
+      "uuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b@90142",
+      "displayName": "",
+      "id": "90142",
+      "name": "aura_he_hon_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 57,
+        "trimY": 0,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b072e455-23a0-4602-82fc-194b9c719b09@6c48a",
+        "atlasUuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "482c8": {
+      "importer": "sprite-frame",
+      "uuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b@482c8",
+      "displayName": "",
+      "id": "482c8",
+      "name": "aura_he_hon_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b072e455-23a0-4602-82fc-194b9c719b09@6c48a",
+        "atlasUuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "897ae": {
+      "importer": "sprite-frame",
+      "uuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b@897ae",
+      "displayName": "",
+      "id": "897ae",
+      "name": "aura_he_hon_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 56,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b072e455-23a0-4602-82fc-194b9c719b09@6c48a",
+        "atlasUuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "aura_he_hon.png",
+    "format": 2,
+    "uuid": "b7a29730-c676-4b1e-b993-aaacdcd2246b",
+    "textureUuid": "b072e455-23a0-4602-82fc-194b9c719b09@6c48a"
+  }
+}

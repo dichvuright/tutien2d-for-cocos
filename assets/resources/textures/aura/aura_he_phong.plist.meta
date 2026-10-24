@@ -1,0 +1,155 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "2a67a": {
+      "importer": "sprite-frame",
+      "uuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2@2a67a",
+      "displayName": "",
+      "id": "2a67a",
+      "name": "aura_he_phong_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b3c3de8a-9857-40df-a237-6a7b7fdaefe6@6c48a",
+        "atlasUuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c252": {
+      "importer": "sprite-frame",
+      "uuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2@1c252",
+      "displayName": "",
+      "id": "1c252",
+      "name": "aura_he_phong_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 57,
+        "trimY": 0,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b3c3de8a-9857-40df-a237-6a7b7fdaefe6@6c48a",
+        "atlasUuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1badd": {
+      "importer": "sprite-frame",
+      "uuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2@1badd",
+      "displayName": "",
+      "id": "1badd",
+      "name": "aura_he_phong_02",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 56,
+        "width": 57,
+        "height": 56,
+        "rawWidth": 57,
+        "rawHeight": 56,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b3c3de8a-9857-40df-a237-6a7b7fdaefe6@6c48a",
+        "atlasUuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "aura_he_phong.png",
+    "format": 2,
+    "uuid": "8d8f150a-d6cd-492c-90eb-28be8de870c2",
+    "textureUuid": "b3c3de8a-9857-40df-a237-6a7b7fdaefe6@6c48a"
+  }
+}

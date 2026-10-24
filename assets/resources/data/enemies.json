@@ -1,0 +1,4838 @@
+{
+  "enemies": {
+    "sau_truc": {
+      "name": "Bọ Ngựa",
+      "level": 1,
+      "sprite": {
+        "w": 40,
+        "h": 32,
+        "ax": 16,
+        "ay": 30
+      },
+      "barY": 30,
+      "shadow": {
+        "rx": 14,
+        "ry": 3
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 80,
+        "fh": 64,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 6
+      },
+      "hp": 5,
+      "exp": 3,
+      "speed": 14,
+      "aggro": 0,
+      "wanderRadius": 10,
+      "wanderPause": 1.8,
+      "contactDmg": 4,
+      "hitCooldown": 1
+    },
+    "son_chuot": {
+      "name": "Sơn Chuột",
+      "level": 3,
+      "sprite": {
+        "w": 42,
+        "h": 23,
+        "ax": 19,
+        "ay": 21
+      },
+      "barY": 18,
+      "shadow": {
+        "rx": 14,
+        "ry": 3
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 84,
+        "fh": 46,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 10
+      },
+      "hp": 11,
+      "exp": 5,
+      "speed": 46,
+      "aggro": 72,
+      "wanderRadius": 26,
+      "wanderPause": 1.1,
+      "contactDmg": 6,
+      "hitCooldown": 0.9
+    },
+    "bach_ho_tuyet": {
+      "name": "Bạch Hổ Tuyết · Yêu Thú Cấp 1",
+      "level": 12,
+      "sprite": {
+        "w": 75,
+        "h": 44,
+        "ax": 38,
+        "ay": 40
+      },
+      "barY": 36,
+      "shadow": {
+        "rx": 26,
+        "ry": 5
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 150,
+        "fh": 88,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 1900,
+      "exp": 170,
+      "speed": 62,
+      "aggro": 300,
+      "wanderRadius": 34,
+      "wanderPause": 0.7,
+      "contactDmg": 34,
+      "hitCooldown": 0.72,
+      "respawnSec": 18000,
+      "pounce": {
+        "stuckSec": 1.6,
+        "windup": 0.75,
+        "cooldown": 4,
+        "range": 420,
+        "radius": 40,
+        "progress": 0.35
+      },
+      "announceKill": false,
+      "khu1Only": true,
+      "lootLastHitOnly": true
+    },
+    "xich_nhan_nguu": {
+      "name": "Xích Nhãn Ngưu · Yêu Thú Cấp 1",
+      "level": 12,
+      "sprite": {
+        "w": 96,
+        "h": 70,
+        "ax": 48,
+        "ay": 68
+      },
+      "barY": 70,
+      "shadow": {
+        "rx": 15,
+        "ry": 4
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 192,
+        "fh": 140,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "ngang": {
+        "anh": "xich_nhan_nguu_ngang",
+        "sprite": {
+          "w": 96,
+          "h": 70,
+          "ax": 46,
+          "ay": 68
+        },
+        "sheet": {
+          "cols": 6,
+          "fw": 192,
+          "fh": 140,
+          "anims": {
+            "idle": [
+              0,
+              4
+            ],
+            "run": [
+              4,
+              6
+            ],
+            "attack": [
+              10,
+              4
+            ],
+            "hurt": [
+              14,
+              2
+            ]
+          },
+          "fps": 8
+        }
+      },
+      "hp": 1900,
+      "exp": 170,
+      "speed": 58,
+      "aggro": 300,
+      "wanderRadius": 34,
+      "wanderPause": 0.7,
+      "contactDmg": 34,
+      "hitCooldown": 0.72,
+      "respawnSec": 10800,
+      "announceKill": false,
+      "baoHienHinh": true,
+      "khu1Only": true,
+      "lootLastHitOnly": true
+    },
+    "xich_ma": {
+      "name": "Xích Ma Vương · Yêu Thú Cấp 1",
+      "level": 14,
+      "sprite": {
+        "w": 96,
+        "h": 70,
+        "ax": 48,
+        "ay": 68
+      },
+      "barY": 70,
+      "shadow": {
+        "rx": 17,
+        "ry": 5
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 192,
+        "fh": 140,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 4200,
+      "exp": 260,
+      "speed": 54,
+      "aggro": 260,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "contactDmg": 38,
+      "hitCooldown": 0.8,
+      "respawnSec": 0,
+      "announceKill": false,
+      "lootLastHitOnly": true
+    },
+    "ngan_mao_hong": {
+      "name": "Ngân Mao Hống · Yêu Thú Cấp 2",
+      "level": 12,
+      "sprite": {
+        "w": 70,
+        "h": 63,
+        "ax": 39,
+        "ay": 62
+      },
+      "barY": 60,
+      "sheet": {
+        "cols": 3,
+        "fw": 100,
+        "fh": 90,
+        "anims": {
+          "idle": [
+            0,
+            2
+          ],
+          "run": [
+            2,
+            2
+          ],
+          "attack": [
+            3,
+            2
+          ],
+          "hurt": [
+            5,
+            1
+          ]
+        },
+        "fps": 6
+      },
+      "hp": 2570,
+      "exp": 240,
+      "speed": 62,
+      "aggro": 300,
+      "wanderRadius": 34,
+      "wanderPause": 0.7,
+      "contactDmg": 40,
+      "hitCooldown": 0.8,
+      "respawnSec": 0,
+      "announceKill": false,
+      "khu1Only": true,
+      "lootLastHitOnly": true
+    },
+    "yl_hac_tien": {
+      "name": "Hạc Tiên · Yêu Thú Cấp 2",
+      "level": 12,
+      "sprite": {
+        "w": 77,
+        "h": 60,
+        "ax": 38,
+        "ay": 52
+      },
+      "barY": 52,
+      "shadow": {
+        "rx": 15,
+        "ry": 4
+      },
+      "sheet": {
+        "cols": 2,
+        "fw": 154,
+        "fh": 120,
+        "anims": {
+          "idle": [
+            0,
+            2
+          ],
+          "run": [
+            0,
+            2
+          ],
+          "attack": [
+            0,
+            2
+          ],
+          "hurt": [
+            0,
+            1
+          ]
+        },
+        "fps": 5
+      },
+      "hp": 2570,
+      "exp": 240,
+      "speed": 70,
+      "aggro": 170,
+      "wanderRadius": 40,
+      "wanderPause": 0.9,
+      "contactDmg": 40,
+      "hitCooldown": 0.8,
+      "stones": 12,
+      "respawnSec": 0,
+      "announceKill": false,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "ll_huyet_nguyet_ung": {
+      "name": "Huyết Nguyệt Ưng · Yêu Thú Cấp 2",
+      "level": 13,
+      "sprite": {
+        "w": 110,
+        "h": 94,
+        "ax": 55,
+        "ay": 76
+      },
+      "barY": 74,
+      "shadow": {
+        "rx": 24,
+        "ry": 5
+      },
+      "sheet": {
+        "cols": 8,
+        "fw": 220,
+        "fh": 188,
+        "anims": {
+          "idle": [
+            0,
+            8
+          ],
+          "run": [
+            0,
+            8
+          ],
+          "attack": [
+            0,
+            8
+          ],
+          "hurt": [
+            0,
+            2
+          ]
+        },
+        "fps": 9
+      },
+      "hp": 3600,
+      "exp": 300,
+      "speed": 76,
+      "aggro": 230,
+      "wanderRadius": 70,
+      "wanderPause": 0.6,
+      "contactDmg": 44,
+      "hitCooldown": 0.8,
+      "stones": 14,
+      "respawnSec": 0,
+      "announceKill": false,
+      "lootLastHitOnly": true
+    },
+    "duoc_linh_thu": {
+      "name": "Dược Linh Thú",
+      "level": 5,
+      "sprite": {
+        "w": 39,
+        "h": 36,
+        "ax": 19,
+        "ay": 34
+      },
+      "barY": 33,
+      "shadow": {
+        "rx": 14,
+        "ry": 3
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 78,
+        "fh": 72,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 23,
+      "exp": 9,
+      "speed": 52,
+      "aggro": 96,
+      "wanderRadius": 30,
+      "wanderPause": 1.3,
+      "contactDmg": 8,
+      "hitCooldown": 0.85
+    },
+    "doc_dang_yeu": {
+      "name": "Độc Đằng Yêu",
+      "level": 4,
+      "sprite": {
+        "w": 44,
+        "h": 43,
+        "ax": 20,
+        "ay": 40
+      },
+      "barY": 41,
+      "shadow": {
+        "rx": 17,
+        "ry": 4
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 88,
+        "fh": 86,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 7
+      },
+      "hp": 17,
+      "exp": 7,
+      "speed": 38,
+      "aggro": 108,
+      "wanderRadius": 22,
+      "wanderPause": 1.5,
+      "contactDmg": 9,
+      "hitCooldown": 0.95
+    },
+    "yeu_quai_ha_pham": {
+      "name": "Yêu Quái · Nhất Giai Hạ Phẩm",
+      "level": 1,
+      "sprite": {
+        "w": 42,
+        "h": 30,
+        "ax": 23,
+        "ay": 28
+      },
+      "barY": 27,
+      "shadow": {
+        "rx": 15,
+        "ry": 3
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 84,
+        "fh": 60,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 12,
+      "exp": 7,
+      "speed": 44,
+      "aggro": 92,
+      "wanderRadius": 24,
+      "wanderPause": 1.2,
+      "contactDmg": 7,
+      "hitCooldown": 0.9,
+      "respawnSec": 30
+    },
+    "thach_yeu": {
+      "name": "Thạch Yêu",
+      "level": 3,
+      "sprite": {
+        "w": 40,
+        "h": 34,
+        "ax": 20,
+        "ay": 34
+      },
+      "barY": 38,
+      "shadow": {
+        "rx": 14,
+        "ry": 3
+      },
+      "thanDa": true,
+      "hp": 18,
+      "exp": 8,
+      "speed": 40,
+      "aggro": 120,
+      "wanderRadius": 26,
+      "wanderPause": 1.1,
+      "contactDmg": 9,
+      "hitCooldown": 0.9,
+      "respawnSec": 30,
+      "stones": 1,
+      "ore": true
+    },
+    "thach_ma": {
+      "name": "Thạch Ma",
+      "level": 4,
+      "sprite": {
+        "w": 60,
+        "h": 51,
+        "ax": 30,
+        "ay": 51
+      },
+      "barY": 55,
+      "shadow": {
+        "rx": 21,
+        "ry": 4
+      },
+      "thanDa": true,
+      "hp": 140,
+      "exp": 14,
+      "speed": 38,
+      "aggro": 138,
+      "wanderRadius": 28,
+      "wanderPause": 1.1,
+      "contactDmg": 44,
+      "hitCooldown": 0.9,
+      "respawnSec": 35,
+      "stones": 1,
+      "ore": true
+    },
+    "xuyen_son_giap": {
+      "name": "Xuyên Sơn Giáp",
+      "level": 6,
+      "desc": "Tê tê đá sống trong khe gió Bãi Đá, vảy kết từ Phong Tinh. Thỉnh thoảng có con biến dị: vảy đỏ tía, máu dày gấp hai mươi, đòn mạnh gấp năm.",
+      "sprite": {
+        "w": 72,
+        "h": 52,
+        "ax": 35,
+        "ay": 47
+      },
+      "barY": 40,
+      "shadow": {
+        "rx": 24,
+        "ry": 5
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 168,
+        "fh": 120,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "hurt": [
+            15,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hitRadius": 22,
+      "hp": 90,
+      "exp": 30,
+      "speed": 44,
+      "aggro": 120,
+      "wanderRadius": 30,
+      "wanderPause": 1.2,
+      "contactDmg": 34,
+      "hitCooldown": 0.9,
+      "respawnSec": 40,
+      "bienDi": {
+        "chance": 0.004,
+        "hp": 20,
+        "dmg": 5,
+        "exp": 5,
+        "stones": 5,
+        "scale": 1.3,
+        "ten": "Biến Dị",
+        "anhMob": "xuyen_son_giap_bd"
+      }
+    },
+    "thach_quy": {
+      "name": "Thạch Quy Đội Bia",
+      "level": 7,
+      "desc": "Rùa đá canh Miếu Ông Trường Con, đội trên mai tấm bia khắc chữ phát sáng. Thỉnh thoảng có con biến dị: mai đỏ than, máu dày gấp hai mươi, đòn mạnh gấp năm.",
+      "sprite": {
+        "w": 76,
+        "h": 68,
+        "ax": 38,
+        "ay": 49
+      },
+      "barY": 42,
+      "shadow": {
+        "rx": 24,
+        "ry": 6
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 220,
+        "fh": 200,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hitRadius": 21,
+      "hp": 612,
+      "exp": 62,
+      "speed": 40,
+      "aggro": 128,
+      "khongNhan": true,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 72,
+      "hitCooldown": 1,
+      "respawnSec": 45,
+      "bienDi": {
+        "chance": 0.005,
+        "hp": 20,
+        "dmg": 5,
+        "exp": 5,
+        "stones": 8,
+        "scale": 1.3,
+        "ten": "Biến Dị",
+        "anhMob": "thach_quy_bd"
+      }
+    },
+    "nhen_ngoc_con": {
+      "name": "Nhện Ngọc Con · Yêu Thú Cấp 1",
+      "level": 12,
+      "sprite": {
+        "w": 66,
+        "h": 50,
+        "ax": 33,
+        "ay": 34
+      },
+      "barY": 32,
+      "shadow": {
+        "rx": 24,
+        "ry": 7
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 132,
+        "fh": 100,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            4
+          ],
+          "hurt": [
+            14,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 1900,
+      "exp": 170,
+      "speed": 66,
+      "aggro": 170,
+      "leashRange": 600,
+      "wanderRadius": 34,
+      "wanderPause": 0.7,
+      "contactDmg": 34,
+      "hitCooldown": 0.72,
+      "respawnSec": 28800,
+      "announceKill": false,
+      "khu1Only": true,
+      "lootLastHitOnly": true
+    },
+    "nhen_bach_ngoc": {
+      "name": "Nhện Bạch Ngọc · Yêu Thú Cấp 5",
+      "level": 14,
+      "sprite": {
+        "w": 144,
+        "h": 112,
+        "ax": 72,
+        "ay": 76
+      },
+      "barY": 66,
+      "barW": 60,
+      "shadow": {
+        "rx": 50,
+        "ry": 16
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 288,
+        "fh": 224,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "hurt": [
+            15,
+            2
+          ],
+          "jump": [
+            17,
+            3
+          ],
+          "pounce": [
+            20,
+            3
+          ],
+          "die": [
+            23,
+            5
+          ]
+        },
+        "fps": 14,
+        "animFps": {
+          "idle": 5,
+          "run": 9,
+          "hurt": 8
+        },
+        "actionDriven": true
+      },
+      "deathVfx": {
+        "path": "assets/sprites/mob/nhen_bach_ngoc.png",
+        "cols": 6,
+        "fw": 288,
+        "fh": 224,
+        "seq": [
+          23,
+          23,
+          24,
+          24,
+          25,
+          26,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
+        "ax": 144,
+        "ay": 152,
+        "life": 2.2,
+        "fadeOut": 0.5,
+        "scale": 0.5
+      },
+      "hp": 268000,
+      "exp": 300,
+      "speed": 62,
+      "aggro": 220,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 0.9,
+      "contactDmg": 500,
+      "hitCooldown": 0.88,
+      "hitRadius": 84,
+      "bodyRadius": 42,
+      "respawnSec": 28800,
+      "baoKich": {
+        "ten": "Bạch Ngọc Chấn Địa",
+        "cooldown": 9,
+        "delay": 8,
+        "radius": 190,
+        "maxTargets": 5,
+        "mult": 0.5,
+        "hitsMin": 2,
+        "hitsMax": 3,
+        "gap": 0.55,
+        "dot": 2,
+        "gapDot": 1.2,
+        "mau": [
+          "#7fe8c8",
+          "#2f9a80",
+          "#eafff6"
+        ]
+      },
+      "phunTo": {
+        "ten": "Thiên La Phún Tơ",
+        "cooldown": 26,
+        "delay": 14,
+        "tam": 520,
+        "windup": 1.8,
+        "radius": 84,
+        "moiNguoi": 1,
+        "rai": 4,
+        "toiDaNguoi": 14,
+        "mult": 0.9,
+        "troiS": 10
+      },
+      "luuTinh": {
+        "ten": "Ngọc Châm Vũ",
+        "from": 1,
+        "to": 1,
+        "cooldown": 22,
+        "dot": 7,
+        "gapDot": 1.6,
+        "windup": 1.2,
+        "radius": 78,
+        "moiNguoi": 1,
+        "nhamPhan": 0.5,
+        "rai": 6,
+        "tam": 560,
+        "toiDaNguoi": 10,
+        "mult": 1,
+        "mau": "ngoc",
+        "tuBoss": true,
+        "chiKhiChase": true
+      },
+      "tuyetChieu": {
+        "ten": "Bạch Ngọc Phệ Thiên",
+        "kieu": "vo_cao",
+        "ngoc": true,
+        "from": 0.12,
+        "to": 0.22,
+        "windup": 2,
+        "radius": 170,
+        "range": 460,
+        "maxTargets": 6,
+        "matPct": 0.2
+      },
+      "hoVe": "nhen_ngoc_con",
+      "isBoss": true,
+      "lootLastHitOnly": true
+    },
+    "linh_ho_tran_son": {
+      "name": "Linh Hổ Trấn Sơn · Yêu Thú Cấp 4",
+      "level": 14,
+      "sprite": {
+        "w": 127,
+        "h": 118,
+        "ax": 60,
+        "ay": 117
+      },
+      "barY": 150,
+      "barW": 48,
+      "sheet": {
+        "k": 0.5,
+        "rects": [
+          [
+            730,
+            1332,
+            252,
+            234,
+            -120,
+            -232
+          ],
+          [
+            1796,
+            1064,
+            248,
+            236,
+            -120,
+            -234
+          ],
+          [
+            0,
+            1332,
+            242,
+            236,
+            -120,
+            -234
+          ],
+          [
+            244,
+            1332,
+            240,
+            236,
+            -120,
+            -234
+          ],
+          [
+            984,
+            1332,
+            240,
+            234,
+            -120,
+            -232
+          ],
+          [
+            1740,
+            1332,
+            246,
+            232,
+            -120,
+            -230
+          ],
+          [
+            504,
+            1570,
+            252,
+            230,
+            -120,
+            -228
+          ],
+          [
+            0,
+            1570,
+            254,
+            232,
+            -120,
+            -230
+          ],
+          [
+            1008,
+            1064,
+            218,
+            254,
+            -102,
+            -252
+          ],
+          [
+            742,
+            1064,
+            264,
+            258,
+            -130,
+            -254
+          ],
+          [
+            264,
+            1064,
+            250,
+            262,
+            -106,
+            -260
+          ],
+          [
+            584,
+            738,
+            262,
+            288,
+            -126,
+            -290
+          ],
+          [
+            848,
+            738,
+            244,
+            284,
+            -106,
+            -276
+          ],
+          [
+            516,
+            1064,
+            224,
+            262,
+            -110,
+            -258
+          ],
+          [
+            758,
+            1570,
+            246,
+            230,
+            -118,
+            -226
+          ],
+          [
+            1424,
+            738,
+            226,
+            276,
+            -116,
+            -274
+          ],
+          [
+            1652,
+            738,
+            230,
+            272,
+            -118,
+            -268
+          ],
+          [
+            0,
+            0,
+            310,
+            376,
+            -152,
+            -376
+          ],
+          [
+            0,
+            738,
+            232,
+            324,
+            -112,
+            -384
+          ],
+          [
+            622,
+            378,
+            254,
+            338,
+            -130,
+            -394
+          ],
+          [
+            1558,
+            378,
+            252,
+            334,
+            -136,
+            -392
+          ],
+          [
+            848,
+            0,
+            170,
+            372,
+            -80,
+            -416
+          ],
+          [
+            1020,
+            0,
+            170,
+            372,
+            -80,
+            -386
+          ],
+          [
+            0,
+            378,
+            224,
+            358,
+            -104,
+            -316
+          ],
+          [
+            1192,
+            0,
+            230,
+            368,
+            -106,
+            -326
+          ],
+          [
+            1246,
+            378,
+            310,
+            336,
+            -152,
+            -318
+          ],
+          [
+            486,
+            1332,
+            242,
+            236,
+            -128,
+            -230
+          ],
+          [
+            1812,
+            378,
+            226,
+            330,
+            -118,
+            -324
+          ],
+          [
+            1542,
+            1064,
+            252,
+            248,
+            -126,
+            -246
+          ],
+          [
+            0,
+            1064,
+            262,
+            266,
+            -140,
+            -250
+          ],
+          [
+            1226,
+            1332,
+            264,
+            234,
+            -126,
+            -230
+          ],
+          [
+            1492,
+            1332,
+            246,
+            234,
+            -120,
+            -232
+          ],
+          [
+            1256,
+            1570,
+            252,
+            224,
+            -122,
+            -216
+          ],
+          [
+            1758,
+            1570,
+            258,
+            214,
+            -126,
+            -202
+          ],
+          [
+            226,
+            378,
+            394,
+            344,
+            -194,
+            -324
+          ],
+          [
+            1424,
+            0,
+            468,
+            366,
+            -230,
+            -336
+          ],
+          [
+            312,
+            0,
+            534,
+            374,
+            -260,
+            -330
+          ],
+          [
+            256,
+            1570,
+            246,
+            232,
+            -120,
+            -228
+          ],
+          [
+            1510,
+            1570,
+            246,
+            216,
+            -118,
+            -212
+          ],
+          [
+            1006,
+            1570,
+            248,
+            226,
+            -120,
+            -224
+          ],
+          [
+            1228,
+            1064,
+            312,
+            252,
+            -152,
+            -214
+          ],
+          [
+            1094,
+            738,
+            328,
+            282,
+            -162,
+            -226
+          ],
+          [
+            234,
+            738,
+            348,
+            302,
+            -174,
+            -236
+          ],
+          [
+            878,
+            378,
+            366,
+            338,
+            -182,
+            -264
+          ]
+        ],
+        "anims": {
+          "idle": [
+            0,
+            8
+          ],
+          "walk": [
+            8,
+            6
+          ],
+          "run": [
+            8,
+            6
+          ],
+          "jump": [
+            14,
+            6
+          ],
+          "pounce": [
+            20,
+            6
+          ],
+          "attack": [
+            26,
+            6
+          ],
+          "roar": [
+            32,
+            6
+          ],
+          "hurt": [
+            38,
+            2
+          ],
+          "charge": [
+            40,
+            4
+          ]
+        },
+        "fps": 14,
+        "animFps": {
+          "idle": 6,
+          "walk": 6,
+          "run": 11,
+          "hurt": 8,
+          "roar": 9,
+          "charge": 6
+        },
+        "actionDriven": true
+      },
+      "drawScale": 2.6,
+      "shadow": {
+        "rx": 60,
+        "ry": 14
+      },
+      "hp": 200000,
+      "exp": 90,
+      "speed": 48,
+      "aggro": 420,
+      "leashRange": 2000,
+      "wanderRadius": 38,
+      "wanderPause": 0.9,
+      "contactDmg": 575,
+      "hitCooldown": 0.9,
+      "respawnSec": 18000,
+      "tuyetChieu": {
+        "kieu": "vo_cao",
+        "ten": "Hổ Vương Diệt Sát",
+        "from": 0.05,
+        "to": 0.1,
+        "windup": 1.5,
+        "radius": 150,
+        "range": 420,
+        "maxTargets": 6
+      },
+      "baoKich": {
+        "ten": "Linh Hổ Bạo Kích",
+        "cooldown": 9,
+        "delay": 8,
+        "radius": 150,
+        "maxTargets": 5,
+        "mult": 1.3,
+        "hitsMin": 2,
+        "hitsMax": 4,
+        "gap": 0.55,
+        "dot": 3,
+        "gapDot": 1.2
+      },
+      "hoVe": "bach_ho_tuyet",
+      "ore": true,
+      "isBoss": true,
+      "lootLastHitOnly": true,
+      "hon": "thu_hon_4"
+    },
+    "thach_giap_yeu": {
+      "name": "Thạch Giáp Yêu · Nhất Giai Thượng Phẩm",
+      "level": 1,
+      "sprite": {
+        "w": 64,
+        "h": 54,
+        "ax": 32,
+        "ay": 54
+      },
+      "barY": 58,
+      "shadow": {
+        "rx": 22,
+        "ry": 4
+      },
+      "thanDa": true,
+      "hp": 30,
+      "exp": 22,
+      "speed": 58,
+      "aggro": 320,
+      "wanderRadius": 20,
+      "wanderPause": 0.7,
+      "contactDmg": 16,
+      "hitCooldown": 0.72,
+      "respawnSec": 30,
+      "stones": 1,
+      "ore": true
+    },
+    "xich_tinh_mang": {
+      "name": "Xích Tinh Mãng",
+      "level": 10,
+      "sprite": {
+        "w": 60,
+        "h": 46,
+        "ax": 28,
+        "ay": 42
+      },
+      "barY": 32,
+      "shadow": {
+        "rx": 21,
+        "ry": 4
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 120,
+        "fh": 92,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "hurt": [
+            15,
+            2
+          ]
+        },
+        "fps": 8
+      },
+      "hp": 205,
+      "exp": 24,
+      "speed": 56,
+      "aggro": 150,
+      "wanderRadius": 28,
+      "wanderPause": 0.9,
+      "contactDmg": 14,
+      "hitCooldown": 0.85,
+      "poisonSpit": {
+        "chance": 0.28,
+        "cooldown": 5,
+        "range": 160,
+        "maxTargets": 2,
+        "damage": 8,
+        "duration": 5,
+        "dps": 4
+      },
+      "respawnSec": 3600
+    },
+    "xich_mang_vuong": {
+      "name": "Xích Mãng Vương · Yêu Thú Cấp 2",
+      "level": 12,
+      "sprite": {
+        "w": 132,
+        "h": 120,
+        "ax": 56,
+        "ay": 108
+      },
+      "barY": 100,
+      "shadow": {
+        "rx": 52,
+        "ry": 10
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 264,
+        "fh": 240,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "jump": [
+            15,
+            3
+          ],
+          "pounce": [
+            18,
+            3
+          ],
+          "hurt": [
+            21,
+            2
+          ]
+        },
+        "fps": 8,
+        "actionDriven": true
+      },
+      "drawScale": 1.9,
+      "hp": 1900,
+      "exp": 170,
+      "speed": 62,
+      "aggro": 300,
+      "wanderRadius": 34,
+      "wanderPause": 0.7,
+      "contactDmg": 34,
+      "hitCooldown": 0.72,
+      "respawnSec": 3600,
+      "isBoss": true
+    },
+    "thach_mach_vuong": {
+      "name": "Thạch Mạch Vương · Yêu Thú Cấp 2",
+      "level": 12,
+      "sprite": {
+        "w": 108,
+        "h": 91,
+        "ax": 54,
+        "ay": 91
+      },
+      "barY": 95,
+      "drawScale": 1.8,
+      "shadow": {
+        "rx": 38,
+        "ry": 7
+      },
+      "thanDa": true,
+      "hp": 2570,
+      "exp": 240,
+      "speed": 44,
+      "aggro": 300,
+      "wanderRadius": 26,
+      "wanderPause": 0.8,
+      "contactDmg": 40,
+      "hitCooldown": 0.8,
+      "respawnSec": 3600,
+      "isBoss": true
+    },
+    "u_minh_cu_mang": {
+      "name": "U Minh Cự Mãng · Yêu Thú Cấp 2",
+      "level": 13,
+      "sprite": {
+        "w": 140,
+        "h": 136,
+        "ax": 60,
+        "ay": 124
+      },
+      "barY": 122,
+      "shadow": {
+        "rx": 58,
+        "ry": 11
+      },
+      "sheet": {
+        "cols": 6,
+        "fw": 280,
+        "fh": 272,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "jump": [
+            15,
+            3
+          ],
+          "pounce": [
+            18,
+            3
+          ],
+          "hurt": [
+            21,
+            2
+          ]
+        },
+        "fps": 8,
+        "actionDriven": true
+      },
+      "hp": 3370,
+      "exp": 320,
+      "speed": 46,
+      "aggro": 320,
+      "wanderRadius": 36,
+      "wanderPause": 0.6,
+      "contactDmg": 46,
+      "hitCooldown": 0.62,
+      "respawnSec": 3600,
+      "isBoss": true
+    },
+    "than_thu_xich_long": {
+      "name": "Thần Thú · Xích Long | Yêu Thú Cấp 3",
+      "level": 14,
+      "sprite": {
+        "w": 136,
+        "h": 68,
+        "ax": 68,
+        "ay": 62
+      },
+      "barY": 70,
+      "barW": 48,
+      "sheet": {
+        "cols": 8,
+        "fw": 136,
+        "fh": 68,
+        "anims": {
+          "idle": [
+            0,
+            8
+          ],
+          "run": [
+            8,
+            6
+          ],
+          "attack": [
+            14,
+            5
+          ],
+          "hurt": [
+            19,
+            3
+          ],
+          "die": [
+            22,
+            6
+          ]
+        },
+        "fps": 10
+      },
+      "fireSheet": {
+        "animation": "attack_short_2",
+        "path": "assets/sprites/fx/xich_long_phun_lua.png",
+        "cols": 8,
+        "fw": 204,
+        "fh": 60,
+        "frames": 16,
+        "ax": 68,
+        "ay": 60,
+        "scale": 1
+      },
+      "deathVfx": {
+        "path": "assets/sprites/mob/than_thu_xich_long.png",
+        "cols": 8,
+        "fw": 136,
+        "fh": 68,
+        "seq": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
+        "ax": 68,
+        "ay": 62,
+        "life": 2,
+        "fadeOut": 0.42
+      },
+      "hp": 100000,
+      "exp": 1600,
+      "lootLastHitOnly": true,
+      "hon": "thu_hon_3",
+      "speed": 52,
+      "aggro": 320,
+      "wanderRadius": 40,
+      "wanderPause": 0.7,
+      "contactDmg": 230,
+      "hitRadius": 78,
+      "bodyRadius": 44,
+      "leashRange": 300,
+      "hitCooldown": 0.62,
+      "baoKich": {
+        "ten": "Long Viêm Bạo Kích",
+        "cooldown": 9,
+        "delay": 8,
+        "radius": 150,
+        "maxTargets": 5,
+        "mult": 1.3,
+        "hitsMin": 2,
+        "hitsMax": 4,
+        "gap": 0.55,
+        "dot": 3,
+        "gapDot": 1.2
+      },
+      "fireNova": {
+        "cooldown": 2.4,
+        "windup": 1.1,
+        "range": 460,
+        "radius": 68,
+        "dmg": 90,
+        "burnTime": 6,
+        "burnDps": 16
+      },
+      "tuyetChieu": {
+        "kieu": "mua_lua",
+        "ten": "Thiên Hỏa Diệt Thế",
+        "from": 0.05,
+        "to": 0.1,
+        "windup": 3,
+        "radius": 280
+      },
+      "luuTinh": {
+        "ten": "Long Viêm Lưu Tinh",
+        "from": 0.2,
+        "to": 0.25,
+        "dot": 8,
+        "gapDot": 2.2,
+        "windup": 1.4,
+        "radius": 76,
+        "moiNguoi": 1,
+        "rai": 5,
+        "mult": 3
+      },
+      "hoVe": "xich_nhan_nguu",
+      "respawnSec": 10800,
+      "isBoss": true
+    },
+    "song_duc_ma_bao": {
+      "name": "Song Dực Ma Báo · Yêu Thú Cấp 6",
+      "level": 14,
+      "sprite": {
+        "w": 109,
+        "h": 65,
+        "ax": 54,
+        "ay": 62
+      },
+      "barY": 76,
+      "barW": 56,
+      "drawScale": 1.6,
+      "sheet": {
+        "cols": 7,
+        "fw": 109,
+        "fh": 65,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ],
+          "attack2": [
+            15,
+            5
+          ],
+          "attack3": [
+            20,
+            5
+          ],
+          "jump": [
+            25,
+            4
+          ],
+          "pounce": [
+            29,
+            3
+          ],
+          "hurt": [
+            32,
+            3
+          ],
+          "die": [
+            35,
+            6
+          ]
+        },
+        "attackAnims": [
+          "attack",
+          "attack2",
+          "attack3"
+        ],
+        "fps": 10,
+        "actionDriven": true
+      },
+      "deathVfx": {
+        "path": "assets/sprites/mob/song_duc_ma_bao.png",
+        "cols": 7,
+        "fw": 109,
+        "fh": 65,
+        "seq": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "ax": 54,
+        "ay": 62,
+        "life": 2.2,
+        "fadeOut": 0.5,
+        "scale": 1.6
+      },
+      "hp": 300000,
+      "exp": 360,
+      "speed": 72,
+      "aggro": 460,
+      "leashRange": 2000,
+      "wanderRadius": 40,
+      "wanderPause": 0.7,
+      "contactDmg": 575,
+      "hitCooldown": 0.85,
+      "hitRadius": 100,
+      "bodyRadius": 40,
+      "respawnSec": 0,
+      "hoVe": "ngan_mao_hong",
+      "baoKich": {
+        "ten": "Ma Báo Bạo Kích",
+        "cooldown": 7,
+        "delay": 6,
+        "radius": 230,
+        "maxTargets": 5,
+        "mult": 0.6,
+        "hitsMin": 2,
+        "hitsMax": 4,
+        "gap": 0.55,
+        "dot": 3,
+        "gapDot": 1.2
+      },
+      "luuTinh": {
+        "ten": "Tử Diễm Phun Chưởng",
+        "from": 1,
+        "to": 1,
+        "cooldown": 25,
+        "dot": 8,
+        "gapDot": 1.8,
+        "windup": 1.3,
+        "radius": 84,
+        "moiNguoi": 1,
+        "nhamPhan": 0.5,
+        "rai": 7,
+        "tam": 620,
+        "toiDaNguoi": 12,
+        "mult": 0.8,
+        "mau": "xanh_tim",
+        "tuBoss": true
+      },
+      "ore": true,
+      "isBoss": true,
+      "lootLastHitOnly": true,
+      "hon": "thu_hon_6"
+    },
+    "tieu_phu": {
+      "name": "Tiều Phu",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "dao_dong",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "ao_thon_lac",
+        "skin": "tan",
+        "shoes": "cloth"
+      },
+      "hp": 60,
+      "exp": 2,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "flee": {
+        "radius": 170,
+        "speed": 74,
+        "time": 4
+      },
+      "hon": "pham_hon"
+    },
+    "nong_phu": {
+      "name": "Nông Phu",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "dao_ke",
+        "hairColor": "nau",
+        "beard": "rau_de",
+        "outfit": "ao_thon_lac",
+        "skin": "tan",
+        "shoes": "cloth"
+      },
+      "hp": 60,
+      "exp": 2,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "barY": 50,
+      "hon": "pham_hon"
+    },
+    "duoc_nong": {
+      "name": "Dược Nông",
+      "level": 1,
+      "human": {
+        "gender": "female",
+        "hair": "tien_tu",
+        "hairColor": "nau",
+        "beard": "none",
+        "outfit": "lu_hanh_moc",
+        "skin": "light",
+        "shoes": "cloth"
+      },
+      "hp": 60,
+      "exp": 2,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "barY": 50,
+      "hon": "pham_hon"
+    },
+    "thu_sinh": {
+      "name": "Thư Sinh",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "lu_hanh_moc",
+        "skin": "pale",
+        "shoes": "cloth"
+      },
+      "hp": 60,
+      "exp": 2,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "barY": 50,
+      "hon": "pham_hon"
+    },
+    "phu_khuan_vac": {
+      "name": "Phu Khuân Vác",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "dao_dong",
+        "hairColor": "hac",
+        "beard": "quai_non",
+        "outfit": "quan_dui",
+        "skin": "tan",
+        "shoes": "none"
+      },
+      "hp": 80,
+      "exp": 2,
+      "speed": 34,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "barY": 50,
+      "flee": {
+        "radius": 190,
+        "speed": 86,
+        "time": 4.5
+      },
+      "hon": "pham_hon"
+    },
+    "thuong_nhan": {
+      "name": "Thương Nhân",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "cao_ke_ngoc_quan",
+        "hairColor": "hac",
+        "beard": "ria_kiem",
+        "outfit": "lu_hanh_moc",
+        "skin": "light",
+        "shoes": "ink"
+      },
+      "hp": 20000,
+      "exp": 8,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 0,
+      "barY": 50,
+      "flee": {
+        "radius": 210,
+        "speed": 62,
+        "time": 6
+      },
+      "hon": "oan_hon",
+      "lootLastHitOnly": true,
+      "hoVe": "tieu_su"
+    },
+    "tieu_su": {
+      "name": "Tiêu Sư",
+      "level": 5,
+      "human": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "quai_non",
+        "outfit": "hac_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "truc_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 20000,
+      "exp": 14,
+      "speed": 54,
+      "aggro": 140,
+      "contactDmg": 12,
+      "hitCooldown": 1.1,
+      "wanderRadius": 40,
+      "wanderPause": 1.6,
+      "respawnSec": 0,
+      "hon": "oan_hon",
+      "lootLastHitOnly": true
+    },
+    "son_tac": {
+      "name": "Sơn Tặc",
+      "level": 1,
+      "human": {
+        "gender": "male",
+        "hair": "dao_dong",
+        "hairColor": "hac",
+        "beard": "quai_non",
+        "outfit": "hac_y",
+        "skin": "tan",
+        "shoes": "ink"
+      },
+      "hp": 60,
+      "exp": 2,
+      "speed": 30,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 90,
+      "wanderPause": 2.5,
+      "respawnSec": 300,
+      "barY": 50,
+      "flee": {
+        "radius": 170,
+        "speed": 74,
+        "time": 4,
+        "tu": "chinh"
+      },
+      "hon": "chinh_khi"
+    },
+    "kiep_tac": {
+      "name": "Kiếp Tặc",
+      "level": 5,
+      "human": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "nau",
+        "beard": "quai_non",
+        "outfit": "hac_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "truc_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 20000,
+      "exp": 14,
+      "speed": 54,
+      "aggro": 140,
+      "contactDmg": 12,
+      "hitCooldown": 1.1,
+      "wanderRadius": 40,
+      "wanderPause": 1.6,
+      "respawnSec": 0,
+      "hon": "hiep_nghia_lenh",
+      "lootLastHitOnly": true
+    },
+    "hac_phong_ta_tu": {
+      "name": "Hắc Phong Tà Tu",
+      "level": 14,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "hac_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "thiet_dao"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 528,
+      "exp": 40,
+      "speed": 60,
+      "aggro": 170,
+      "contactDmg": 20,
+      "hitCooldown": 0.9,
+      "wanderRadius": 70,
+      "wanderPause": 1.6,
+      "respawnSec": 75,
+      "stones": 1,
+      "khongNhan": true
+    },
+    "phuc_kich_ta_tu": {
+      "name": "Tà Tu Phục Kích",
+      "level": 14,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "chu",
+        "beard": "quai_non",
+        "outfit": "huyet_anh_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "thiet_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 440,
+      "exp": 32,
+      "speed": 62,
+      "aggro": 210,
+      "contactDmg": 18,
+      "hitCooldown": 0.9,
+      "wanderRadius": 50,
+      "wanderPause": 1.4,
+      "respawnSec": 40,
+      "khongNhan": true
+    },
+    "chap_phap_tuan_ve": {
+      "name": "Tuần Vệ Chấp Pháp",
+      "level": 15,
+      "tuSi": {
+        "gender": "male",
+        "hair": "cao_ke_ngoc_quan",
+        "hairColor": "hac",
+        "beard": "ria_kiem",
+        "outfit": "lam_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "thiet_thuong"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 998,
+      "exp": 90,
+      "speed": 58,
+      "aggro": 150,
+      "contactDmg": 28,
+      "hitCooldown": 0.85,
+      "wanderRadius": 90,
+      "wanderPause": 2.2,
+      "respawnSec": 90,
+      "stones": 2,
+      "khongNhan": true
+    },
+    "hac_y_ta_tu_1": {
+      "name": "Hắc Y Tà Tu",
+      "level": 12,
+      "tuSi": {
+        "gender": "female",
+        "hair": "tien_tu",
+        "hairColor": "nau",
+        "beard": "none",
+        "outfit": "hac_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "luc_doc_cham"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 322,
+      "exp": 28,
+      "speed": 56,
+      "aggro": 110,
+      "contactDmg": 15,
+      "hitCooldown": 0.95,
+      "wanderRadius": 60,
+      "wanderPause": 2,
+      "respawnSec": 60,
+      "khongNhan": true,
+      "manhGiay": "manh_giay_am_hieu_1",
+      "nhiemVu": true
+    },
+    "hac_y_ta_tu_2": {
+      "name": "Hắc Y Tà Tu",
+      "level": 12,
+      "tuSi": {
+        "gender": "female",
+        "hair": "tien_tu",
+        "hairColor": "tu",
+        "beard": "none",
+        "outfit": "hac_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "luc_doc_cham"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 322,
+      "exp": 28,
+      "speed": 56,
+      "aggro": 110,
+      "contactDmg": 15,
+      "hitCooldown": 0.95,
+      "wanderRadius": 60,
+      "wanderPause": 2,
+      "respawnSec": 60,
+      "khongNhan": true,
+      "manhGiay": "manh_giay_am_hieu_2",
+      "nhiemVu": true
+    },
+    "hac_y_ta_tu_3": {
+      "name": "Hắc Y Tà Tu",
+      "level": 12,
+      "tuSi": {
+        "gender": "female",
+        "hair": "tien_tu",
+        "hairColor": "ngan",
+        "beard": "none",
+        "outfit": "hac_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "luc_doc_cham"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 322,
+      "exp": 28,
+      "speed": 56,
+      "aggro": 110,
+      "contactDmg": 15,
+      "hitCooldown": 0.95,
+      "wanderRadius": 60,
+      "wanderPause": 2,
+      "respawnSec": 60,
+      "khongNhan": true,
+      "manhGiay": "manh_giay_am_hieu_3",
+      "nhiemVu": true
+    },
+    "lam_lang_ta_tu": {
+      "name": "Tà Tu Chiếm Làng",
+      "level": 13,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "ta_tu_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "thiet_dao"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 1400,
+      "exp": 30,
+      "speed": 64,
+      "aggro": 200,
+      "contactDmg": 34,
+      "hitCooldown": 0.9,
+      "wanderRadius": 40,
+      "wanderPause": 1.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "lamLang": true
+    },
+    "lam_lang_ta_ve": {
+      "name": "Tà Vệ Binh",
+      "level": 14,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "quai_non",
+        "outfit": "ta_tu_y_xanh",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "thiet_thuong"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 2600,
+      "exp": 48,
+      "speed": 56,
+      "aggro": 190,
+      "contactDmg": 42,
+      "hitCooldown": 1,
+      "wanderRadius": 30,
+      "wanderPause": 2.2,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "lamLang": true
+    },
+    "ta_mach_tru": {
+      "name": "Tà Mạch Trụ",
+      "level": 14,
+      "sprite": {
+        "w": 44,
+        "h": 104,
+        "ax": 22,
+        "ay": 100
+      },
+      "drawScale": 1.35,
+      "barY": 150,
+      "barW": 52,
+      "hp": 12000,
+      "exp": 60,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 18,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "lamLang": true,
+      "tru": true,
+      "truBan": true,
+      "fireNova": {
+        "trongTai": true,
+        "tim": true,
+        "cooldown": 999,
+        "windup": 3,
+        "range": -1,
+        "radius": 120,
+        "dmg": 0,
+        "burnTime": 0,
+        "burnDps": 0
+      }
+    },
+    "bong_tan_ta_hon": {
+      "name": "Bóng Tàn Tà Hồn",
+      "level": 13,
+      "sprite": {
+        "w": 28,
+        "h": 46,
+        "ax": 14,
+        "ay": 44
+      },
+      "barY": 46,
+      "hp": 1200,
+      "exp": 12,
+      "speed": 56,
+      "aggro": 240,
+      "contactDmg": 26,
+      "hitCooldown": 1,
+      "wanderRadius": 30,
+      "wanderPause": 1.2,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "lamLang": true
+    },
+    "ll_quy_phien": {
+      "name": "Quỷ Phiên Âm Hồn",
+      "level": 13,
+      "sprite": {
+        "w": 42,
+        "h": 42,
+        "ax": 21,
+        "ay": 34
+      },
+      "barY": 40,
+      "hp": 450,
+      "exp": 6,
+      "speed": 100,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 24,
+      "hitCooldown": 0.8,
+      "wanderRadius": 30,
+      "wanderPause": 0.6,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "lamLang": true,
+      "quyPhien": true
+    },
+    "ll_khoi_loi_moc": {
+      "name": "Khôi Lỗi Bích Mộc",
+      "level": 13,
+      "anhMob": "khoi_loi_bich_moc",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 900,
+      "exp": 0,
+      "speed": 70,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 36,
+      "hitCooldown": 0.9,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "lamLang": true
+    },
+    "ll_khoi_loi_thiet": {
+      "name": "Khôi Lỗi Huyền Thiết",
+      "level": 14,
+      "anhMob": "khoi_loi_huyen_thiet",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 1800,
+      "exp": 0,
+      "speed": 54,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 28,
+      "hitCooldown": 1,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "lamLang": true
+    },
+    "ll_khoi_loi_cot": {
+      "name": "Khôi Lỗi Yêu Cốt",
+      "level": 13,
+      "anhMob": "khoi_loi_yeu_cot",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 600,
+      "exp": 0,
+      "speed": 90,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 56,
+      "hitCooldown": 0.8,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "lamLang": true
+    },
+    "hoang_cuu_bao": {
+      "name": "Hoàng Cửu Bảo · Tà Soái",
+      "level": 15,
+      "tuSi": {
+        "gender": "male",
+        "hair": "hoang_cuu_toc",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "hoang_cuu_bao_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "bich_nguc_ta_dao"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "drawScale": 1.45,
+      "barY": 80,
+      "barW": 64,
+      "hp": 96000,
+      "exp": 400,
+      "speed": 66,
+      "aggro": 460,
+      "leashRange": 4000,
+      "contactDmg": 60,
+      "hitCooldown": 0.9,
+      "hitRadius": 34,
+      "bodyRadius": 12,
+      "wanderRadius": 40,
+      "wanderPause": 2,
+      "baoKich": {
+        "ten": "Tà Khí Trảm",
+        "cooldown": 8,
+        "delay": 5,
+        "radius": 160,
+        "maxTargets": 6,
+        "mult": 0.8,
+        "hitsMin": 2,
+        "hitsMax": 3,
+        "gap": 0.6
+      },
+      "tuyetChieu": {
+        "ten": "Tà Hỏa Diệt Thế",
+        "kieu": "mua_lua",
+        "from": 0.12,
+        "to": 0.2,
+        "windup": 3,
+        "radius": 190,
+        "maxTargets": 0
+      },
+      "respawnSec": 0,
+      "isBoss": true,
+      "khongNhan": true,
+      "lamLang": true
+    },
+    "yl_xa_no": {
+      "name": "Xà Tộc Nỏ Thủ",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "xa_toc_y",
+        "hat": "xa_toc_mao",
+        "accessory": "xa_toc",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "thiet_cot_nha_no"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "phong",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_xa_cham": {
+      "name": "Xà Tộc Phi Châm",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "xa_toc_y",
+        "hat": "xa_toc_mao",
+        "accessory": "xa_toc",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "luc_doc_cham"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "phong",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_hau_con": {
+      "name": "Hầu Tộc Côn Thủ",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "nau",
+        "beard": "none",
+        "outfit": "hau_toc_y",
+        "hat": "hau_toc_mao",
+        "accessory": "hau_toc",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "truc_con"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "loi",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_hau_kiem": {
+      "name": "Hầu Tộc Kiếm Thủ",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "nau",
+        "beard": "none",
+        "outfit": "hau_toc_y",
+        "hat": "hau_toc_mao",
+        "accessory": "hau_toc",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "truc_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "loi",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_nhim_thuong": {
+      "name": "Nhím Tộc Thương Binh",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "nhim_toc_y",
+        "hat": "nhim_toc_mao",
+        "accessory": "nhim_toc",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "thiet_thuong"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "hoa_cau",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_nhim_dao": {
+      "name": "Nhím Tộc Đao Binh",
+      "level": 10,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "nhim_toc_y",
+        "hat": "nhim_toc_mao",
+        "accessory": "nhim_toc",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "thiet_dao"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 205,
+      "exp": 24,
+      "speed": 44,
+      "aggro": 240,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 14,
+      "hitCooldown": 1.1,
+      "ylChieu": "hoa_cau",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_tuan_ve": {
+      "name": "Nhím Tộc Tuần Vệ",
+      "level": 11,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "nhim_toc_y",
+        "hat": "nhim_toc_mao",
+        "accessory": "nhim_toc",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "thiet_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 58,
+      "hp": 900,
+      "exp": 60,
+      "speed": 46,
+      "aggro": 220,
+      "leashRange": 600,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 30,
+      "hitCooldown": 0.9,
+      "ylChieu": "hoa_cau",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true,
+      "drawScale": 1.15,
+      "barW": 26
+    },
+    "yl_tran_son_bia": {
+      "name": "Trấn Sơn Bia",
+      "level": 12,
+      "sprite": {
+        "w": 44,
+        "h": 104,
+        "ax": 22,
+        "ay": 100
+      },
+      "drawScale": 1.1,
+      "barY": 124,
+      "barW": 44,
+      "hp": 1500,
+      "exp": 80,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 18,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true,
+      "tru": true,
+      "truBan": true
+    },
+    "yl_ho_ve": {
+      "name": "Xà Tộc Hộ Vệ",
+      "level": 12,
+      "tuSi": {
+        "gender": "male",
+        "hair": "ma_vi",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "xa_toc_y",
+        "hat": "xa_toc_mao",
+        "accessory": "xa_toc",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "thiet_dao"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 58,
+      "hp": 900,
+      "exp": 70,
+      "speed": 48,
+      "aggro": 260,
+      "leashRange": 900,
+      "wanderRadius": 30,
+      "wanderPause": 1.4,
+      "contactDmg": 34,
+      "hitCooldown": 0.9,
+      "ylChieu": "phong",
+      "respawnSec": 0,
+      "khongNhan": true,
+      "yenLang": true,
+      "drawScale": 1.15,
+      "barW": 26
+    },
+    "yl_toc_truong": {
+      "name": "Tộc Trưởng · Yêu Thú Cấp 2 Biến Dị",
+      "level": 13,
+      "tuSi": {
+        "gender": "male",
+        "hair": "toc_truong_mao",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "toc_truong_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "huyet_ma_liem"
+      },
+      "honQuanh": {
+        "n": 5,
+        "rx": 34,
+        "ry": 15,
+        "z": 26,
+        "w": 0.9
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "drawScale": 1.7,
+      "barY": 118,
+      "barW": 60,
+      "shadow": {
+        "rx": 24,
+        "ry": 6
+      },
+      "hp": 4200,
+      "exp": 320,
+      "speed": 46,
+      "aggro": 460,
+      "leashRange": 4000,
+      "wanderRadius": 20,
+      "wanderPause": 1.2,
+      "contactDmg": 44,
+      "hitCooldown": 0.8,
+      "hitRadius": 30,
+      "tuyetChieu": {
+        "kieu": "vo_cao",
+        "ten": "Ma Bạo Diệt Thế",
+        "tim": true,
+        "from": 0.05,
+        "to": 0.1,
+        "windup": 1.5,
+        "radius": 140,
+        "range": 420,
+        "maxTargets": 6,
+        "matPct": 0.6
+      },
+      "hoVe": "yl_tran_son_bia",
+      "respawnSec": 0,
+      "isBoss": true,
+      "announceKill": false,
+      "khongNhan": true,
+      "yenLang": true
+    },
+    "yl_thi_khoi_thanh": {
+      "name": "Thanh Thi Khôi",
+      "level": 11,
+      "anhMob": "thi_khoi_thanh",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 420,
+      "exp": 0,
+      "speed": 56,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 24,
+      "hitCooldown": 1,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "yenLang": true
+    },
+    "yl_thi_khoi_dong": {
+      "name": "Đồng Thi Khôi",
+      "level": 12,
+      "anhMob": "thi_khoi_dong",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 800,
+      "exp": 0,
+      "speed": 44,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 18,
+      "hitCooldown": 1.1,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "yenLang": true
+    },
+    "yl_thi_khoi_bach": {
+      "name": "Bạch Mao Thi Khôi",
+      "level": 11,
+      "anhMob": "thi_khoi_bach",
+      "sprite": {
+        "w": 56,
+        "h": 56,
+        "ax": 28,
+        "ay": 53
+      },
+      "sheet": {
+        "cols": 15,
+        "fw": 112,
+        "fh": 112,
+        "anims": {
+          "idle": [
+            0,
+            4
+          ],
+          "run": [
+            4,
+            6
+          ],
+          "attack": [
+            10,
+            5
+          ]
+        },
+        "fps": 8
+      },
+      "barY": 50,
+      "barW": 26,
+      "shadow": {
+        "rx": 18,
+        "ry": 5
+      },
+      "hp": 320,
+      "exp": 0,
+      "speed": 76,
+      "aggro": 420,
+      "leashRange": 4000,
+      "contactDmg": 34,
+      "hitCooldown": 0.9,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "khoiLoiBoss": true,
+      "yenLang": true
+    },
+    "htd_tieu_ve": {
+      "name": "Sỹ Sách Tiểu Vệ",
+      "level": 12,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thanh_van_bien",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "thanh_tam_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "luc_tinh_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 320,
+      "exp": 14,
+      "speed": 58,
+      "aggro": 160,
+      "contactDmg": 15,
+      "hitCooldown": 0.95,
+      "wanderRadius": 60,
+      "wanderPause": 1.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "htd_thu_ve": {
+      "name": "Sỹ Sách Thủ Vệ",
+      "level": 12,
+      "tuSi": {
+        "gender": "male",
+        "hair": "long_tuong_khan",
+        "hairColor": "hac",
+        "beard": "ria_kiem",
+        "outfit": "long_tuong_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "hoa_kim_thuong"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "drawScale": 1.15,
+      "barY": 58,
+      "barW": 24,
+      "hp": 960,
+      "exp": 40,
+      "speed": 56,
+      "aggro": 190,
+      "contactDmg": 18,
+      "hitCooldown": 0.9,
+      "wanderRadius": 50,
+      "wanderPause": 2,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "htd_ve_nhan": {
+      "name": "Trận Nhãn Vệ",
+      "level": 12,
+      "tuSi": {
+        "gender": "male",
+        "hair": "thien_luan_toc",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "thien_luan_kiem_y",
+        "skin": "tan",
+        "shoes": "ink",
+        "weapon": "bang_linh_kiem"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 320,
+      "exp": 16,
+      "speed": 60,
+      "aggro": 170,
+      "contactDmg": 15,
+      "hitCooldown": 0.9,
+      "wanderRadius": 36,
+      "wanderPause": 2,
+      "fireNova": {
+        "trongTai": true,
+        "cooldown": 7,
+        "windup": 1.2,
+        "range": 170,
+        "radius": 64,
+        "dmg": 0,
+        "burnTime": 0,
+        "burnDps": 0
+      },
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "htd_thach_ma": {
+      "name": "Thạch Ma Cổ Cảnh",
+      "level": 13,
+      "sprite": {
+        "w": 96,
+        "h": 82,
+        "ax": 48,
+        "ay": 82
+      },
+      "barY": 88,
+      "barW": 40,
+      "drawScale": 1.6,
+      "shadow": {
+        "rx": 34,
+        "ry": 6
+      },
+      "thanDa": true,
+      "hp": 4800,
+      "exp": 150,
+      "speed": 42,
+      "aggro": 230,
+      "leashRange": 600,
+      "contactDmg": 30,
+      "hitCooldown": 0.9,
+      "wanderRadius": 20,
+      "wanderPause": 1.2,
+      "fireNova": {
+        "trongTai": true,
+        "tim": true,
+        "cooldown": 9,
+        "windup": 1.4,
+        "range": 220,
+        "radius": 84,
+        "dmg": 0,
+        "burnTime": 0,
+        "burnDps": 0
+      },
+      "respawnSec": 0,
+      "isBoss": true,
+      "announceKill": false,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "htd_dinh": {
+      "name": "Sỹ Sách Đỉnh",
+      "level": 13,
+      "sprite": {
+        "w": 116,
+        "h": 144,
+        "ax": 58,
+        "ay": 144
+      },
+      "barY": 152,
+      "barW": 64,
+      "hp": 19200,
+      "exp": 300,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 30,
+      "fireNova": {
+        "trongTai": true,
+        "cooldown": 20,
+        "windup": 2,
+        "range": -1,
+        "radius": 170,
+        "dmg": 0,
+        "burnTime": 0,
+        "burnDps": 0
+      },
+      "respawnSec": 0,
+      "isBoss": true,
+      "announceKill": false,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "vn_hom": {
+      "name": "Hòm Hư Không",
+      "level": 15,
+      "sprite": {
+        "w": 56,
+        "h": 48,
+        "ax": 28,
+        "ay": 44
+      },
+      "barY": 54,
+      "barW": 60,
+      "hp": 100000,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 24,
+      "fireNova": {
+        "trongTai": true,
+        "cooldown": 6,
+        "windup": 1.4,
+        "range": -1,
+        "radius": 150,
+        "dmg": 0,
+        "burnTime": 0,
+        "burnDps": 0
+      },
+      "respawnSec": 0,
+      "isBoss": false,
+      "announceKill": false,
+      "khongNhan": true
+    },
+    "htd_hu_anh": {
+      "name": "Hư Ảnh",
+      "level": 12,
+      "tuSi": {
+        "gender": "male",
+        "hair": "hoat_tu_toc_mat_na",
+        "hairColor": "hac",
+        "beard": "none",
+        "outfit": "hoat_tu_y",
+        "skin": "light",
+        "shoes": "ink",
+        "weapon": "luc_doc_cham"
+      },
+      "sprite": {
+        "w": 32,
+        "h": 64,
+        "ax": 16,
+        "ay": 62
+      },
+      "barY": 50,
+      "hp": 240,
+      "exp": 6,
+      "speed": 84,
+      "aggro": 280,
+      "leashRange": 900,
+      "contactDmg": 12,
+      "hitCooldown": 0.8,
+      "wanderRadius": 30,
+      "wanderPause": 0.8,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "htd_tru_bang": {
+      "name": "Trụ Băng",
+      "level": 15,
+      "sprite": {
+        "w": 44,
+        "h": 104,
+        "ax": 22,
+        "ay": 100
+      },
+      "drawScale": 1.45,
+      "barY": 150,
+      "barW": 58,
+      "hp": 70000,
+      "exp": 300,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 20,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true,
+      "tru": true,
+      "truBan": true
+    },
+    "htd_tru_hoa": {
+      "name": "Trụ Hoả",
+      "level": 15,
+      "sprite": {
+        "w": 44,
+        "h": 104,
+        "ax": 22,
+        "ay": 100
+      },
+      "drawScale": 1.45,
+      "barY": 150,
+      "barW": 58,
+      "hp": 70000,
+      "exp": 300,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 20,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "huThien": true,
+      "tru": true,
+      "truBan": true
+    },
+    "tm_tru": {
+      "name": "Trụ Trấn Mạch",
+      "level": 15,
+      "sprite": {
+        "w": 44,
+        "h": 104,
+        "ax": 22,
+        "ay": 100
+      },
+      "drawScale": 1.45,
+      "barY": 150,
+      "barW": 58,
+      "hp": 3240,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 20,
+      "baoKich": {
+        "ten": "Trấn Mạch Chấn",
+        "cooldown": 5,
+        "delay": 2,
+        "radius": 190,
+        "maxTargets": 6,
+        "dmg": 90,
+        "hitsMin": 1,
+        "hitsMax": 2,
+        "gap": 0.6,
+        "dot": 1,
+        "gapDot": 1.2
+      },
+      "respawnSec": 0,
+      "khongNhan": true,
+      "tru": true,
+      "tranMach": true,
+      "khu1Only": true
+    },
+    "tieu_xa_trang": {
+      "name": "Tiêu Xa Trắng",
+      "level": 15,
+      "sprite": {
+        "w": 64,
+        "h": 52,
+        "ax": 32,
+        "ay": 46
+      },
+      "barY": 72,
+      "barW": 40,
+      "shadow": {
+        "rx": 40,
+        "ry": 5,
+        "dx": -6,
+        "dy": 1
+      },
+      "hp": 900,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 16,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "tieuXa": true,
+      "tieuXaHang": "trang"
+    },
+    "tieu_xa_luc": {
+      "name": "Tiêu Xa Lục",
+      "level": 15,
+      "sprite": {
+        "w": 64,
+        "h": 52,
+        "ax": 32,
+        "ay": 46
+      },
+      "barY": 80,
+      "barW": 40,
+      "shadow": {
+        "rx": 40,
+        "ry": 5,
+        "dx": -6,
+        "dy": 1
+      },
+      "hp": 1350,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 16,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "tieuXa": true,
+      "tieuXaHang": "luc"
+    },
+    "tieu_xa_do": {
+      "name": "Tiêu Xa Đỏ",
+      "level": 15,
+      "sprite": {
+        "w": 64,
+        "h": 52,
+        "ax": 32,
+        "ay": 46
+      },
+      "barY": 92,
+      "barW": 40,
+      "shadow": {
+        "rx": 40,
+        "ry": 5,
+        "dx": -6,
+        "dy": 1
+      },
+      "hp": 2016,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 16,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "tieuXa": true,
+      "tieuXaHang": "do"
+    },
+    "tieu_xa_vang": {
+      "name": "Tiêu Xa Vàng",
+      "level": 15,
+      "sprite": {
+        "w": 64,
+        "h": 52,
+        "ax": 32,
+        "ay": 46
+      },
+      "barY": 100,
+      "barW": 40,
+      "shadow": {
+        "rx": 40,
+        "ry": 5,
+        "dx": -6,
+        "dy": 1
+      },
+      "hp": 3240,
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "bodyRadius": 16,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "tieuXa": true,
+      "tieuXaHang": "vang"
+    },
+    "htd_loi_thu": {
+      "name": "Lôi Thú · Cổ Tu Hộ Pháp",
+      "level": 13,
+      "anhMob": "ngan_mao_hong",
+      "locMau": "sepia(0.7) hue-rotate(185deg) saturate(3) brightness(1.15) contrast(1.1)",
+      "sprite": {
+        "w": 133,
+        "h": 120,
+        "ax": 74,
+        "ay": 118
+      },
+      "barY": 114,
+      "barW": 56,
+      "drawScale": 1.9,
+      "shadow": {
+        "rx": 34,
+        "ry": 8
+      },
+      "hp": 12800,
+      "exp": 400,
+      "speed": 52,
+      "aggro": 420,
+      "leashRange": 2000,
+      "contactDmg": 40,
+      "hitCooldown": 0.9,
+      "wanderRadius": 30,
+      "wanderPause": 1,
+      "baoKich": {
+        "ten": "Lôi Hống",
+        "cooldown": 10,
+        "delay": 6,
+        "radius": 140,
+        "maxTargets": 5,
+        "mult": 1.2,
+        "hitsMin": 2,
+        "hitsMax": 3,
+        "gap": 0.6
+      },
+      "tuyetChieu": {
+        "kieu": "vo_cao",
+        "ten": "Lôi Thiên Phạt",
+        "from": 0.1,
+        "to": 0.2,
+        "windup": 1.6,
+        "radius": 140,
+        "range": 420,
+        "maxTargets": 6
+      },
+      "respawnSec": 0,
+      "isBoss": true,
+      "announceKill": false,
+      "khongNhan": true,
+      "huThien": true
+    },
+    "tl_linh_can": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Lính Cận Chiến",
+      "level": 14,
+      "sprite": {
+        "w": 30,
+        "h": 46,
+        "ax": 15,
+        "ay": 44
+      },
+      "barY": 54,
+      "barW": 22,
+      "bodyRadius": 12,
+      "hp": 100,
+      "tamLo": {
+        "loai": "linh_can",
+        "ve": "linh"
+      }
+    },
+    "tl_linh_xa": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Lính Pháp Thuật",
+      "level": 14,
+      "sprite": {
+        "w": 30,
+        "h": 48,
+        "ax": 15,
+        "ay": 46
+      },
+      "barY": 56,
+      "barW": 22,
+      "bodyRadius": 12,
+      "hp": 100,
+      "tamLo": {
+        "loai": "linh_xa",
+        "ve": "linh"
+      }
+    },
+    "tl_linh_phao": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Lính Pháo",
+      "level": 14,
+      "sprite": {
+        "w": 40,
+        "h": 44,
+        "ax": 20,
+        "ay": 42
+      },
+      "barY": 52,
+      "barW": 30,
+      "bodyRadius": 16,
+      "hp": 100,
+      "tamLo": {
+        "loai": "linh_phao",
+        "ve": "linh"
+      }
+    },
+    "tl_linh_sieu": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Lính Siêu Cấp",
+      "level": 14,
+      "sprite": {
+        "w": 44,
+        "h": 60,
+        "ax": 22,
+        "ay": 58
+      },
+      "barY": 68,
+      "barW": 36,
+      "bodyRadius": 18,
+      "hp": 100,
+      "tamLo": {
+        "loai": "linh_sieu",
+        "ve": "linh"
+      }
+    },
+    "tl_tru": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Trụ",
+      "level": 14,
+      "sprite": {
+        "w": 52,
+        "h": 118,
+        "ax": 26,
+        "ay": 108
+      },
+      "barY": 132,
+      "barW": 56,
+      "bodyRadius": 24,
+      "hp": 100,
+      "tamLo": {
+        "loai": "tru",
+        "ve": "tru"
+      }
+    },
+    "tl_nha": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "name": "Nhà Chính",
+      "level": 14,
+      "sprite": {
+        "w": 120,
+        "h": 140,
+        "ax": 60,
+        "ay": 120
+      },
+      "barY": 150,
+      "barW": 96,
+      "bodyRadius": 52,
+      "hp": 100,
+      "tamLo": {
+        "loai": "nha",
+        "ve": "nha"
+      }
+    },
+    "tl_rong": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "than_thu_xich_long",
+      "drawScale": 1.15,
+      "sprite": {
+        "w": 156,
+        "h": 78,
+        "ax": 78,
+        "ay": 71
+      },
+      "barY": 85,
+      "barW": 109,
+      "bodyRadius": 47,
+      "level": 14,
+      "hp": 100,
+      "name": "Cổ Long",
+      "tamLo": {
+        "loai": "rong",
+        "ve": null,
+        "to": 1
+      }
+    },
+    "tl_baron": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "u_minh_cu_mang",
+      "drawScale": 1.2,
+      "sprite": {
+        "w": 168,
+        "h": 163,
+        "ax": 72,
+        "ay": 149
+      },
+      "barY": 150,
+      "barW": 118,
+      "shadow": {
+        "rx": 70,
+        "ry": 13
+      },
+      "bodyRadius": 50,
+      "level": 14,
+      "hp": 100,
+      "name": "Ma Mãng Baron",
+      "tamLo": {
+        "loai": "baron",
+        "ve": null,
+        "to": 1
+      }
+    },
+    "tl_lam_tuong": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "thach_quy",
+      "drawScale": 0.8,
+      "sprite": {
+        "w": 61,
+        "h": 54,
+        "ax": 30,
+        "ay": 39
+      },
+      "barY": 38,
+      "barW": 43,
+      "shadow": {
+        "rx": 19,
+        "ry": 5
+      },
+      "bodyRadius": 18,
+      "level": 14,
+      "hp": 100,
+      "name": "Thạch Linh Bùa Xanh",
+      "tamLo": {
+        "loai": "lam_tuong",
+        "ve": null,
+        "bua": "lam"
+      }
+    },
+    "tl_xich_tuong": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "xich_nhan_nguu",
+      "drawScale": 1,
+      "sprite": {
+        "w": 96,
+        "h": 70,
+        "ax": 48,
+        "ay": 68
+      },
+      "barY": 74,
+      "barW": 67,
+      "shadow": {
+        "rx": 15,
+        "ry": 4
+      },
+      "bodyRadius": 29,
+      "level": 14,
+      "hp": 100,
+      "name": "Xích Nguu Bùa Đỏ",
+      "tamLo": {
+        "loai": "xich_tuong",
+        "ve": null,
+        "bua": "xich"
+      }
+    },
+    "tl_lam_nho": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "thach_yeu",
+      "drawScale": 1,
+      "sprite": {
+        "w": 40,
+        "h": 34,
+        "ax": 20,
+        "ay": 34
+      },
+      "barY": 42,
+      "barW": 28,
+      "shadow": {
+        "rx": 14,
+        "ry": 3
+      },
+      "bodyRadius": 14,
+      "level": 14,
+      "hp": 100,
+      "name": "Thạch Yêu Con",
+      "tamLo": {
+        "loai": "lam_nho",
+        "ve": null
+      }
+    },
+    "tl_xich_nho": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "xich_tinh_mang",
+      "drawScale": 0.85,
+      "sprite": {
+        "w": 51,
+        "h": 39,
+        "ax": 24,
+        "ay": 36
+      },
+      "barY": 31,
+      "barW": 36,
+      "shadow": {
+        "rx": 18,
+        "ry": 3
+      },
+      "bodyRadius": 15,
+      "level": 14,
+      "hp": 100,
+      "name": "Xích Tinh Mãng",
+      "tamLo": {
+        "loai": "xich_nho",
+        "ve": null
+      }
+    },
+    "tl_soi_lon": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "bach_ho_tuyet",
+      "drawScale": 1,
+      "sprite": {
+        "w": 75,
+        "h": 44,
+        "ax": 38,
+        "ay": 40
+      },
+      "barY": 40,
+      "barW": 53,
+      "shadow": {
+        "rx": 26,
+        "ry": 5
+      },
+      "bodyRadius": 23,
+      "level": 14,
+      "hp": 100,
+      "name": "Bạch Hổ Sói",
+      "tamLo": {
+        "loai": "soi_lon",
+        "ve": null
+      }
+    },
+    "tl_soi_nho": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "ngan_mao_hong",
+      "drawScale": 0.62,
+      "sprite": {
+        "w": 43,
+        "h": 39,
+        "ax": 24,
+        "ay": 38
+      },
+      "barY": 41,
+      "barW": 30,
+      "bodyRadius": 14,
+      "level": 14,
+      "hp": 100,
+      "name": "Ngân Hống Con",
+      "tamLo": {
+        "loai": "soi_nho",
+        "ve": null
+      }
+    },
+    "tl_dieu_lon": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "yl_hac_tien",
+      "drawScale": 1,
+      "sprite": {
+        "w": 77,
+        "h": 60,
+        "ax": 38,
+        "ay": 52
+      },
+      "barY": 56,
+      "barW": 54,
+      "shadow": {
+        "rx": 15,
+        "ry": 4
+      },
+      "bodyRadius": 23,
+      "level": 14,
+      "hp": 100,
+      "name": "Hạc Tiên",
+      "tamLo": {
+        "loai": "dieu_lon",
+        "ve": null
+      }
+    },
+    "tl_dieu_nho": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "yl_hac_tien",
+      "drawScale": 0.6,
+      "sprite": {
+        "w": 46,
+        "h": 36,
+        "ax": 23,
+        "ay": 31
+      },
+      "barY": 35,
+      "barW": 32,
+      "shadow": {
+        "rx": 9,
+        "ry": 2
+      },
+      "bodyRadius": 14,
+      "level": 14,
+      "hp": 100,
+      "name": "Hạc Con",
+      "tamLo": {
+        "loai": "dieu_nho",
+        "ve": null
+      }
+    },
+    "tl_thach_lon": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "xuyen_son_giap",
+      "drawScale": 1.3333333333333333,
+      "sprite": {
+        "w": 96,
+        "h": 69,
+        "ax": 47,
+        "ay": 63
+      },
+      "barY": 57,
+      "barW": 67,
+      "shadow": {
+        "rx": 32,
+        "ry": 7
+      },
+      "bodyRadius": 29,
+      "level": 14,
+      "hp": 100,
+      "name": "Xuyên Sơn Giáp",
+      "tamLo": {
+        "loai": "thach_lon",
+        "ve": null
+      }
+    },
+    "tl_thach_nho": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "xuyen_son_giap",
+      "drawScale": 0.8,
+      "sprite": {
+        "w": 58,
+        "h": 42,
+        "ax": 28,
+        "ay": 38
+      },
+      "barY": 36,
+      "barW": 41,
+      "shadow": {
+        "rx": 19,
+        "ry": 4
+      },
+      "bodyRadius": 17,
+      "level": 14,
+      "hp": 100,
+      "name": "Giáp Thú Con",
+      "tamLo": {
+        "loai": "thach_nho",
+        "ve": null
+      }
+    },
+    "tl_nhen": {
+      "exp": 0,
+      "speed": 0,
+      "aggro": 0,
+      "contactDmg": 0,
+      "hitCooldown": 99,
+      "wanderRadius": 0,
+      "wanderPause": 99,
+      "respawnSec": 0,
+      "khongNhan": true,
+      "isBoss": false,
+      "tamLoDon": true,
+      "ore": false,
+      "stones": 0,
+      "pounce": null,
+      "baoKich": null,
+      "fireNova": null,
+      "tuyetChieu": null,
+      "bienDi": null,
+      "flee": null,
+      "anhMob": "nhen_ngoc_con",
+      "drawScale": 1.25,
+      "sprite": {
+        "w": 83,
+        "h": 63,
+        "ax": 41,
+        "ay": 43
+      },
+      "barY": 44,
+      "barW": 58,
+      "shadow": {
+        "rx": 30,
+        "ry": 9
+      },
+      "bodyRadius": 25,
+      "level": 14,
+      "hp": 100,
+      "name": "Nhện Ngọc",
+      "tamLo": {
+        "loai": "nhen",
+        "ve": null
+      }
+    }
+  },
+  "critters": {
+    "horse": {
+      "name": "Ngựa Vàng",
+      "speed": 30,
+      "runMult": 2.1,
+      "pauseMin": 1.2,
+      "pauseMax": 3.5,
+      "sprite": {
+        "w": 112,
+        "h": 96,
+        "dw": 56,
+        "dh": 48,
+        "ax": 26,
+        "ay": 44,
+        "horizontal": true,
+        "frames": 10,
+        "walkFrames": 6,
+        "fps": 12,
+        "runFps": 2,
+        "idleSeq": [
+          6,
+          6,
+          7,
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          9,
+          8,
+          6,
+          7,
+          6
+        ],
+        "idleFps": 2.2
+      },
+      "shadowW": 12,
+      "hitW": 7,
+      "hitH": 6
+    },
+    "chicken_white": {
+      "name": "Gà Mái Trắng",
+      "speed": 23,
+      "runMult": 1.55,
+      "pauseMin": 0.45,
+      "pauseMax": 1.5,
+      "roamTiles": 4,
+      "sprite": {
+        "w": 52,
+        "h": 48,
+        "dw": 26,
+        "dh": 24,
+        "ax": 12,
+        "ay": 22,
+        "frames": 7,
+        "walkFrames": 4,
+        "fps": 8.5,
+        "runFps": 1.55,
+        "idleSeq": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "idleFps": 5
+      },
+      "hitW": 5,
+      "hitH": 4,
+      "shadowW": 7
+    },
+    "chicken_brown": {
+      "name": "Gà Trống",
+      "speed": 25,
+      "runMult": 1.5,
+      "pauseMin": 0.4,
+      "pauseMax": 1.4,
+      "roamTiles": 4,
+      "sprite": {
+        "w": 80,
+        "h": 64,
+        "dw": 40,
+        "dh": 32,
+        "ax": 19,
+        "ay": 30,
+        "frames": 7,
+        "walkFrames": 4,
+        "fps": 9,
+        "runFps": 1.5,
+        "idleSeq": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          5,
+          6,
+          0,
+          0,
+          0,
+          0,
+          4,
+          5,
+          6,
+          0,
+          0
+        ],
+        "idleFps": 5
+      },
+      "hitW": 5,
+      "hitH": 4,
+      "shadowW": 8
+    },
+    "chick_yellow": {
+      "name": "Gà Con",
+      "speed": 20,
+      "runMult": 1.65,
+      "pauseMin": 0.35,
+      "pauseMax": 1.25,
+      "roamTiles": 3,
+      "sprite": {
+        "w": 32,
+        "h": 28,
+        "dw": 16,
+        "dh": 14,
+        "ax": 8,
+        "ay": 13,
+        "frames": 7,
+        "walkFrames": 4,
+        "fps": 12,
+        "runFps": 1.65,
+        "idleSeq": [
+          0,
+          0,
+          0,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          0,
+          0,
+          0
+        ],
+        "idleFps": 6
+      },
+      "hitW": 4,
+      "hitH": 3,
+      "shadowW": 5
+    },
+    "chicken_nest": {
+      "name": "Ổ Gà",
+      "stationary": true,
+      "noShadow": true,
+      "sprite": {
+        "w": 60,
+        "h": 44,
+        "dw": 30,
+        "dh": 22,
+        "ax": 15,
+        "ay": 17
+      },
+      "egg": {
+        "path": "assets/sprites/mob/chicken_eggs.png",
+        "w": 60,
+        "h": 44,
+        "dw": 30,
+        "dh": 22,
+        "x": -15,
+        "y": -17
+      },
+      "eggDelayMin": 12,
+      "eggDelayMax": 24,
+      "eggShowMin": 7,
+      "eggShowMax": 12,
+      "hitW": 0,
+      "hitH": 0
+    },
+    "cho_lang": {
+      "name": "Chó Làng",
+      "speed": 24,
+      "runMult": 1.85,
+      "pauseMin": 0.5,
+      "pauseMax": 1.8,
+      "roamTiles": 8,
+      "sprite": {
+        "w": 96,
+        "h": 76,
+        "dw": 48,
+        "dh": 38,
+        "ax": 21,
+        "ay": 36,
+        "horizontal": true,
+        "frames": 10,
+        "walkFrames": 6,
+        "fps": 11,
+        "runFps": 1.85,
+        "idleSeq": [
+          6,
+          7,
+          6,
+          7,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          6,
+          7,
+          6,
+          7
+        ],
+        "idleFps": 3
+      },
+      "schedule": {
+        "utcOffsetMs": 25200000,
+        "startHour": 11,
+        "endHour": 21,
+        "durationHours": 2
+      },
+      "hitW": 0,
+      "hitH": 0,
+      "shadowW": 12
+    }
+  }
+}

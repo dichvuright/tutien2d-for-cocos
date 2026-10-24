@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "d2411": {
+      "importer": "sprite-frame",
+      "uuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c@d2411",
+      "displayName": "",
+      "id": "d2411",
+      "name": "npc_lao_an_may_gu_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9d20a3ac-f098-4b47-bfe6-cba30af4e377@6c48a",
+        "atlasUuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61d55": {
+      "importer": "sprite-frame",
+      "uuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c@61d55",
+      "displayName": "",
+      "id": "61d55",
+      "name": "npc_lao_an_may_gu_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9d20a3ac-f098-4b47-bfe6-cba30af4e377@6c48a",
+        "atlasUuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_lao_an_may_gu.png",
+    "format": 2,
+    "uuid": "ea668c59-49c2-4835-a9b6-0dc0dc28289c",
+    "textureUuid": "9d20a3ac-f098-4b47-bfe6-cba30af4e377@6c48a"
+  }
+}

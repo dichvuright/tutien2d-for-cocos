@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "868b372a-2e2e-4045-8b12-09355398f3ee",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "212b0": {
+      "importer": "sprite-frame",
+      "uuid": "868b372a-2e2e-4045-8b12-09355398f3ee@212b0",
+      "displayName": "",
+      "id": "212b0",
+      "name": "npc_ma_dao_thien_thi_tong_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "87afb923-71de-4cbc-9add-e52d50ee826d@6c48a",
+        "atlasUuid": "868b372a-2e2e-4045-8b12-09355398f3ee",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a92d": {
+      "importer": "sprite-frame",
+      "uuid": "868b372a-2e2e-4045-8b12-09355398f3ee@5a92d",
+      "displayName": "",
+      "id": "5a92d",
+      "name": "npc_ma_dao_thien_thi_tong_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "87afb923-71de-4cbc-9add-e52d50ee826d@6c48a",
+        "atlasUuid": "868b372a-2e2e-4045-8b12-09355398f3ee",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_ma_dao_thien_thi_tong.png",
+    "format": 2,
+    "uuid": "868b372a-2e2e-4045-8b12-09355398f3ee",
+    "textureUuid": "87afb923-71de-4cbc-9add-e52d50ee826d@6c48a"
+  }
+}

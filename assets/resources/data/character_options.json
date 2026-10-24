@@ -1,0 +1,846 @@
+{
+  "config": {
+    "NAME": "Tu Tiên 2D",
+    "VERSION": "1.0.0-phase1",
+    "TILE": 32,
+    "CHAR_W": 32,
+    "CHAR_H": 64,
+    "GFX": 2,
+    "CHAR_ANCHOR_X": 16,
+    "CHAR_ANCHOR_Y": 62,
+    "CHAR_STRETCH_X": 1.1,
+    "CHAR_NECK_CUT": 23,
+    "SHEET_COLS": 36,
+    "SHEET_ROWS": 4,
+    "DIRS": [
+      "down",
+      "left",
+      "right",
+      "up"
+    ],
+    "ANIM": {
+      "idle": {
+        "cols": [
+          6,
+          7
+        ],
+        "fps": 1.8
+      },
+      "walk": {
+        "cols": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fps": 8
+      },
+      "attack": {
+        "cols": [
+          4,
+          5
+        ],
+        "fps": 7
+      },
+      "sit": {
+        "cols": [
+          8,
+          9
+        ],
+        "fps": 1.1
+      },
+      "seal": {
+        "cols": [
+          10,
+          11
+        ],
+        "fps": 6
+      },
+      "palm": {
+        "cols": [
+          12,
+          13
+        ],
+        "fps": 7
+      },
+      "gather": {
+        "cols": [
+          14,
+          15
+        ],
+        "fps": 3.2
+      },
+      "guard": {
+        "cols": [
+          16,
+          17
+        ],
+        "fps": 6
+      },
+      "cast": {
+        "cols": [
+          18,
+          19
+        ],
+        "fps": 6
+      },
+      "hurt": {
+        "cols": [
+          20,
+          21
+        ],
+        "fps": 7
+      },
+      "down": {
+        "cols": [
+          22,
+          23
+        ],
+        "fps": 1
+      }
+    },
+    "ANIM_WALK_ACT": {
+      "seal": [
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "palm": [
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "attack": [
+        [
+          32,
+          33
+        ],
+        [
+          34,
+          35
+        ]
+      ]
+    },
+    "PLAYER": {
+      "SPEED": 68,
+      "RUN_MULT": 1.65,
+      "WALK_MULT": 1.485,
+      "HITBOX_W": 16,
+      "HITBOX_H": 12,
+      "ATTACK_TIME": 0.8,
+      "REACH": 26,
+      "ATTACK_ORIGIN": 14,
+      "SPELL_GAP": 1.2,
+      "CAST_MOVE_MULT": 0.6,
+      "CAST_RANGE_SLACK": 40,
+      "CAST_CD_GRACE": 0.15
+    },
+    "THUNDER": {
+      "COOLDOWN": 5,
+      "CAST": 0.34,
+      "RANGE": 96,
+      "RADIUS": 30,
+      "COEF": 5.45,
+      "MP_COST": 12,
+      "SP_COST": 5
+    },
+    "CAMERA": {
+      "LERP": 7.5,
+      "SNAP_DIST": 0.4
+    },
+    "RENDER": {
+      "TARGET_W": 440,
+      "TARGET_H": 260,
+      "MIN_ZOOM": 2,
+      "MAX_ZOOM": 6,
+      "SHORT_SCREEN_H": 480,
+      "SHORT_MIN_ZOOM": 1,
+      "MAX_BACKING": 4096,
+      "VIEW_SCALES": [
+        {
+          "id": "can",
+          "name": "Cận",
+          "step": 1
+        },
+        {
+          "id": "vua",
+          "name": "Vừa",
+          "step": 0
+        },
+        {
+          "id": "rong",
+          "name": "Rộng",
+          "step": -1
+        },
+        {
+          "id": "rat_rong",
+          "name": "Rất rộng",
+          "step": -2
+        }
+      ],
+      "VIEW_SCALE_DEFAULT": "rong"
+    },
+    "MEDITATE": {
+      "MP_PER_SEC": 6,
+      "HP_PER_SEC": 4,
+      "SP_PER_SEC": 3,
+      "BP_PER_SEC": 18,
+      "EXP_PER_SEC": 2,
+      "MOTE_EVERY": 0.22,
+      "PVP_INTERRUPT_SEC": 2
+    },
+    "RESOURCES": {
+      "SP_PER_SEC": 0.75,
+      "BP_REGEN_DELAY": 3
+    },
+    "DOWNED": {
+      "PANEL_DELAY": 1.2,
+      "AUTO_HOME": 60,
+      "HOME_MAP": "tan_vien",
+      "HOME_HP": 0.6,
+      "ONSPOT_HP": 0.35,
+      "REVIVE_INVULN": 3,
+      "MAX_REVIVES": 3,
+      "BLOOD_EVERY": 1.7
+    },
+    "DUEL": {
+      "INVITE_RANGE": 160,
+      "INVITE_TIME": 20,
+      "LEASH": 640,
+      "LEASH_TIME": 8,
+      "DMG_SCALE": 1,
+      "RANGED_REACH_PVP": 0.6
+    },
+    "INSPECT": {
+      "SP_COST": 5
+    },
+    "PARTY": {
+      "MAX_MEMBERS": 6,
+      "INVITE_RANGE": 180,
+      "INVITE_TTL_MS": 30000,
+      "INVITE_COOLDOWN_MS": 1500,
+      "VITAL_SYNC_MS": 250
+    },
+    "DO_SAT": {
+      "PK_TU_DO_MAPS": [
+        "dong_mach_ngam"
+      ],
+      "DURATION": 180,
+      "REFRESH": 60,
+      "SAFE_MAPS": [
+        "dai_hoi_cho",
+        "dai_hoi_dau",
+        "chien_bang_dai",
+        "san_dau_vip",
+        "tmc_cho",
+        "chien_truong",
+        "chien_truong_cho",
+        "hac_thi",
+        "tam_canh",
+        "lam_lang"
+      ]
+    },
+    "CO_CHIEN": {
+      "DOI_CD": 10,
+      "GIAO_CHIEN": 15
+    },
+    "FLY": {
+      "SPEED_MULT": 1.9,
+      "HOVER": 10,
+      "RISE_TIME": 0.25,
+      "TRAIL_EVERY": 0.05,
+      "REALM_MIN": "luyen_khi_5"
+    },
+    "ASCEND": {
+      "TIME": 5,
+      "FLASH_AT": 3.2
+    },
+    "KHU": {
+      "TOI_DA": 20,
+      "HOI_SEC": 5,
+      "TOI_DA_BOSS": 60,
+      "BOSS_DONG": [
+        "song_duc_ma_bao"
+      ],
+      "TOI_DA_THUONG_DOI": 80,
+      "BANG_NOI_PX": 48
+    },
+    "GOP_Y": {
+      "TOI_THIEU": 5,
+      "TOI_DA": 500,
+      "NGHI_SEC": 60
+    },
+    "TARGET": {
+      "RANGE": 150,
+      "REACH_PAD": 40,
+      "KEEP_PAD": 120,
+      "TAP_RADIUS": 22,
+      "APPROACH_TIME": 8,
+      "COLOR": "#f7c822"
+    },
+    "ENEMY": {
+      "HIT_RADIUS": 26,
+      "HURT_TIME": 0.5,
+      "RESPAWN_SEC": 12,
+      "LEASH_RANGE": 260,
+      "TELEGRAPH_TIME": 0.18,
+      "FLINCH_TIME": 0.16,
+      "BOSS_PERSIST_SEC": 600,
+      "BOSS_REGEN_DELAY": 60,
+      "BOSS_REGEN_PCT": 0.005
+    },
+    "PLOT_WET_VARIANT": 31,
+    "STORAGE_KEY": "pntt_character_v1",
+    "THEME_KEY": "pntt_world_theme_v1",
+    "PROGRESS_KEY": "pntt_progress_v1",
+    "DEBUG": false
+  },
+  "options": {
+    "GENDERS": [
+      {
+        "id": "male",
+        "name": "Nam",
+        "note": "Thân hình vai rộng, đạo bào ngắn tới gối"
+      },
+      {
+        "id": "female",
+        "name": "Nữ",
+        "note": "Tóc dài buộc nửa đầu, y phục giao lĩnh thanh nhã"
+      }
+    ],
+    "HAIRS": [
+      {
+        "id": "dao_dong",
+        "gender": "male",
+        "name": "Tóc Ngắn Rối",
+        "note": "Tóc ngắn rối vài mũi dựng, mái chia lọn nhọn, mai cắt gọn trên vành tai"
+      },
+      {
+        "id": "dao_ke",
+        "gender": "male",
+        "name": "Búi Đạo Sĩ",
+        "note": "Chải ngược lên búi tròn quấn khăn chàm, trâm gỗ cài ngang, lộ trán và tai"
+      },
+      {
+        "id": "ma_vi",
+        "gender": "male",
+        "name": "Đuôi Ngựa",
+        "note": "Buộc cao dây đỏ, đuôi vồng ra sau lay theo bước; hai lọn mai rủ trước tai"
+      },
+      {
+        "id": "kiem_tu_ban_ket",
+        "gender": "male",
+        "name": "Kiếm Tu Bán Kết",
+        "note": "Vấn nửa đầu cài trâm bạc ngang, hai lọn mái ôm má trùm tai, nửa dưới xõa sau lưng"
+      },
+      {
+        "id": "lang_tu_truong_phat",
+        "gender": "male",
+        "name": "Lãng Tử Trường Phát",
+        "note": "Rẽ ngôi lệch, mái quét chéo, tóc thả suôn trùm tai rủ trước vai, sau lưng dài tới giữa lưng"
+      },
+      {
+        "id": "cao_ke_ngoc_quan",
+        "gender": "male",
+        "name": "Cao Kế Ngọc Quan",
+        "note": "Búi cao đội ngọc quan viền kim, trâm ngà ngang, mai ôm thái dương, lộ tai"
+      },
+      {
+        "id": "ma_tu_tan_phat",
+        "gender": "male",
+        "name": "Ma Tu Tán Phát",
+        "note": "Chỏm dựng năm mũi, mái răng cưa quét chéo, tóc xõa từng tầng trùm tai tới vai"
+      },
+      {
+        "id": "thanh_van_bien",
+        "gender": "male",
+        "name": "Thanh Vân Biện",
+        "note": "Chải ngược bóng mượt, sợi tóc con trước trán, bím dài tới thắt lưng buộc dây ngọc"
+      },
+      {
+        "id": "man_ho_tu_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Lão Tổ Bạch Kim",
+        "note": "Tóc xám bạc pha vàng, búi sau, mai và gáy dài gợn sóng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "chi_ton_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Chí Tôn",
+        "note": "Tóc bạc buộc cao, đuôi dài uốn cong · mở từ Trúc Cơ"
+      },
+      {
+        "id": "hoat_tu_toc_mat_na",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Hoạt Tử · Mặt Nạ",
+        "note": "Trường phát đen điểm đỏ, kèm mặt nạ sừng đỏ · mở từ Trúc Cơ"
+      },
+      {
+        "id": "vuong_lam_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Vương Lâm",
+        "note": "Tóc bạc dài rẽ ngôi, mai xõa và quan ngân diễm · mở từ Trúc Cơ"
+      },
+      {
+        "id": "huyen_cot_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Huyền Cốt",
+        "note": "Mái đen ánh lam, tóc dài xõa sau lưng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "ma_vuong_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Ma Vương Tử Giác",
+        "note": "Bờm đen tím dài, tai nhọn và song giác tím cong · mở từ Trúc Cơ"
+      },
+      {
+        "id": "nam_y_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Nam Y",
+        "note": "Trường phát đen ánh lam, búi thấp và dải tóc sau lưng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "thien_luan_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Thiên Luân",
+        "note": "Tóc bạc ánh kim dựng nhọn, đuôi dài phân lớp theo nhịp bước · mở từ Trúc Cơ"
+      },
+      {
+        "id": "tuyet_son_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Tuyết Sơn",
+        "note": "Tóc lam băng buộc đuôi ngựa cao, dây lụa đỏ và mặt dây đồng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "man_ho_tu_y_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Mạn Hổ Tử",
+        "note": "Tóc bạc chải ngược về khóa vàng, mày bạc rậm, hai lọn bồng gợn sóng sau tai · mở từ Trúc Cơ"
+      },
+      {
+        "id": "than_kiem_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Thần Kiếm",
+        "note": "Tóc đen dựng nhọn, lọn vàng quét lệch mái, trâm vàng sau đầu, tóc dài phủ lưng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "hoang_cuu_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Hoàng Cửu",
+        "note": "Mohawk dựng quạt đen pha bạc, hai bên cạo sát, tóc dài ngả bạc sau lưng, kèm kính lam gọng đen và khuyên tai · mở từ Trúc Cơ"
+      },
+      {
+        "id": "sat_luc_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "requireItem": "sat_luc_y",
+        "name": "Tóc Sát Lục",
+        "note": "Trường phát đỏ huyết rẽ ngôi, mái hất hai bên, lọn mai rủ vai, tóc dài phủ lưng tới hông · mở từ Trúc Cơ"
+      },
+      {
+        "id": "tan_mo_toc",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "requireItem": "tan_mo_y",
+        "name": "Tóc Tần Mỗ",
+        "note": "Mào tóc vuốt ngược dựng quạt đen pha bạc, bên đầu cạo, vòng kim cô vàng, lọn bạc rủ thái dương, tóc dài buộc nút đỏ sau gáy, vệt lam dưới mắt, khuyên tai · mở từ Trúc Cơ"
+      },
+      {
+        "id": "tri_vu_toc",
+        "requireRealm": "truc_co_1",
+        "requireItem": "tri_vu_bao",
+        "name": "Tóc Trĩ Vũ",
+        "note": "Tóc bạc rẽ giữa dài tới thắt lưng, hai lọn rủ trước ngực, kim quan vàng khảm ngọc đỏ cài đôi lông trĩ đỏ thẫm bay theo bước chân và nhịp thở, dải đỏ buộc sau gáy · mở từ Trúc Cơ khi có Trĩ Vũ Bào"
+      },
+      {
+        "id": "ngan_diep_toc",
+        "gender": "female",
+        "requireRealm": "truc_co_1",
+        "requireItem": "bich_diep_bao",
+        "name": "Tóc Ngân Diệp",
+        "note": "Tóc bạc pha lam tím rẽ giữa, mái xoã hai bên, dài gần tới gấu váy, đôi trâm lá bạc dựng như gạc hai bên đỉnh đầu, nút bạc kết hạt rủ giọt ngọc lam sau tai trái · mở từ Trúc Cơ khi có Bích Diệp Tiên Bào"
+      },
+      {
+        "id": "long_tuong_khan",
+        "gender": "male",
+        "requireRealm": "luyen_khi_7",
+        "requireItem": "long_tuong_y",
+        "name": "Khăn Long Tướng",
+        "note": "Khăn đầu xanh đen viền thép, huy hiệu vàng giữa trán, dải khăn buông sau gáy · mở khi có Long Tướng Thanh Ngọc Bào"
+      },
+      {
+        "id": "lan_thanh_toc",
+        "gender": "female",
+        "requireRealm": "truc_co_1",
+        "name": "Tóc Lan Thánh"
+      },
+      {
+        "id": "dai_phu_toc",
+        "gender": "male",
+        "name": "Tóc Bạc Đại Phu",
+        "note": "Tóc bạc rẽ giữa, mai dài tới vai, đội quan đen viền kim như Đại Phu"
+      },
+      {
+        "id": "tien_tu",
+        "gender": "female",
+        "name": "Tóc Dài",
+        "note": "Mái thưa rẽ giữa, hai lọn mai trùm tai rủ trước ngực, vấn nửa đầu thắt nơ lụa hồng, tóc dài tới thắt lưng"
+      },
+      {
+        "id": "bach_nguyet_tram",
+        "gender": "female",
+        "requireRealm": "truc_co_1",
+        "name": "Bạch Nguyệt Trâm",
+        "note": "Búi tóc bạc cài trâm nguyệt, tóc dài chia dải sau lưng · mở từ Trúc Cơ"
+      },
+      {
+        "id": "xich_diem_toc",
+        "gender": "female",
+        "name": "Tóc Xích Diễm",
+        "note": "Vuốt ngược búi cao, rẽ giữa, lọn xõa trùm tai phải, bím sau tai trái vắt trước vai buộc khoen bạc, hoa điền lửa giữa trán"
+      },
+      {
+        "id": "xich_diem_hong_ngoc_toc",
+        "gender": "female",
+        "name": "Tóc Xích Diễm Hồng Ngọc",
+        "note": "Tóc đỏ hồng ngọc xõa dài tới eo, mái ôm má, trâm vàng gạc hươu cài một bên kèm dây chuỗi hạt"
+      }
+    ],
+    "HAIR_COLORS": [
+      "hac",
+      "nau",
+      "lam",
+      "bach",
+      "ngan",
+      "chu",
+      "tu"
+    ],
+    "BEARDS": [
+      {
+        "id": "none",
+        "name": "Không Râu"
+      },
+      {
+        "id": "quai_non",
+        "gender": "male",
+        "name": "Râu Quai Nón",
+        "note": "Râu ôm hai bên má và viền hàm, nối thành chòm cằm gọn."
+      },
+      {
+        "id": "ria_kiem",
+        "gender": "male",
+        "name": "Ria Kiếm",
+        "note": "Hai nét ria mảnh, nhọn và hơi xếch ở khóe miệng."
+      },
+      {
+        "id": "rau_de",
+        "gender": "male",
+        "name": "Râu Dê",
+        "note": "Ria ngắn đi cùng chòm râu cằm thon, dáng mưu sĩ."
+      },
+      {
+        "id": "man_ho_tu_rau",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Râu Lão Tổ Xám Vàng",
+        "note": "Râu dày dài phủ ngực, ria nối liền và lọn xoăn mềm · mở từ Trúc Cơ"
+      },
+      {
+        "id": "dai_phu_rau",
+        "gender": "male",
+        "name": "Râu Bạc Đại Phu",
+        "note": "Ria bạc rủ hai bên, chòm râu dài quá ngực như Đại Phu"
+      },
+      {
+        "id": "nam_y_rau",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Râu Nam Y",
+        "note": "Ria mảnh, râu dê nhọn và quai hàm gọn theo cổ áo · mở từ Trúc Cơ"
+      },
+      {
+        "id": "man_ho_tu_y_rau",
+        "gender": "male",
+        "requireRealm": "truc_co_1",
+        "name": "Râu Mạn Hổ Tử",
+        "note": "Ria bạc rủ phủ môi, râu dài nhọn chữ V tới giữa ngực · mở từ Trúc Cơ"
+      },
+      {
+        "id": "tam_chom",
+        "gender": "male",
+        "name": "Tam Chòm Râu",
+        "note": "Ria mảnh, chòm cằm dài và hai lọn mai rủ — dáng đạo nhân."
+      },
+      {
+        "id": "tien_ong",
+        "gender": "male",
+        "name": "Tiên Ông Trường Tu",
+        "note": "Ria dài rủ, râu suôn tới bụng, đuôi râu lay theo bước."
+      },
+      {
+        "id": "bat_tu",
+        "gender": "male",
+        "name": "Ria Bát Tự",
+        "note": "Ria chữ Bát rủ hai khóe miệng, chòm nhỏ dưới môi — dáng mưu sĩ."
+      },
+      {
+        "id": "lang_khach",
+        "gender": "male",
+        "name": "Râu Lãng Khách",
+        "note": "Ria mỏng, quai hàm một nét và chòm cằm ngắn — kiếm khách giang hồ."
+      }
+    ],
+    "OUTFITS": [
+      "bach_y",
+      "hac_y",
+      "lam_y",
+      "tu_quang_y",
+      "thanh_y",
+      "huyet_anh_y"
+    ],
+    "EYES": [
+      "brown",
+      "blue",
+      "green",
+      "kim_dong",
+      "huyet_dong",
+      "tu_dong",
+      "bang_dong",
+      "yeu_dong",
+      "nhat_nguyet"
+    ],
+    "SHOES": [
+      {
+        "id": "ink",
+        "name": "Hài đen"
+      },
+      {
+        "id": "cloth",
+        "name": "Hài vải"
+      },
+      {
+        "id": "van_ly",
+        "name": "Vân Lý",
+        "note": "Hài vải đen đế trắng, mũi cong cuộn mây — giày đạo nhân."
+      },
+      {
+        "id": "thao_hai",
+        "name": "Thảo Hài",
+        "note": "Dép cỏ đan, quai dây chéo, lộ ngón — tán tu vân du."
+      },
+      {
+        "id": "chien_ngoa",
+        "name": "Chiến Ngoa",
+        "note": "Ủng da cao cổ, ống giáp thép, viền kim — võ tu."
+      },
+      {
+        "id": "bach_ngoc_ly",
+        "name": "Bạch Ngọc Lý",
+        "note": "Hài lụa trắng viền bạc, mũi đính ngọc bích."
+      }
+    ],
+    "ACCESSORIES": [
+      {
+        "id": "none",
+        "name": "Không"
+      }
+    ],
+    "BAGS": [
+      {
+        "id": "none",
+        "name": "Không"
+      }
+    ],
+    "HATS": [
+      {
+        "id": "none",
+        "name": "Không"
+      },
+      {
+        "id": "straw",
+        "name": "Nón lá"
+      }
+    ],
+    "SKINS": [
+      "light",
+      "tan",
+      "demon",
+      "ngoc_cot",
+      "mat_ong",
+      "dong_co",
+      "tram_huong",
+      "bang_co"
+    ],
+    "NAME_RULE": {},
+    "NAME_HINT": "3–12 ký tự, bắt đầu bằng chữ cái, chỉ gồm chữ và số (vd: hanlap123)"
+  },
+  "defaultCharacter": {
+    "name": "HanLap",
+    "gender": "male",
+    "hair": "dao_ke",
+    "hairColor": "hac",
+    "beard": "none",
+    "outfit": "bach_y",
+    "eyeColor": "brown",
+    "shoes": "ink",
+    "accessory": "none",
+    "hat": "none",
+    "bag": "none",
+    "skin": "light",
+    "aura": "none",
+    "weapon": "none",
+    "realm": "Phàm Nhân"
+  },
+  "backgroundAuras": {
+    "qi_ring": {
+      "fps": 8,
+      "alpha": 0.39,
+      "alphaTheoKy": [
+        [
+          "truc_co_3",
+          1
+        ],
+        [
+          "truc_co_2",
+          0.7
+        ]
+      ],
+      "variants": [
+        {
+          "he": "kim",
+          "name": "Kim",
+          "mau": "#ffc040",
+          "path": "assets/sprites/aura/aura_he_kim.png",
+          "cols": 2,
+          "fw": 62,
+          "fh": 54,
+          "frames": 3
+        },
+        {
+          "he": "moc",
+          "name": "Mộc",
+          "mau": "#4cc23a",
+          "path": "assets/sprites/aura/aura_he_moc.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "thuy",
+          "name": "Thủy",
+          "mau": "#2f8cf0",
+          "path": "assets/sprites/aura/aura_he_thuy.png",
+          "cols": 2,
+          "fw": 62,
+          "fh": 54,
+          "frames": 3
+        },
+        {
+          "he": "hoa",
+          "name": "Hỏa",
+          "mau": "#ff5a1a",
+          "path": "assets/sprites/aura/aura_he_hoa.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "tho",
+          "name": "Thổ",
+          "mau": "#c8782a",
+          "path": "assets/sprites/aura/aura_he_tho.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "loi",
+          "name": "Lôi",
+          "mau": "#c8c8f4",
+          "path": "assets/sprites/aura/aura_he_loi.png",
+          "cols": 2,
+          "fw": 62,
+          "fh": 54,
+          "frames": 3
+        },
+        {
+          "he": "bang",
+          "name": "Băng",
+          "mau": "#7ee6ff",
+          "path": "assets/sprites/aura/aura_he_bang.png",
+          "cols": 2,
+          "fw": 62,
+          "fh": 54,
+          "frames": 3
+        },
+        {
+          "he": "phong",
+          "name": "Phong",
+          "mau": "#3ad8a8",
+          "path": "assets/sprites/aura/aura_he_phong.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "am",
+          "name": "Ám",
+          "mau": "#8a3ad8",
+          "path": "assets/sprites/aura/aura_he_am.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "quang",
+          "name": "Quang",
+          "mau": "#fff3a0",
+          "path": "assets/sprites/aura/aura_he_quang.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        },
+        {
+          "he": "hon",
+          "name": "Hỗn",
+          "mau": "#c9d2e8",
+          "cauVong": true,
+          "khongChia": true,
+          "path": "assets/sprites/aura/aura_he_hon.png",
+          "cols": 2,
+          "fw": 57,
+          "fh": 56,
+          "frames": 3
+        }
+      ]
+    }
+  }
+}

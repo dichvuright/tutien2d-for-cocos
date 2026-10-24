@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "36a717e6-202e-490a-8f1f-6eade8af37e7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "5c9e7": {
+      "importer": "sprite-frame",
+      "uuid": "36a717e6-202e-490a-8f1f-6eade8af37e7@5c9e7",
+      "displayName": "",
+      "id": "5c9e7",
+      "name": "npc_phu_khuan_hac_thi_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "22dbbdf6-4963-49eb-ab24-abba0e934d37@6c48a",
+        "atlasUuid": "36a717e6-202e-490a-8f1f-6eade8af37e7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06470": {
+      "importer": "sprite-frame",
+      "uuid": "36a717e6-202e-490a-8f1f-6eade8af37e7@06470",
+      "displayName": "",
+      "id": "06470",
+      "name": "npc_phu_khuan_hac_thi_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "22dbbdf6-4963-49eb-ab24-abba0e934d37@6c48a",
+        "atlasUuid": "36a717e6-202e-490a-8f1f-6eade8af37e7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_phu_khuan_hac_thi.png",
+    "format": 2,
+    "uuid": "36a717e6-202e-490a-8f1f-6eade8af37e7",
+    "textureUuid": "22dbbdf6-4963-49eb-ab24-abba0e934d37@6c48a"
+  }
+}

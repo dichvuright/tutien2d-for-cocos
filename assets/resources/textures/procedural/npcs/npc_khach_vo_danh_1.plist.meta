@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "ecda7": {
+      "importer": "sprite-frame",
+      "uuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3@ecda7",
+      "displayName": "",
+      "id": "ecda7",
+      "name": "npc_khach_vo_danh_1_00",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ac2f341d-3530-447a-b8a2-8354427b2850@6c48a",
+        "atlasUuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e55aa": {
+      "importer": "sprite-frame",
+      "uuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3@e55aa",
+      "displayName": "",
+      "id": "e55aa",
+      "name": "npc_khach_vo_danh_1_01",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 64,
+        "trimY": 0,
+        "width": 64,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ac2f341d-3530-447a-b8a2-8354427b2850@6c48a",
+        "atlasUuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "npc_khach_vo_danh_1.png",
+    "format": 2,
+    "uuid": "d30b8639-3954-4e69-a5bd-705219f6c4f3",
+    "textureUuid": "ac2f341d-3530-447a-b8a2-8354427b2850@6c48a"
+  }
+}

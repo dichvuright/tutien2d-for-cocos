@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79@6c48a",
+      "displayName": "icon_phong_song_duc",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79@f9941",
+      "displayName": "icon_phong_song_duc",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -2,
+        "offsetY": 0,
+        "trimX": 12,
+        "trimY": 0,
+        "width": 36,
+        "height": 64,
+        "rawWidth": 64,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -18,
+            -32,
+            0,
+            18,
+            -32,
+            0,
+            -18,
+            32,
+            0,
+            18,
+            32,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            12,
+            64,
+            48,
+            64,
+            12,
+            0,
+            48,
+            0
+          ],
+          "nuv": [
+            0.1875,
+            0,
+            0.75,
+            0,
+            0.1875,
+            1,
+            0.75,
+            1
+          ],
+          "minPos": [
+            -18,
+            -32,
+            0
+          ],
+          "maxPos": [
+            18,
+            32,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "3f0decc4-4bcd-40d5-8036-6fd9e7606d79@6c48a"
+  }
+}

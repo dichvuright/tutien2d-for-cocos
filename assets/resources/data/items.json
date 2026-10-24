@@ -1,0 +1,3265 @@
+{
+  "tay_ue_thao": {
+    "id": "tay_ue_thao",
+    "name": "Tẩy Uế Thảo",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm",
+    "desc": "Cỏ dại ba lá mọc nơi đất ẩm ven suối, lá xanh nhạt viền trắng. Vị đắng tính hàn, có thể rút trọc khí tích trong lục phủ ngũ tạng.",
+    "icon": "herb_tay_ue"
+  },
+  "linh_tuyen_thuy": {
+    "id": "linh_tuyen_thuy",
+    "name": "Linh Tuyền Thuỷ",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Nước lấy tận đầu nguồn nơi mạch suối chảy ra từ khe núi Tản Viên. Chưa qua đất bẩn nên còn giữ được một tia linh khí mỏng manh.",
+    "icon": "flask"
+  },
+  "tay_tuy_thang": {
+    "id": "tay_tuy_thang",
+    "name": "Tẩy Tuỷ Thang",
+    "type": "dan_duoc",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Thang thuốc sắc từ ba ngọn Tẩy Uế Thảo và một bình Linh Tuyền Thuỷ. Uống vào rồi ngâm mình nơi suối lạnh mà đả tọa, có thể tẩy tuỷ phạt mao.",
+    "icon": "bowl"
+  },
+  "dan_khi_dan": {
+    "id": "dan_khi_dan",
+    "name": "Dẫn Khí Đan",
+    "type": "dan_duoc",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Viên đan nhỏ bằng hạt nhãn luyện từ hai ngọn Tẩy Uế Thảo và một bình Linh Tuyền Thuỷ. Uống vào lúc Đạo Hạnh viên mãn thì linh khí trong đan điền dồn một hơi, giúp phá quan lên tầng kế — ngoài lúc ấy ra thì chẳng khác gì một viên thuốc bổ thường.",
+    "icon": "pill"
+  },
+  "mang_truc": {
+    "id": "mang_truc",
+    "name": "Măng Trúc Xanh",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm",
+    "desc": "Măng non mới nhú trong Rừng Trúc, hấp thu tinh hoa đất ẩm rừng sâu. Giòn ngọt thanh khiết, ăn vào khoan khoái tinh thần.",
+    "icon": "shoot"
+  },
+  "nam_linh_chi": {
+    "id": "nam_linh_chi",
+    "name": "Nấm Linh Chi Núi",
+    "type": "nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Tai nấm đỏ sẫm mọc trong khe đá ẩm dưới chân núi Tản Viên. Đại Phu cần phần bào tử còn nguyên để ủ đất và nhân lại hạt giống linh thảo.",
+    "icon": "fungus_tu_van"
+  },
+  "truc_tam": {
+    "id": "truc_tam",
+    "name": "Trúc Tâm",
+    "type": "nhiem_vu",
+    "grade": "Phàm phẩm",
+    "desc": "Phần lõi non lấy từ thân Trúc Già có vết sơn đỏ trong Rừng Trúc. Chẻ mỏng, đốt thành tro rồi trộn đất sẽ giúp hạt linh thảo nảy mầm đều hơn.",
+    "icon": "bamboo_core"
+  },
+  "canh_kho": {
+    "id": "canh_kho",
+    "name": "Cành Khô",
+    "type": "nhiem_vu",
+    "grade": "Phàm phẩm",
+    "desc": "Cành gãy rụng dưới gốc Cổ Thụ Linh Mộc ở Thảo Dược Cốc. Gỗ khô đanh mà vẫn ngậm linh khí ngàn năm: Đại Phu đóng giàn phơi thì thuốc không ẩm, đóng hộp thì dược tính giữ được lâu, chỗ thừa chẻ ra nhóm lò luyện dược.",
+    "icon": "root_dia_linh"
+  },
+  "ca_song": {
+    "id": "ca_song",
+    "name": "Cá Sông",
+    "type": "thuc_an_linh_thu",
+    "grade": "Phàm phẩm",
+    "desc": "Cá tươi câu ở ao hồ và sông suối. Thịt dùng nuôi linh thú, xương và mật cá cũng là những vị thuốc dân gian Đại Phu thường gom dùng.",
+    "icon": "fish"
+  },
+  "linh_ngu": {
+    "id": "linh_ngu",
+    "name": "Linh Ngư",
+    "type": "duoc_lieu",
+    "grade": "Linh phẩm",
+    "desc": "Con cá hiếm hấp thu linh khí lâu ngày, vảy ánh xanh ngọc và còn toả hơi mát. Dược tính tốt hơn cá thường, có thể làm thức ăn bồi bổ cho linh thú.",
+    "icon": "spirit_fish"
+  },
+  "truc_diep_boi": {
+    "id": "truc_diep_boi",
+    "name": "Trúc Diệp Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Phàm phẩm",
+    "spBonus": 6,
+    "bpBonus": 4,
+    "desc": "Mề đay khắc hình lá trúc, Huấn Sư Huynh tặng để ghi nhận công diệt trừ Bọ Ngựa và Sơn Chuột quấy phá rừng trúc.",
+    "icon": "leaf_token"
+  },
+  "tu_linh_ngoc_boi": {
+    "id": "tu_linh_ngoc_boi",
+    "name": "Tụ Linh Ngọc Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "spBonus": 4,
+    "mpBonus": 12,
+    "desc": "Ngọc bội xanh nhạt giữ một tia linh khí thanh khiết. Đeo vào tăng 4 Thần Thức và 12 Linh Lực; vừa sức với tu sĩ mới nhập Luyện Khí.",
+    "icon": "phap_boi_tu_linh"
+  },
+  "ngung_than_boi": {
+    "id": "ngung_than_boi",
+    "name": "Ngưng Thần Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_5",
+    "spBonus": 14,
+    "mpBonus": 8,
+    "desc": "Bội ngọc khắc tụ thần văn, giúp thần niệm vững hơn khi ngự pháp. Đeo vào tăng 14 Thần Thức và 8 Linh Lực. Cần đạt Luyện Khí Tầng 5 mới phát huy được.",
+    "icon": "phap_boi_ngung_than"
+  },
+  "tu_tinh_duong_than_boi": {
+    "id": "tu_tinh_duong_than_boi",
+    "name": "Tử Tinh Dưỡng Thần Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "spBonus": 20,
+    "mpBonus": 16,
+    "spRegen": 1,
+    "desc": "Tử tinh luyện cùng linh ngọc, tĩnh dưỡng thần niệm không ngừng. Đeo vào tăng 20 Thần Thức, 16 Linh Lực và hồi 1 Thần Thức mỗi giây. Cần đạt Trúc Cơ Sơ Kỳ.",
+    "icon": "phap_boi_tu_tinh"
+  },
+  "lang_hon_duong_than_boi": {
+    "id": "lang_hon_duong_than_boi",
+    "name": "Lãng Hồn Dưỡng Thần Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Địa phẩm trung",
+    "requireRealm": "truc_co_1",
+    "spBonus": 24,
+    "mpBonus": 20,
+    "spRegen": 1,
+    "mpRegen": 1,
+    "desc": "Ngọc hồn lấy từ tế đàn Yên Lãng, luyện cùng lam tinh, dưỡng thần niệm và linh mạch không ngừng. Đeo vào tăng 24 Thần Thức, 20 Linh Lực, hồi 1 Thần Thức và 1 Linh Lực mỗi giây. Cần đạt Trúc Cơ Sơ Kỳ.",
+    "icon": "phap_boi_lang_hon"
+  },
+  "truc_kiem": {
+    "id": "truc_kiem",
+    "name": "Trúc Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 1,
+    "attackTime": 0.8,
+    "desc": "Thanh kiếm vót từ lóng trúc già ngàn năm trong Rừng Trúc, tuy thô sơ nhưng sắc bén hơn hẳn quyền cước tay không. Mang theo bên mình, đòn đánh thường nặng tay hơn hẳn.",
+    "icon": "bamboo_sword"
+  },
+  "truc_con": {
+    "id": "truc_con",
+    "name": "Trúc Côn",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 2,
+    "reachBonus": 34,
+    "attackTime": 0.8,
+    "desc": "Cây côn cận chiến ghép từ lóng trúc già, đầu côn rỗng và được buộc chắc bằng dây mây. Tầm đánh 60px, nhịp như Trúc Kiếm. Công +2.",
+    "icon": "truc_con"
+  },
+  "luc_tinh_kiem": {
+    "id": "luc_tinh_kiem",
+    "name": "Lục Tinh Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 10,
+    "requireRealm": "truc_co_1",
+    "reachBonus": 64,
+    "attackTime": 0.96,
+    "desc": "Kiếm lục ngọc cầm tay phải, chém thẳng theo hướng đang đối mặt. Tầm đánh 90px; rèn tại Thợ Rèn bằng 100 Lục Tinh Thạch.",
+    "icon": "luc_tinh_kiem"
+  },
+  "thanh_huyen_kiem": {
+    "id": "thanh_huyen_kiem",
+    "name": "Thanh Huyền Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_10",
+    "atkBonus": 5,
+    "reachBonus": 104,
+    "attackOrigin": 0,
+    "attackTime": 0.95,
+    "hitAt": 0.35,
+    "desc": "Kiếm thép lam trắng, vỏ xanh đen nẹp vàng, ôm ngang trước ngực. Rút kiếm chém ra kiếm quang phía trước, trúng một mục tiêu. Công +5, tầm chém 130px, nhịp 0,95 giây/đòn. Cần Luyện Khí Tầng 10.",
+    "icon": "thanh_huyen_kiem"
+  },
+  "quat_phong": {
+    "id": "quat_phong",
+    "name": "Phong Vân Linh Phiến",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 5,
+    "requireRealm": "luyen_khi_10",
+    "reachBonus": 73,
+    "attackTime": 0.9,
+    "hitAt": 0.48,
+    "attackVfx": "phong_doc",
+    "poison": {
+      "chance": 0.03,
+      "time": 3,
+      "dps": 1
+    },
+    "desc": "Linh phiến mở ra gọi gió độc, quạt một đường ngang trước mặt. Công +5, tầm đánh 99px, nhịp đánh 0,9 giây mỗi đòn; 3% đòn trúng gây độc 3 giây.",
+    "icon": "phong_van_linh_phien"
+  },
+  "cung_linh": {
+    "id": "cung_linh",
+    "name": "Linh Cung",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 8,
+    "requireRealm": "truc_co_1",
+    "projectile": "bow_arrow",
+    "reachBonus": 154,
+    "attackTime": 0.78,
+    "hitAt": 0.42,
+    "releaseAt": 0.24,
+    "desc": "Cây cung linh mộc nhỏ gọn, đeo chéo sau lưng. Khi kéo dây, linh lực kết thành mũi tên rồi bắn thẳng tới mục tiêu. Công +8.",
+    "icon": "bow"
+  },
+  "huyet_ma_liem": {
+    "id": "huyet_ma_liem",
+    "name": "Huyết Ma Liêm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm trung",
+    "atkBonus": 11,
+    "requireRealm": "truc_co_1",
+    "reachBonus": 74,
+    "attackTime": 1,
+    "hitAt": 0.5,
+    "lifesteal": {
+      "pct": 0.02,
+      "pvp": 0.6
+    },
+    "desc": "Lưỡi hái đỏ máu, cán xương đen mọc gai, tôi trong một giọt Yêu Huyết Cấp 3. Quét tới 100px, mỗi nhát chém trúng lưỡi liêm lại hút huyết khí đối phương về nuôi chủ nhân: hồi 2% Khí Huyết tối đa (đánh người còn 60%). Công +11.",
+    "icon": "huyet_ma_liem"
+  },
+  "huyet_ma_phu": {
+    "id": "huyet_ma_phu",
+    "name": "Huyết Ma Phủ",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 15,
+    "requireRealm": "truc_co_1",
+    "flying": true,
+    "reachBonus": 154,
+    "attackTime": 1.25,
+    "hitAt": 0.46,
+    "lifesteal": {
+      "pct": 0.01,
+      "pvp": 0.6
+    },
+    "desc": "Rìu ba mũi cán gỗ đen, rắn lục quấn giữa đầu rìu, tôi trong Yêu Huyết Cấp 3. Rời tay xoay lao tới bổ một mục tiêu trong 180px, mỗi nhát trúng hồi 1% Khí Huyết tối đa (đánh người còn 60%). Công +15, 1,25 giây/đòn.",
+    "icon": "huyet_ma_phu"
+  },
+  "ma_tri_mac": {
+    "id": "ma_tri_mac",
+    "name": "Mã Tri Mặc",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 10,
+    "requireRealm": "truc_co_1",
+    "requireDao": "chinh",
+    "reachBonus": 110,
+    "attackTime": 0.9,
+    "hitAt": 0.6,
+    "desc": "Bút lông cán bạch ngọc, búi lông đen nhọn. Mỗi đòn phóng một nét mực đi xa 136px. Công +10, 0,9 giây/đòn. Chỉ Chính Đạo đeo được.",
+    "icon": "ma_tri_mac"
+  },
+  "tu_van_phien": {
+    "id": "tu_van_phien",
+    "name": "Tử Vân Phiên",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 11,
+    "requireRealm": "truc_co_1",
+    "requireDao": "ma",
+    "reachBonus": 120,
+    "attackTime": 1,
+    "hitAt": 0.6,
+    "desc": "Cờ huyền thiết treo lụa tím. Mỗi đòn phả một làn ma khí tím ra xa 146px. Công +11, 1 giây/đòn. Chỉ Ma Đạo đeo được.",
+    "icon": "tu_van_phien"
+  },
+  "hac_vu_ma_phien": {
+    "id": "hac_vu_ma_phien",
+    "name": "Hắc Vũ Ma Phiến",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 14,
+    "requireRealm": "truc_co_2",
+    "requireDao": "ma",
+    "reachBonus": 124,
+    "attackTime": 0.9,
+    "hitAt": 0.7,
+    "desc": "Quạt lông vũ đen khảm vàng. Mỗi đòn phóng một ma trảo xé tới mục tiêu trong 150px. Công +14, 0,9 giây/đòn. Chỉ Ma Đạo đeo được.",
+    "icon": "hac_vu_ma_phien"
+  },
+  "thanh_tieu_ngoc_cam": {
+    "id": "thanh_tieu_ngoc_cam",
+    "name": "Thanh Tiêu Ngọc Cầm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 14,
+    "requireRealm": "truc_co_2",
+    "requireDao": "chinh",
+    "reachBonus": 124,
+    "attackTime": 0.9,
+    "hitAt": 0.78,
+    "desc": "Đàn tranh ngọc xanh dây vàng. Mỗi đòn gảy một lưỡi sóng ngọc bay tới mục tiêu trong 150px. Công +14, 0,9 giây/đòn. Chỉ Chính Đạo đeo được.",
+    "icon": "thanh_tieu_ngoc_cam"
+  },
+  "thiet_kiem": {
+    "id": "thiet_kiem",
+    "name": "Thiết Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 2,
+    "requireRealm": "luyen_khi_4",
+    "flying": true,
+    "reachBonus": 86,
+    "attackTime": 0.75,
+    "hitAt": 0.35,
+    "desc": "Lưỡi kiếm thẳng rèn từ một phôi Huyền Thiết. Đủ nhẹ để rời tay mà vẫn nghe theo thần thức: nó lơ lửng bên người, đến lúc ra đòn thì tự lao đi chém rồi quay về chỗ cũ. Mỗi nhát mỏng hơn đao và thương, bù lại ra đòn nhanh nhất trong ba món lò rèn.",
+    "icon": "iron_sword"
+  },
+  "bang_linh_kiem": {
+    "id": "bang_linh_kiem",
+    "name": "Băng Linh Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm trung",
+    "damage": 11,
+    "requireRealm": "truc_co_2",
+    "flying": true,
+    "reachBonus": 86,
+    "attackTime": 0.75,
+    "hitAt": 0.35,
+    "desc": "Linh kiếm xanh băng kết từ hàn khí. Rời tay lao đi chém như Thiết Kiếm, mỗi nhát gây 11 sát thương cộng sát thương gốc theo tu vi, tốc độ 0,75 giây một đòn. Cần đạt Trúc Cơ Trung Kỳ.",
+    "icon": "bang_linh_kiem"
+  },
+  "huyet_kiem": {
+    "id": "huyet_kiem",
+    "name": "Huyết Kiếm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm trung",
+    "atkBonus": 14,
+    "requireRealm": "truc_co_2",
+    "flying": true,
+    "reachBonus": 92,
+    "attackTime": 0.9,
+    "hitAt": 0.43,
+    "desc": "Thanh kiếm nhuộm đỏ bằng linh huyết, sống kiếm tối như sắt nguội nhưng lưỡi sáng lên từng nhịp. Khi ra đòn, Huyết Kiếm dựng trên đầu mục tiêu rồi giáng xuống trong một đường thẳng cực nhanh. Công +14.",
+    "icon": "huyet_kiem"
+  },
+  "bich_nguc_ta_dao": {
+    "id": "bich_nguc_ta_dao",
+    "name": "Bích Ngục Tà Đao",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 14,
+    "requireRealm": "truc_co_2",
+    "flying": true,
+    "reachBonus": 92,
+    "attackTime": 0.9,
+    "hitAt": 0.43,
+    "desc": "Tà đao rèn từ bích ngọc dưới đáy U Ngục, ma khí xanh lục quấn thân không tắt. Đao lơ lửng bên người; khi ra đòn, nó dựng trên đầu mục tiêu rồi cắm thẳng xuống, nổ một vầng ma khí lục dưới chân địch. Công +14.",
+    "icon": "bich_nguc_ta_dao"
+  },
+  "thiet_dao": {
+    "id": "thiet_dao",
+    "name": "Thiết Đao",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 5,
+    "requireRealm": "luyen_khi_4",
+    "flying": true,
+    "reachBonus": 70,
+    "attackTime": 1.25,
+    "hitAt": 0.47,
+    "desc": "Sống đao dày, lưỡi ưỡn về trước. Rời tay thì nó không lượn như kiếm mà dựng ngược lên quá đầu con mồi rồi bổ thẳng xuống, cả sức nặng thân đao dồn vào một điểm — đất dưới chỗ ấy nảy lên một cái. Với ngắn nhất và ra đòn chậm nhất trong ba món lò rèn, bù lại mỗi phát đều nặng tay và nghe được.",
+    "icon": "iron_saber"
+  },
+  "thiet_thuong": {
+    "id": "thiet_thuong",
+    "name": "Thiết Thương",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Phàm phẩm thượng",
+    "atkBonus": 4,
+    "requireRealm": "luyen_khi_4",
+    "flying": true,
+    "reachBonus": 104,
+    "attackTime": 1,
+    "hitAt": 0.32,
+    "desc": "Mũi giáo Huyền Thiết tra vào cán gỗ dài quá đầu người. Với xa nhất trong ba món lò rèn làm được: rời tay là nó phóng đi đâm một phát xuyên qua, rút ra rồi lập tức quật cả thân thương xuống — đòn sau đè lên đòn trước khi con mồi còn chưa kịp lùi. Nhịp đứng giữa kiếm và đao, sức mạnh ngang cả hai — chỉ có tầm với là hơn hẳn.",
+    "icon": "iron_spear"
+  },
+  "thiet_cot_nha_no": {
+    "id": "thiet_cot_nha_no",
+    "name": "Thiết Cốt Nha Nỏ",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 3,
+    "requireRealm": "luyen_khi_10",
+    "projectile": "bone_bolt",
+    "reachBonus": 174,
+    "attackTime": 0.68,
+    "hitAt": 0.34,
+    "releaseAt": 0.16,
+    "desc": "Cánh nỏ và dây giật tôi trong Độc Dịch nên dẻo dai; bệ phóng cùng đầu yêu tiễn được bọc Yêu Cốt còn vương tà khí. Pháp văn chính đạo khóa yêu lực vào một đường tên thẳng, cho phép tu sĩ Luyện Khí ám kích từ xa với nhịp bắn nhanh. Công +3.",
+    "icon": "bone_crossbow"
+  },
+  "luc_doc_cham": {
+    "id": "luc_doc_cham",
+    "name": "Lục Độc Châm",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 4,
+    "requireRealm": "luyen_khi_10",
+    "projectile": "poison_needles",
+    "reachBonus": 194,
+    "attackTime": 0.9,
+    "hitAt": 0.62,
+    "desc": "Ba mũi Huyền Thiết tôi bằng Độc Dịch, gắn trong một pháp khí dẫn đường. Khi phát động, ba kim lần lượt tách khỏi tay theo ba góc cố định, tự bám cùng một mục tiêu rồi kéo thẳng quỹ đạo để cắm vào huyệt đạo. Công +4.",
+    "icon": "poison_needle"
+  },
+  "phi_dao": {
+    "id": "phi_dao",
+    "name": "Phi Đao Trúc Cơ",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 10,
+    "requireRealm": "truc_co_1",
+    "flying": true,
+    "projectile": "phi_dao",
+    "reachBonus": 220,
+    "attackTime": 0.9,
+    "hitAt": 0.32,
+    "wound": {
+      "time": 5,
+      "dps": 2,
+      "heal": 0.5
+    },
+    "desc": "Phi đao linh lực hiện ra quanh thân rồi lần lượt cắm thẳng vào mục tiêu. Công +10, 0,9 giây/đòn, gây Thâm Thương 5 giây (rỉ 2 sát thương/giây và giảm hồi Khí Huyết còn 50%).",
+    "icon": "phi_dao"
+  },
+  "sao_ngoc_luu": {
+    "id": "sao_ngoc_luu",
+    "name": "Ngọc Lưu Tiêu",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 15,
+    "requireRealm": "truc_co_1",
+    "reachBonus": 214,
+    "attackTime": 1.1,
+    "hitAt": 0.55,
+    "desc": "Sáo ngọc dài khắc vân lưu, nâng bằng hai tay lên đúng miệng rồi thổi ra một đường âm ba. Công +15, tầm âm 240px, nhịp thổi 1,10 giây.",
+    "icon": "sao_ngoc_luu"
+  },
+  "truc_tieu": {
+    "id": "truc_tieu",
+    "name": "Trúc Tiêu",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 5,
+    "requireRealm": "luyen_khi_10",
+    "reachBonus": 164,
+    "attackTime": 0.9,
+    "hitAt": 0.55,
+    "desc": "Ống tiêu trúc vàng nhạt có lỗ bấm, đai lam và tua đỏ. Nâng bằng hai tay lên miệng để thổi âm ba. Công +5, tầm âm 190px, nhịp thổi 0,9 giây.",
+    "icon": "truc_tieu"
+  },
+  "xich_viem_song_kich": {
+    "id": "xich_viem_song_kich",
+    "name": "Xích Viêm Song Kích",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 4,
+    "requireRealm": "luyen_khi_10",
+    "reachBonus": 74,
+    "attackTime": 0.625,
+    "hitAt": 0.42,
+    "desc": "Cặp kích cán đen dài, đốc vàng nạm ngọc cam, lưỡi đen viền đỏ. Mỗi tay một cây, chém liên tục. Công +4, tầm 100px, 1,6 đòn/giây.",
+    "xuyenKich": {
+      "mult": 3,
+      "dash": 0.2,
+      "over": 70,
+      "width": 32,
+      "max": 5,
+      "nghi": 3,
+      "wound": {
+        "time": 5,
+        "dps": 2,
+        "heal": 0.5
+      }
+    },
+    "icon": "xich_viem_song_kich"
+  },
+  "bach_loi_tien": {
+    "id": "bach_loi_tien",
+    "name": "Bạch Lôi Tiên",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm trung",
+    "atkBonus": 12,
+    "requireRealm": "truc_co_1",
+    "reachBonus": 114,
+    "attackTime": 1.1,
+    "hitAt": 0.38,
+    "roi": true,
+    "thunder": {
+      "chance": 0.3,
+      "mult": 0.45
+    },
+    "desc": "Roi bện sợi trắng, cán bạc khảm lam ngọc. Vụt ra thì sét quấn quanh thân roi; mỗi nhát trúng có 30% gọi một tia sét giáng thêm 45% sát thương vào mục tiêu. Công +12, tầm đánh 140px, nhịp 1,1 giây.",
+    "icon": "bach_loi_tien"
+  },
+  "nhuyen_tien": {
+    "id": "nhuyen_tien",
+    "name": "Nhuyễn Tiên",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm hạ",
+    "atkBonus": 4,
+    "requireRealm": "luyen_khi_10",
+    "reachBonus": 114,
+    "attackTime": 0.8,
+    "hitAt": 0.38,
+    "roi": true,
+    "desc": "Dải lụa đỏ thắm do linh lực ngưng tụ, mềm như tơ mà quật nặng như thừng. Công +4, tầm đánh 140px, nhịp 0,8 giây.",
+    "icon": "nhuyen_tien"
+  },
+  "truc_co_dan": {
+    "id": "truc_co_dan",
+    "name": "Trúc Cơ Đan",
+    "type": "dan_duoc",
+    "grade": "Linh phẩm",
+    "desc": "Đột phá Luyện Khí tầng 13 viên mãn lên Trúc Cơ: 70%. Kèm 5 Bảo Mệnh Phù: 100%. Vô địch Đại Hội được thưởng, hoặc luyện tại Đan Lô trong làng.",
+    "icon": "pill_gold"
+  },
+  "thang_tien_lenh": {
+    "id": "thang_tien_lenh",
+    "name": "Thăng Tiên Lệnh",
+    "type": "vat_pham",
+    "grade": "Địa phẩm",
+    "desc": "Tấm lệnh bài khắc hai chữ triện đã mờ, mặt sau là một vết nứt không ai vá. Người cầm nó là người đứng đầu một kỳ Đại Hội Tu Tiên — không cho thêm một điểm linh lực nào, nhưng ai trong giới cũng biết nó nghĩa là gì.",
+    "icon": "leaf_token"
+  },
+  "tui_can_khon": {
+    "id": "tui_can_khon",
+    "name": "Túi Càn Khôn",
+    "type": "vat_pham",
+    "grade": "Linh phẩm",
+    "moTui": 5,
+    "desc": "Túi vải thêu trận Càn Khôn. Dùng để mở thêm 5 ô túi đồ.",
+    "icon": "tui_can_khon"
+  },
+  "hop_van_bao": {
+    "id": "hop_van_bao",
+    "name": "Hộp Vạn Bảo",
+    "type": "vat_pham",
+    "grade": "Địa phẩm thượng",
+    "desc": "Chiếc hộp gỗ sơn son, nắp khoá đồng, Vạn Bảo Phường gửi tặng. Mở ra nhận ngẫu nhiên một bộ y bào, một vũ khí Trúc Cơ Sơ Kỳ và một vũ khí Luyện Khí tầng 10 — đều là món khoá.",
+    "icon": "hop_van_bao"
+  },
+  "hop_qua_tan_thu": {
+    "id": "hop_qua_tan_thu",
+    "name": "Hộp Quà Tân Thủ",
+    "type": "vat_pham",
+    "grade": "Địa phẩm",
+    "khoaSan": true,
+    "desc": "Hộp lụa đỏ thắt nơ vàng. Mở ra ngẫu nhiên một món quà tân thủ.",
+    "icon": "hop_qua_tan_thu"
+  },
+  "ruong_khoi_loi": {
+    "id": "ruong_khoi_loi",
+    "name": "Rương Khôi Lỗi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm thượng",
+    "desc": "Rương gỗ đen bọc đồng. Mở ra ngẫu nhiên một trong sáu: ba khôi lỗi (Chính Đạo điều khiển) hoặc ba Thi Khôi (Ma Đạo điều khiển). Bán được ở chợ.",
+    "moNhan": "Mở Rương",
+    "icon": "ruong_khoi_loi"
+  },
+  "ruong_phi_hanh": {
+    "id": "ruong_phi_hanh",
+    "name": "Rương Phi Hành",
+    "type": "vat_pham",
+    "grade": "Linh phẩm thượng",
+    "desc": "Rương sơn son viền vàng, nắp khắc đôi cánh. Mở ra một pháp khí phi hành: Kim Phi Kiếm, Thảm Thần hoặc Huyết Nguyệt Ưng — ưu tiên món chưa có. Bán được ở chợ.",
+    "moNhan": "Mở Rương",
+    "icon": "ruong_phi_hanh"
+  },
+  "tong_mon_lenh": {
+    "id": "tong_mon_lenh",
+    "name": "Tông Môn Lệnh",
+    "type": "vat_pham",
+    "grade": "Địa phẩm",
+    "desc": "Phiến ngọc bài màu xanh sẫm, giữa mặt khắc một chữ \"Tông\" theo lối triện, viền ngoài chạy một vòng vân mây. Tu tiên giới lấy nó làm bằng: ai trình được tấm lệnh này trước Thái Hư các mới được phép dựng cờ mở tông, dù là chính đạo hay ma đạo.",
+    "icon": "tong_mon_lenh"
+  },
+  "hu_khong_lenh": {
+    "id": "hu_khong_lenh",
+    "name": "Hư Không Lệnh",
+    "type": "vat_pham",
+    "grade": "Linh phẩm",
+    "desc": "Phiến đá đen nứt một đường tím. Cầm nó mới bước vào được Vết Nứt Không Gian.",
+    "icon": "hu_khong_lenh"
+  },
+  "hoa_kim_thuong": {
+    "id": "hoa_kim_thuong",
+    "name": "Hoả Kim Thương",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Địa phẩm",
+    "atkBonus": 13,
+    "requireRealm": "truc_co_2",
+    "flying": true,
+    "reachBonus": 104,
+    "attackTime": 1,
+    "hitAt": 0.32,
+    "burn": {
+      "time": 3,
+      "dps": 4
+    },
+    "desc": "Mũi thương kim hoả rèn từ vảy Xích Long, cán huyền thiết quấn chỉ vàng, cực hiếm rơi từ Sỹ Sách Đỉnh. Rời tay đâm xuyên rồi quật xuống; mỗi nhát trúng để lại hoả độc thiêu đốt 3 giây. Cầm nó là lĩnh hội được Kim Thương Giáng Thế. Công +13, cần Trúc Cơ Trung Kỳ.",
+    "icon": "hoa_kim_thuong"
+  },
+  "hoang_loi_thuong": {
+    "id": "hoang_loi_thuong",
+    "name": "Hoàng Lôi Thương",
+    "type": "vu_khi",
+    "slot": "vu_khi",
+    "grade": "Linh phẩm thượng",
+    "atkBonus": 13,
+    "requireRealm": "truc_co_2",
+    "flying": true,
+    "reachBonus": 104,
+    "attackTime": 1,
+    "hitAt": 0.32,
+    "thunder": {
+      "chance": 0.3,
+      "mult": 0.5
+    },
+    "desc": "Thương đầu vàng cán bạc, lụa đỏ buộc dưới hộ thủ, lưỡi khắc tia lôi. Rời tay đâm xuyên rồi quật xuống; mỗi nhát trúng có 30% gọi một tia sét giáng thêm 50% sát thương. Mang theo nó thì Lôi Thương Quán Địa và Ngũ Lôi Thương Vũ nhận đủ sát thương. Công +13.",
+    "icon": "hoang_loi_thuong"
+  },
+  "bat_com_linh_me": {
+    "id": "bat_com_linh_me",
+    "name": "Bát Cơm Linh Mễ",
+    "type": "thuc_pham",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Cơm nấu từ hạt lúa trồng ở linh điền, tích tụ linh khí phàm giới. Giúp tu sĩ mới nhập môn ấm bụng, gột rửa bớt bụi phàm.",
+    "food": {
+      "hours": 36,
+      "hpPct": 1,
+      "mp": 5,
+      "sp": 1,
+      "bp": 1
+    },
+    "icon": "com_bowl"
+  },
+  "dan_ngu_hanh": {
+    "id": "dan_ngu_hanh",
+    "name": "Đan Ngũ Hành",
+    "type": "thuc_pham",
+    "grade": "Địa phẩm thượng",
+    "desc": "Viên đan luyện từ Ngũ Hành Thảo, dược lực vận chuyển cân bằng qua cả năm mạch. Ăn như Cơm Linh Mễ: hiệu lực 72 giờ, hồi Khí Huyết và Giáp gấp 1,5 lần, hồi Linh Lực và Thần Thức gấp đôi; chỉ người từ Trúc Cơ sơ kỳ trở lên mới chịu nổi dược lực.",
+    "food": {
+      "hours": 72,
+      "hpPct": 1.5,
+      "mp": 10,
+      "sp": 2,
+      "bp": 1.5,
+      "minRealm": "truc_co_1"
+    },
+    "icon": "dan_ngu_hanh"
+  },
+  "linh_ke_can": {
+    "id": "linh_ke_can",
+    "name": "Linh Kê Can",
+    "type": "thuc_pham",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Thịt gà linh khô xé sợi, dai thơm, ngấm khí núi Yên Lãng. Ăn như Cơm Linh Mễ: hiệu lực 36 giờ, hồi nhỉnh hơn cơm một chút.",
+    "food": {
+      "hours": 36,
+      "hpPct": 1.2,
+      "mp": 6,
+      "sp": 1,
+      "bp": 1.2
+    },
+    "icon": "linh_ke_can"
+  },
+  "phu_thanh_tam": {
+    "id": "phu_thanh_tam",
+    "name": "Thanh Tâm Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "thanh_tam",
+    "desc": "Giấy vàng vẽ một vòng chu sa khép kín. Đốt lên thì tâm phiền lắng xuống, linh khí tản mát trong kinh mạch tự tụ về đan điền.",
+    "icon": "phu_thanh_tam"
+  },
+  "phu_kim_giap": {
+    "id": "phu_kim_giap",
+    "name": "Kim Giáp Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "kim_giap",
+    "desc": "Nét bùa vẽ bằng mạt vàng, dán lên ngực thì một lớp giáp mỏng ánh kim hiện quanh người. Giáp ấy chịu đòn thay da thịt, nhưng mỏng và chóng tan — đủ đỡ một đợt, không đủ đứng yên chịu trận.",
+    "icon": "phu_kim_giap"
+  },
+  "phu_toc_hanh": {
+    "id": "phu_toc_hanh",
+    "name": "Tốc Hành Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "toc_hanh",
+    "desc": "Bùa vẽ ba nét gió chồng lên nhau. Dán vào ống chân thì bước chân nhẹ bẫng, chạy đường núi như đi trên chiếu.",
+    "icon": "phu_toc_hanh"
+  },
+  "phu_han_bang": {
+    "id": "phu_han_bang",
+    "name": "Hàn Băng Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "han_bang",
+    "desc": "Giấy lạnh như vừa lấy ra khỏi khe băng, nét bùa xanh nhạt. Ném ra thì hàn khí bám lấy kẻ trúng, máu chậm lại mà chân cũng nặng theo.",
+    "icon": "phu_han_bang"
+  },
+  "phu_loi_dong": {
+    "id": "phu_loi_dong",
+    "name": "Lôi Động Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "loi_dong",
+    "desc": "Nét bùa gãy khúc như tia chớp. Chỉ vào chỗ nào thì trong chớp mắt một tia sét giáng xuống đúng chỗ ấy — chỉ chỗ ấy, nên kẻ nhanh chân vẫn kịp bước sang một bên.",
+    "icon": "phu_loi_dong"
+  },
+  "phu_hoa": {
+    "id": "phu_hoa",
+    "name": "Hoả Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "hoa_phu",
+    "desc": "Chu sa trộn lưu hoàng, chạm tay vào còn thấy ấm. Buông ra thì một quả lửa bay thẳng về phía trước, chạm phải vật gì mới nổ.",
+    "icon": "phu_hoa"
+  },
+  "phu_tho_don": {
+    "id": "phu_tho_don",
+    "name": "Thổ Độn Phù",
+    "type": "phu_chu",
+    "grade": "Phàm phẩm thượng",
+    "talismanId": "tho_don",
+    "desc": "Bùa vẽ trên giấy trộn đất vàng. Dùng thì người chìm xuống đất một thoáng rồi nhô lên ở phía trước, xa tới 128 bước — nhưng đất cũng có chỗ không đi qua được: gặp vách đá thì trồi lên ngay trước nó. Đang ngự kiếm cũng dùng được, lướt vút đi trên không.",
+    "icon": "phu_tho_don"
+  },
+  "phu_kim_o": {
+    "id": "phu_kim_o",
+    "name": "Kim Ô Phù",
+    "type": "phu_chu",
+    "grade": "Địa phẩm hạ",
+    "talismanId": "kim_o",
+    "desc": "Lá bùa thếp vàng vẽ bằng máu Kim Ô, sờ vào còn nóng rát tay. Buông ra thì trận pháp dưới chân tụ lửa, một con Kim Ô lao vút về phía trước 300 bước, thiêu cháy mọi kẻ trên đường nó bay qua.",
+    "icon": "phu_kim_o"
+  },
+  "phu_kim_long": {
+    "id": "phu_kim_long",
+    "name": "Kim Long Phù",
+    "type": "phu_chu",
+    "grade": "Địa phẩm hạ",
+    "talismanId": "kim_long",
+    "desc": "Lá bùa thếp vàng vẽ hình rồng cuộn. Buông ra thì Kim Long quấn quanh thân, đỡ đòn thay chủ và tự vá giáp trong chốc lát.",
+    "icon": "phu_kim_long"
+  },
+  "tran_ban_liet_hoa": {
+    "id": "tran_ban_liet_hoa",
+    "name": "Liệt Hỏa Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Linh phẩm",
+    "requireRealm": "truc_co_1",
+    "formationId": "liet_hoa",
+    "desc": "Bàn đá khắc hỏa văn dùng để dựng Liệt Hỏa Trận. Gán vào một ô H J K L, giữ ô rồi kéo ra bản đồ, nhả tay là trận thành. Bàn dùng lại mãi, không mất khi dựng; Linh Thạch dựng và duy trì lấy từ hầu bao.",
+    "icon": "formation_board_fire"
+  },
+  "tran_ban_tu_linh": {
+    "id": "tran_ban_tu_linh",
+    "name": "Tụ Linh Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Linh phẩm",
+    "requireRealm": "truc_co_1",
+    "formationId": "tu_linh",
+    "desc": "Bàn đá khắc linh văn dùng để dựng Tụ Linh Trận. Gán vào một ô H J K L, chạm là trận dựng ngay dưới chân. Bàn dùng lại mãi, không mất khi dựng; Linh Thạch dựng và duy trì lấy từ hầu bao.",
+    "icon": "formation_board_spirit"
+  },
+  "tran_ban_loan_loi_hoa": {
+    "id": "tran_ban_loan_loi_hoa",
+    "name": "Loạn Lôi Hỏa Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Địa phẩm",
+    "requireRealm": "truc_co_1",
+    "formationId": "loan_loi_hoa",
+    "desc": "Bàn đá lục giác khảm lôi văn và hỏa văn chồng lên nhau. Dựng xong phải đợi năm giây trận mới mở hẳn; từ đó sét cứ lần lượt giáng xuống từng kẻ đứng trong trận, mỗi tia khoá chân một giây. Vùng trận rộng hơn Liệt Hỏa. Bàn dùng lại mãi, không mất khi dựng; Linh Thạch lấy từ hầu bao.",
+    "icon": "formation_board_thunder"
+  },
+  "tran_ban_tu_tuong": {
+    "id": "tran_ban_tu_tuong",
+    "name": "Tứ Tượng Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Thiên phẩm hạ",
+    "requireRealm": "ket_dan_1",
+    "formationId": "tu_tuong",
+    "desc": "Bàn ngọc vuông khảm bốn trận nhãn Mộc, Hỏa, Kim, Thủy ở bốn phương, hai đường linh mạch chéo nhau giữ cặp đối diện kiềm chế lẫn nhau. Dựng xong, linh lực chảy vòng theo chiều kim đồng hồ dựng thành kết giới: quái bên ngoài không vào được, bên trong không thoát ra, đòn đánh không xuyên qua vách. Bốn nhãn thay nhau tung đòn Băng, Hỏa, Phong Mộc, Kim khí, đòn sau mạnh hơn đòn trước; người cùng phe đứng trong trận được hồi Khí Huyết và Linh lực. Vỡ một nhãn là vòng tuần hoàn đứt. Bàn không mất khi dựng; Linh Thạch dựng và duy trì lấy từ hầu bao.",
+    "icon": "formation_board_tu_tuong"
+  },
+  "tran_ban_dao_gia": {
+    "id": "tran_ban_dao_gia",
+    "name": "Đạo Gia Bát Quái Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Thiên phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "formationId": "dao_gia",
+    "desc": "Bàn gỗ đào khắc Thái Cực, tám quẻ vây quanh. Chỉ Chính tu mang Kiếm Hạp mới dựng được. Quẻ Càn gọi sét, quẻ Khôn làm đất nứt, luân phiên đánh dấu kẻ địch trong trận rồi nổ. Bàn không mất khi dựng; Linh Thạch dựng và duy trì lấy từ hầu bao.",
+    "icon": "formation_board_dao_gia"
+  },
+  "tran_ban_ma_dao": {
+    "id": "tran_ban_ma_dao",
+    "name": "Ma Đạo Cửu U Trận Bàn",
+    "type": "tran_ban",
+    "grade": "Thiên phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "formationId": "ma_dao",
+    "desc": "Bàn xương đen khắc chín ấn Cửu U, giữa bàn một hố xoáy hút hồn. Chỉ Ma tu mang Hồn Phiên mới dựng được. Ma Lôi giáng sét tím, U Minh Thích phóng gai bóng tối từ lòng đất, luân phiên đánh dấu kẻ địch trong trận rồi nổ. Bàn không mất khi dựng; Linh Thạch dựng và duy trì lấy từ hầu bao.",
+    "icon": "formation_board_ma_dao"
+  },
+  "linh_thach": {
+    "id": "linh_thach",
+    "name": "Linh Thạch",
+    "type": "tien_te",
+    "grade": "Linh phẩm",
+    "desc": "Tinh thể linh khí kết lại sau nghìn năm dưới lòng đất, trong như băng và ấm như hơi thở. Cả tu tiên giới lấy nó làm tiền: mua bán, thuê người, đổi pháp khí đều tính bằng Linh Thạch.",
+    "icon": "spirit_stone"
+  },
+  "thach_giap_tinh_hach": {
+    "id": "thach_giap_tinh_hach",
+    "name": "Chìa Khoá",
+    "type": "nguyen_lieu_nhiem_vu",
+    "grade": "Địa phẩm hạ",
+    "desc": "Chiếc chìa khoá đồng rơi ra từ Thạch Giáp Yêu trong hang động. Dùng để mở Linh Dược Rương cuối hang.",
+    "icon": "chia_khoa"
+  },
+  "huyen_thiet_khoang": {
+    "id": "huyen_thiet_khoang",
+    "name": "Huyền Thiết Khoáng",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm hạ",
+    "desc": "Mảnh quặng đen ánh lam tách khỏi giáp của Thạch Giáp Yêu trong Hang Động. Chất kim bền, chịu linh lực tốt — thợ rèn có thể dùng làm phôi nâng cấp kiếm.",
+    "icon": "ore"
+  },
+  "phong_tinh_thach": {
+    "id": "phong_tinh_thach",
+    "name": "Phong Tinh Thạch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm hạ",
+    "desc": "Tinh thể lam trong suốt cạy từ mạch đá ở Bãi Đá. Gió luồn qua khe đá ngàn năm thổi cho nó kết thành từng chùm nhọn; áp tai vào còn nghe tiếng vi vu. Thợ rèn quý nó vì phôi pha Phong Tinh thì binh khí nhẹ tay hơn hẳn.",
+    "icon": "phong_tinh"
+  },
+  "xuyen_son_giap_phien": {
+    "id": "xuyen_son_giap_phien",
+    "name": "Xuyên Sơn Giáp Phiến",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm trung",
+    "desc": "Vảy tách từ lưng Xuyên Sơn Giáp ở Bãi Đá: lõi đá cứng như thép, mép kết chùm Phong Tinh lam. Con biến dị có 10% để lại một tấm.",
+    "icon": "xuyen_son_phien"
+  },
+  "thuy_mach_bi_phien": {
+    "id": "thuy_mach_bi_phien",
+    "name": "Mảnh Bia Thủy Mạch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm thượng",
+    "desc": "Mảnh đá sứt ra từ tấm bia trên mai Thạch Quy ở Miếu Ông Trường Con. Chữ khắc còn phát sáng ánh lam, áp vào tai nghe tiếng nước chảy rất xa dưới lòng núi. Con biến dị có 10% để lại một mảnh.",
+    "icon": "thuy_mach_bi_phien"
+  },
+  "huyen_quy_giap_phien": {
+    "id": "huyen_quy_giap_phien",
+    "name": "Huyền Quy Giáp Phiến",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm trung",
+    "desc": "Một mảnh giáp lục giác nguyên vẹn bóc từ mai Thạch Quy Đội Bia. Đá đã hoá thành ngọc xanh thẫm, khe vân quanh mép còn chảy mạch nước sáng không bao giờ cạn. Đao kiếm chém vào chỉ toé tia lửa. Cực hiếm.",
+    "icon": "huyen_quy_giap_phien"
+  },
+  "quy_tuc_thuy_chau": {
+    "id": "quy_tuc_thuy_chau",
+    "name": "Quy Tức Thủy Châu",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm thượng",
+    "desc": "Viên châu Thạch Quy ngậm dưới lưỡi suốt nghìn năm đội bia, mỗi hơi thở của nó đọng lại thành một vòng nước xoay bên trong. Cầm trên tay thấy hơi thở mình chậm lại, tâm lặng như mặt hồ. Cực hiếm.",
+    "icon": "quy_tuc_thuy_chau"
+  },
+  "xich_diem_quy_dan": {
+    "id": "xich_diem_quy_dan",
+    "name": "Xích Diễm Quy Đan",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Thiên phẩm hạ",
+    "desc": "Yêu đan của Thạch Quy biến dị, nóng rực như than hồng, mặt đan hằn vân mai rùa và chữ triện vàng kim như khắc từ tấm bia bazan trên lưng nó. Chỉ con biến dị mới kết được, và có 5% để lại một viên.",
+    "icon": "xich_diem_quy_dan"
+  },
+  "phong_linh_thao": {
+    "id": "phong_linh_thao",
+    "name": "Phong Linh Thảo",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Cỏ linh chỉ mọc nơi lộng gió, lá mảnh dài rủ hết về một phía. Ngọn kết chùm hạt trắng xanh đọng linh khí, sắc lên uống thì thông kinh lạc, đi đường núi cả ngày không thở dốc.",
+    "icon": "phong_linh"
+  },
+  "han_tinh_thach": {
+    "id": "han_tinh_thach",
+    "name": "Hàn Tinh Thạch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm hạ",
+    "desc": "Tinh thể lam lạnh cạy ra từ vách đá Mỏ Linh Thạch, cầm lâu thì tê cả lòng bàn tay. Thợ rèn pha nó vào phôi thì lưỡi giữ được độ sắc lâu hơn hẳn, và chém vào giáp không nảy.",
+    "icon": "han_tinh"
+  },
+  "tu_tinh_thach": {
+    "id": "tu_tinh_thach",
+    "name": "Tử Tinh Thạch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm hạ",
+    "desc": "Tinh thể tím mọc thành chùm trên đống đá vụn dưới hầm sâu, bên trong có ánh sáng chạy chậm như hơi thở. Dân mỏ bảo chỗ nào Tử Tinh mọc thì chỗ ấy linh mạch còn sống.",
+    "icon": "tu_tinh"
+  },
+  "luc_tinh_thach": {
+    "id": "luc_tinh_thach",
+    "name": "Lục Tinh Thạch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm thượng",
+    "desc": "Tinh thể lục biếc hiếm hoi trong Mỏ Linh Thạch — cả mỏ chỉ một khóm, hái xong phải đợi nửa tới một canh giờ nó mới kết lại, mà lại kết ở một bờ vực khác. Linh khí bên trong sống động như mầm non, thợ rèn quý hơn cả Hàn Tinh lẫn Tử Tinh.",
+    "icon": "luc_tinh"
+  },
+  "manh_bi_tich_thuong": {
+    "id": "manh_bi_tich_thuong",
+    "name": "Mảnh Bí Tịch · Thượng",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Nửa trên một quyển bí tịch, giấy đã ố nhưng nét chu sa còn rõ. Chép phần khẩu quyết dẫn linh lực rời Đan Điền — thiếu nửa dưới thì đọc tới giữa chừng là tắc.",
+    "icon": "scroll"
+  },
+  "manh_bi_tich_ha": {
+    "id": "manh_bi_tich_ha",
+    "name": "Mảnh Bí Tịch · Hạ",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Nửa dưới quyển bí tịch, mép giấy hằn răng yêu thú. Chép phần vận chuyển linh lực ra kinh mạch tay chân — chính là chỗ khuyết của nửa trên.",
+    "icon": "scroll"
+  },
+  "yeu_cot": {
+    "id": "yeu_cot",
+    "name": "Yêu Cốt Vụn",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Phàm phẩm",
+    "desc": "Mảnh xương vụn của yêu quái nhất giai, còn vương chút yêu khí chưa tan. Chưa dùng được ngay, nhưng thợ rèn và thầy thuốc đều thu gom thứ này.",
+    "icon": "bone"
+  },
+  "doc_dang_doc_dich": {
+    "id": "doc_dang_doc_dich",
+    "name": "Độc Đằng Độc Dịch",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Giọt độc cô đặc còn đọng trong dây Độc Đằng Yêu. Đại Phu dùng nó nghiên cứu giải độc; thợ rèn còn có thể luyện lượng lớn vào ám khí.",
+    "icon": "blood_herb"
+  },
+  "xich_long_huyet": {
+    "id": "xich_long_huyet",
+    "name": "Yêu Huyết Cấp 3",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm trung",
+    "desc": "Tinh huyết của yêu thú Cấp 3, đặc quánh yêu lực và nóng như than hồng — rỉ ra từ vảy Thần Thú Xích Long khi nó gục xuống. Thợ rèn dùng để tôi Huyết Kiếm (năm giọt), Huyết Ma Liêm hay kết Tử Tinh Dưỡng Thần Bội.",
+    "icon": "xich_long_huyet"
+  },
+  "yeu_huyet_cap_4": {
+    "id": "yeu_huyet_cap_4",
+    "name": "Yêu Huyết Cấp 4",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm thượng",
+    "desc": "Tinh huyết của yêu thú Cấp 4, rỉ ra khi Linh Hổ Trấn Sơn gục. Thợ rèn cần một giọt để tôi Huyết Kiếm.",
+    "icon": "xich_long_huyet"
+  },
+  "yeu_huyet_cap_6": {
+    "id": "yeu_huyet_cap_6",
+    "name": "Yêu Huyết Cấp 6",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Địa phẩm",
+    "desc": "Tinh huyết của yêu thú Cấp 6, rỉ ra khi Song Dực Ma Báo gục. Nguyên liệu quý cho những món rèn sau này.",
+    "icon": "xich_long_huyet"
+  },
+  "yeu_dan_cap_1": {
+    "id": "yeu_dan_cap_1",
+    "name": "Yêu Đan Cấp 1",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm trung",
+    "desc": "Lõi yêu lực của Yêu Thú Cấp 1 — hộ vệ Bạch Hổ Tuyết quây quanh Linh Hổ, Xích Nhãn Ngưu quây quanh Xích Long, hay Nhện Ngọc Con quây quanh Nhện Bạch Ngọc. Viên đan xanh ngọc, yêu khí còn mỏng nhưng đã kết tròn. Rơi ra mặt đất khi yêu thú gục — ai chạm tới trước thì là của người ấy.",
+    "icon": "yeu_dan_cap_1"
+  },
+  "yeu_dan_cap_2": {
+    "id": "yeu_dan_cap_2",
+    "name": "Yêu Đan Cấp 2",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm thượng",
+    "desc": "Lõi yêu lực của ba Yêu Thú Cấp 2 trấn giữ Huyết Xích Cấm Địa: Xích Mãng Vương, Thạch Mạch Vương, U Minh Cự Mãng. Sắc lam thẫm, lõi xoáy chậm. Rơi ra mặt đất khi boss gục — bốc thăm trong người có công.",
+    "icon": "yeu_dan_cap_2"
+  },
+  "yeu_dan_cap_3": {
+    "id": "yeu_dan_cap_3",
+    "name": "Yêu Đan Cấp 3",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm hạ",
+    "desc": "Lõi yêu lực kết tụ trong bụng Thần Thú Xích Long, Yêu Thú Cấp 3. Viên đan đỏ rực còn âm ỉ hơi nóng, là nguyên liệu quý của đan sư và thợ rèn. Rơi ra mặt đất khi Xích Long gục — bốc thăm trong người có công.",
+    "icon": "yeu_dan_cap_3"
+  },
+  "yeu_dan_cap_4": {
+    "id": "yeu_dan_cap_4",
+    "name": "Yêu Đan Cấp 4",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm trung",
+    "desc": "Lõi yêu lực của Linh Hổ Trấn Sơn, Yêu Thú Cấp 4. Sắc vàng kim, vân hổ chìm trong lõi, yêu khí dày hơn hẳn đan Cấp 3. Rơi ra mặt đất khi Linh Hổ gục — bốc thăm trong người có công.",
+    "icon": "yeu_dan_cap_4"
+  },
+  "yeu_dan_cap_5": {
+    "id": "yeu_dan_cap_5",
+    "name": "Yêu Đan Cấp 5",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Lõi yêu lực của Nhện Bạch Ngọc, Yêu Thú Cấp 5 trấn giữ góc đông-bắc Bãi Đá. Viên đan trắng ngà như ngọc, trong lõi có tia lục chạy chậm như gân ngọc trên mai nhện. Rơi ra mặt đất khi nhện gục — bốc thăm trong người có công.",
+    "icon": "yeu_dan_cap_5"
+  },
+  "yeu_dan_cap_6": {
+    "id": "yeu_dan_cap_6",
+    "name": "Yêu Đan Cấp 6",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Lõi yêu lực của Song Dực Ma Báo, Yêu Thú Cấp 6. Viên đan tím sẫm, bên trong có một vệt sáng chạy vòng không ngớt như đôi cánh còn đang vỗ. Chỉ người ra đòn chót hạ được con báo mới cầm được nó.",
+    "icon": "yeu_dan_cap_6"
+  },
+  "phong_song_duc": {
+    "id": "phong_song_duc",
+    "name": "Phong Song Dực",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Thiên phẩm hạ",
+    "desc": "Một cặp lông cánh dài bằng cả cánh tay, rứt ra từ đôi cánh Song Dực Ma Báo giữa lúc nó còn đang quẫy. Gân lông cứng như thép mà nhẹ tới mức thả ra thì nó tự dựng đứng trong không khí. Thợ Rèn ở Tản Viên nhìn một cái là biết phải làm gì với nó.",
+    "icon": "phong_song_duc"
+  },
+  "nanh_ho": {
+    "id": "nanh_ho",
+    "name": "Nanh Hổ",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm hạ",
+    "desc": "Chiếc nanh trắng như băng bẻ ra từ hàm Bạch Hổ Tuyết — bầy hộ vệ quây quanh Linh Hổ Trấn Sơn ở Thạch Phong Thung Lũng. Mỗi con gục để lại đúng một chiếc.",
+    "icon": "nanh_ho"
+  },
+  "nguu_sung": {
+    "id": "nguu_sung",
+    "name": "Ngưu Sừng",
+    "type": "nguyen_lieu_ren_khi",
+    "grade": "Linh phẩm hạ",
+    "desc": "Chiếc sừng đen cong vút bẻ ra từ Xích Nhãn Ngưu — bầy hộ vệ quây quanh Thần Thú Xích Long ở Long Uyên Cốc. Nửa số con gục mới để lại một chiếc.",
+    "icon": "nguu_sung"
+  },
+  "bi_tich_dan_linh": {
+    "id": "bi_tich_dan_linh",
+    "name": "Dẫn Linh Quyết",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Quyển bí tịch đầu tiên trong đời tu của ngươi, do Tàng Kinh Lão Nhân ráp lại từ hai mảnh rách. Chép pháp quyết dẫn linh lực từ Đan Điền ra kinh mạch — nền móng của mọi thần thông về sau.",
+    "mpRegen": 1,
+    "icon": "bi_tich_dan_linh"
+  },
+  "bi_tich_hoa_cau": {
+    "id": "bi_tich_hoa_cau",
+    "name": "Bí Tịch Hỏa Cầu Thuật",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa vải đỏ sẫm, mép giấy hơi cháy sém. Chép phép ngưng linh lực đan điền thành quả cầu lửa bắn về phía đối thủ — pháp thuật công kích tầm xa phổ biến nhất của người nhập môn, vừa gây sát thương nhiệt vừa thiêu đốt mục tiêu.",
+    "icon": "bi_tich_hoa"
+  },
+  "bi_tich_phong_nhan": {
+    "id": "bi_tich_phong_nhan",
+    "name": "Bí Tịch Phong Nhẫn Thuật",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa lụa xanh nhạt, giấy mỏng tang, lật một cái là bay. Chép phép tụ khí thành những lưỡi dao gió sắc bén xé gió lao đi. Thi triển nhanh, đường đạn khó đoán — bù lại mỗi lưỡi chẳng nặng đòn.",
+    "icon": "bi_tich_phong"
+  },
+  "bi_tich_bang_thau": {
+    "id": "bi_tich_bang_thau",
+    "name": "Bí Tịch Băng Thấu Châm",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa chàm lạnh tay, sờ vào thấy hơi nước đọng. Chép phép đột ngột ngưng hơi nước quanh mình thành vô số đinh băng nhọn hắt thẳng vào kẻ thù — vừa gây sát thương vừa khiến mục tiêu chậm bước.",
+    "icon": "bi_tich_bang"
+  },
+  "bi_tich_dia_thich": {
+    "id": "bi_tich_dia_thich",
+    "name": "Bí Tịch Địa Thích Thuật",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa da nâu dày, nặng nhất trong nhóm công kích. Chép phép truyền linh lực xuống lòng đất kích các cọc đá nhọn trồi lên ngay dưới chân kẻ thù: đòn đánh từ góc khuất, không né được, trúng thì địch choáng váng một lúc.",
+    "icon": "bi_tich_tho"
+  },
+  "bi_tich_so_xich_chan": {
+    "id": "bi_tich_so_xich_chan",
+    "name": "Bí Tịch Sơ Xích Chân",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bí thuật thổ hệ kết thành pháp trận xích dưới chân đối thủ. Trói tối đa hai người chơi trong 2 giây nhưng không cản họ đánh hay thi triển chiêu; lực xích chỉ gây sát thương nhẹ.",
+    "icon": "bi_tich_xich_chan"
+  },
+  "bi_tich_kim_quang_chao": {
+    "id": "bi_tich_kim_quang_chao",
+    "name": "Bí Tịch Kim Quang Cháo",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa gấm vàng nhạt, giữa nhãn vẽ một vòng kim quang khép kín. Pháp quyết không cần chủ động thi triển: khi đòn đánh xuyên qua Giáp sắp chạm Khí Huyết, linh lực tự kết thành một lớp khiên mỏng đỡ bớt uy lực.",
+    "icon": "bi_tich_kim_quang_chao"
+  },
+  "bi_tich_moc_xuan": {
+    "id": "bi_tich_moc_xuan",
+    "name": "Bí Tịch Mộc Xuân Thuật",
+    "type": "bi_tich",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Bìa lụa xanh non còn phảng phất mùi cỏ thuốc. Pháp quyết dẫn mộc linh khí tự chạy qua kinh mạch mỗi khi Khí Huyết bị thương, khép lại vết rách nhỏ ngay sau đòn đánh mà không cần dừng tay kết ấn.",
+    "icon": "bi_tich_moc_xuan"
+  },
+  "bi_tich_tu_linh": {
+    "id": "bi_tich_tu_linh",
+    "name": "Bí Tịch Tụ Linh Quyết",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Mỗi 5 giây hồi 2% Linh Lực. Mỗi lần tốn 2 Thần Thức.",
+    "icon": "bi_tich_tu_linh"
+  },
+  "bi_tich_ho_tam": {
+    "id": "bi_tich_ho_tam",
+    "name": "Bí Tịch Hộ Tâm Chân Khí",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Khí Huyết dưới 30% thì giảm 15% sát thương nhận vào trong 4 giây. Tốn 3 Thần Thức.",
+    "icon": "bi_tich_ho_tam"
+  },
+  "bi_tich_phong_hanh": {
+    "id": "bi_tich_phong_hanh",
+    "name": "Bí Tịch Phong Hành Bộ",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Tăng 5% tốc độ di chuyển; né đòn thành công hồi 1% Khí Huyết (2 Thần Thức).",
+    "icon": "bi_tich_phong_hanh"
+  },
+  "bi_tich_kiem_y": {
+    "id": "bi_tich_kiem_y",
+    "name": "Bí Tịch Kiếm Ý Sơ Thành",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Cầm kiếm: đòn thứ 4 liên tiếp tăng 12% sát thương. Tốn 3 Thần Thức.",
+    "icon": "bi_tich_kiem_y"
+  },
+  "bi_tich_bang_tam": {
+    "id": "bi_tich_bang_tam",
+    "name": "Bí Tịch Băng Tâm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Giảm 20% thời gian bị làm chậm, trói chân hoặc choáng. Tốn 2 Thần Thức.",
+    "icon": "bi_tich_bang_tam"
+  },
+  "bi_tich_hoa_mach": {
+    "id": "bi_tich_hoa_mach",
+    "name": "Bí Tịch Hỏa Mạch",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Kỹ năng Hỏa có 10% cơ hội thiêu đốt thêm 1 giây. Tốn 3 Thần Thức.",
+    "icon": "bi_tich_hoa_mach"
+  },
+  "bi_tich_tho_thuan": {
+    "id": "bi_tich_tho_thuan",
+    "name": "Bí Tịch Thổ Thuẫn",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Đứng yên 2 giây thì nhận lá chắn hấp thụ 20 sát thương. Tốn 4 Thần Thức.",
+    "icon": "bi_tich_tho_thuan"
+  },
+  "bi_tich_moc_sinh": {
+    "id": "bi_tich_moc_sinh",
+    "name": "Bí Tịch Mộc Sinh",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Hạ quái thì hồi 3% Khí Huyết và 2% Linh Lực. Tốn 2 Thần Thức.",
+    "icon": "bi_tich_moc_sinh"
+  },
+  "bi_tich_tinh_tam": {
+    "id": "bi_tich_tinh_tam",
+    "name": "Bí Tịch Tĩnh Tâm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. 4 giây không thi triển thì kỹ năng tiếp theo giảm 20% tiêu hao. Tốn 3 Thần Thức.",
+    "icon": "bi_tich_tinh_tam"
+  },
+  "bi_tich_ma_khi": {
+    "id": "bi_tich_ma_khi",
+    "name": "Bí Tịch Ma Khí Hộ Thể",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "desc": "Bí tịch bị động, cần Trúc Cơ. Bị chí mạng thì đòn chí mạng kế tiếp giảm 25% sát thương. Tốn 4 Thần Thức.",
+    "icon": "bi_tich_ma_khi"
+  },
+  "bi_tich_cat_tuong": {
+    "id": "bi_tich_cat_tuong",
+    "name": "Bí Tịch Cát Tường Hộ Giáp",
+    "type": "bi_tich",
+    "grade": "Địa phẩm hạ",
+    "desc": "Bí tịch bị động hiếm. Mỗi 10 giây hồi 12% Giáp cho tối đa 5 người cùng đội hoặc cùng tông đứng gần. Tốn 4 Thần Thức.",
+    "obtain": "Rơi ngẫu nhiên khi hạ yêu thú ở Bãi Đá Hàng Gió — cả máy chủ ba ngày một quyển.",
+    "icon": "bi_tich_cat_tuong"
+  },
+  "bi_tich_thao_duoc": {
+    "id": "bi_tich_thao_duoc",
+    "name": "Bí Tịch Thảo Dược Hồi Xuân",
+    "type": "bi_tich",
+    "grade": "Địa phẩm hạ",
+    "desc": "Bí tịch bị động hiếm. Mỗi 10 giây hồi 8% Khí Huyết cho tối đa 5 người cùng đội hoặc cùng tông đứng gần. Tốn 4 Thần Thức.",
+    "obtain": "Rơi ngẫu nhiên khi hạ yêu thú ở Thảo Dược Cốc — cả máy chủ ba ngày một quyển.",
+    "icon": "bi_tich_thao_duoc"
+  },
+  "bi_tich_loi_chuong": {
+    "id": "bi_tich_loi_chuong",
+    "name": "Bí Tịch Lôi Chưởng",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Bìa vải chàm sẫm, mặt nhãn ám một vệt cháy hình tia sét — dấu của lần thử pháp cuối cùng người chép sách để lại. Chép phép dẫn lôi khí trên chín tầng mây giáng thẳng xuống đầu đối thủ, nổ lan ra cả đám đứng quanh. Sách cấp trung, không phải thứ vỡ lòng: hao Thần Thức để khoá vùng sét.",
+    "icon": "bi_tich_loi_chuong"
+  },
+  "bi_tich_ngu_kiem_sat": {
+    "id": "bi_tich_ngu_kiem_sat",
+    "name": "Bí Tịch Ngũ Kiếm Sát",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Bìa chàm thêu năm thanh kiếm bạc. Quyển trung cấp ghi lại kiếm thức chia năm hướng, lấy thế vây sát khóa đường lui của đối thủ; càng gần tâm trận, sát ý càng dày.",
+    "icon": "bi_tich_ngu_kiem"
+  },
+  "bi_tich_huyet_kiem_tran": {
+    "id": "bi_tich_huyet_kiem_tran",
+    "name": "Bí Tịch Huyết Kiếm Trận",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Bìa đỏ thẫm in huyết văn và một kiếm trận khép kín. Pháp quyết lấy tinh huyết làm dẫn, dựng lưỡi kiếm linh lực quanh một điểm giao chiến để ép đối thủ không thể tùy tiện bước ra.",
+    "icon": "bi_tich_huyet_tran"
+  },
+  "bi_tich_cuu_huyet_tran": {
+    "id": "bi_tich_cuu_huyet_tran",
+    "name": "Bí Tịch Cửu Huyết Kiếm Trận",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "desc": "Bìa tím đen viền huyết quang, chín kiếm ảnh xoay thành vòng trận. Đây là thiên nâng cao của Huyết Kiếm Trận: chín điểm kiếm khí liên kết thành một thế phong tỏa rộng, uy lực lớn nhưng đòi hỏi thần thức vững.",
+    "icon": "bi_tich_cuu_huyet"
+  },
+  "bi_tich_van_kiem_quy_tong": {
+    "id": "bi_tich_van_kiem_quy_tong",
+    "name": "Bí Tịch Vạn Kiếm Quy Tông",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "icon": "bi_tich_van_kiem_quy_tong",
+    "desc": "Dựng 24 binh khí chân khí xoay quanh người tối đa 60 giây để chờ mục tiêu hợp lệ, rồi đồng loạt lao đúng vào mục tiêu. Kiếm, đao hoặc thương tương thích sẽ đổi hình kiếm trận; trang bị khác dùng hình Thiết Kiếm. Hào quang không cấp miễn thương. Chưởng Sự Chính Đạo (Chính Đảo) bán cho người mang Kiếm Hạp đã Trúc Cơ Trung Kỳ: 20000 Linh Thạch."
+  },
+  "bi_tich_luc_tinh_truc_kiem": {
+    "id": "bi_tich_luc_tinh_truc_kiem",
+    "name": "Bí Tịch Lục Tinh Trực Kiếm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Chưởng Sự Chính Đạo (Chính Đảo) bán cho người mang Kiếm Hạp đã Trúc Cơ Trung Kỳ: 10000 Linh Thạch + 100 Phong Tinh Thạch (cạy từ Mạch Phong Tinh ở Bãi Đá).",
+    "desc": "Pháp môn chia kiếm ý thành sáu trực kiếm chúc mũi xuống, tuần hoàn quanh người thi triển. Mỗi đòn công thường có 20% phóng một thanh vào mục tiêu rồi tiêu biến (ngang Huyễn Ảnh Ma Trảm); dùng hết sáu thanh hoặc rời giao tranh thì kiếm trận triệu hồi lại đủ bộ. Khi đã lĩnh ngộ và trang bị Thiết Kiếm, Lục Tinh Kiếm, Băng Linh Kiếm hoặc Huyết Kiếm, công thường tự chuyển sang kiếm thức này; nhịp xoay và phóng kiếm thuận theo tốc độ đánh của chính thanh kiếm đang dùng.",
+    "icon": "bi_tich_luc_tinh_truc_kiem"
+  },
+  "bi_tich_huyen_anh_ma_tram": {
+    "id": "bi_tich_huyen_anh_ma_tram",
+    "name": "Bí Tịch Huyễn Ảnh Ma Trảm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Rơi 5% từ Song Dực Ma Báo (Yêu Thú Cấp 6), về người ra đòn chót. Không bán ở đâu.",
+    "desc": "Bí pháp Ma Đạo: đòn đánh thường hoá thành lưỡi chém ma khí, mỗi đòn có 20% tách ra hai ảo ảnh cùng chém rồi tan thành hồn lửa. Chỉ đổi hình, không thêm sát thương. Cần Trúc Cơ Trung Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_huyen_anh_ma_tram"
+  },
+  "bi_tich_thanh_lam_kiem_tru": {
+    "id": "bi_tich_thanh_lam_kiem_tru",
+    "name": "Bí Tịch Thanh Băng Kiếm Trụ",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Bí tịch kiếm băng của Chấp Sự Thiên Kiếm Tông. Kết ấn triệu hồi mưa kiếm xanh lam cắm xuống đối thủ, gây sát thương lên mục tiêu chính và lan thêm tối đa 2 đối thủ đứng gần đó. Có Băng Linh Kiếm trong hành trang thì nhận đủ sát thương; thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_thanh_lam_kiem_tru"
+  },
+  "bi_tich_kim_thuong_giang_the": {
+    "id": "bi_tich_kim_thuong_giang_the",
+    "name": "Bí Tịch Kim Thương Giáng Thế",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Bí pháp khắc trên da Xích Long, ghi lại thế gọi Hoả Kim Thương từ trời giáng xuống, nổ lửa diện rộng, thiêu đốt 4 giây và choáng 0,8 giây. Ai lĩnh hội cũng thi triển được; có Hoả Kim Thương trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_kim_thuong_giang_the"
+  },
+  "bi_tich_loi_thuong_quan_dia": {
+    "id": "bi_tich_loi_thuong_quan_dia",
+    "name": "Bí Tịch Lôi Thương Quán Địa",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "desc": "Bí pháp Lôi Đạo: một cây thương sét giáng từ trời cắm xuống điểm ngắm, nổ lôi quang trúng tối đa 3 kẻ và làm choáng 1 giây. Cần Trúc Cơ Trung Kỳ. Có Hoàng Lôi Thương trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_loi_thuong_quan_dia"
+  },
+  "bi_tich_ngu_loi_thuong_vu": {
+    "id": "bi_tich_ngu_loi_thuong_vu",
+    "name": "Bí Tịch Ngũ Lôi Thương Vũ",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Bí pháp Lôi Đạo: năm cây thương sét lần lượt giáng quanh điểm ngắm, cây cuối cắm đúng tâm, trúng tối đa 5 kẻ và làm tê chân chậm lại. Cần Trúc Cơ Trung Kỳ. Có Hoàng Lôi Thương trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_ngu_loi_thuong_vu"
+  },
+  "bi_tich_ngu_hoa_thuong_vu": {
+    "id": "bi_tich_ngu_hoa_thuong_vu",
+    "name": "Bí Tịch Ngũ Hoả Thương Vũ",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Bí pháp Hoả Đạo: năm cây Hoả Kim Thương lần lượt giáng như sao băng, cắm thành hoả trận sao năm cánh quanh điểm ngắm; trận khép thì tâm phun cột lửa, trúng tối đa 5 kẻ và thiêu đốt 4 giây. Cần Trúc Cơ Trung Kỳ. Có Hoả Kim Thương trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_ngu_hoa_thuong_vu"
+  },
+  "bi_tich_tieu_canh_kiem_tran": {
+    "id": "bi_tich_tieu_canh_kiem_tran",
+    "name": "Bí Tịch Tiểu Canh Kiếm Trận",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Kiếm trận Trúc Cơ Hậu Kỳ: mười hai thanh Lục Tinh Kiếm từ trời hạ xuống kết thành lồng kiếm quanh mục tiêu và bám theo nó; chín kiếm ảnh lần lượt giáng rồi ba chân kiếm hợp kích, trúng tối đa 5 kẻ. Có đủ 3 thanh Lục Tinh Kiếm trong hành trang thì nhận đủ sát thương, thiếu còn 50%.",
+    "icon": "bi_tich_tieu_canh_kiem_tran"
+  },
+  "bi_tich_huyet_nguyet_luan_liem": {
+    "id": "bi_tich_huyet_nguyet_luan_liem",
+    "name": "Bí Tịch Huyết Nguyệt Luân Liêm",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Liêm pháp Trúc Cơ Hậu Kỳ: huyết nguyệt hiện trên đầu mục tiêu, sáu Huyết Ma Liêm xoay thành vòng quanh nó, song luân giao kích rồi chủ liêm bổ xuống, trúng tối đa 5 kẻ. Có Huyết Ma Liêm trong hành trang thì nhận đủ sát thương và hút 4% Khí Huyết mỗi kẻ trúng (tối đa 12%); thiếu còn 50%, không hút.",
+    "icon": "bi_tich_huyet_nguyet_luan_liem"
+  },
+  "bi_tich_anh_ky_phu": {
+    "id": "bi_tich_anh_ky_phu",
+    "name": "Bí Tịch Ảnh Kỵ",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "desc": "Bí tịch vẽ một kỵ ảnh xanh cưỡi gió lao thẳng tới đối thủ. Kỵ ảnh gây sát thương lên mục tiêu và rút một phần Linh Lực của kẻ trúng đòn, khiến những trận tỉ thí dài không còn chỉ là cuộc đua Khí Huyết.",
+    "icon": "bi_tich_anh_ky_phu"
+  },
+  "bi_tich_bang_kiem_tran": {
+    "id": "bi_tich_bang_kiem_tran",
+    "name": "Bí Tịch Băng Kiếm Trận",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "desc": "Bí tịch trung cấp dựng một trận kiếm băng xuống điểm ngắm. Kiếm khí đóng cứng yêu quái trong chớp mắt rồi kéo dài hàn khí khiến bước chân chậm lại; nét sét xanh chạy qua tâm trận là dấu hiệu kiếm trận đã khóa. Có Băng Linh Kiếm trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_bang_kiem_tran"
+  },
+  "bi_tich_bang_kiem_luan": {
+    "id": "bi_tich_bang_kiem_luan",
+    "name": "Bí Tịch Băng Kiếm Luân",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "desc": "Bí tịch trung cấp gọi một kiếm luân xanh băng xoay quanh người thi triển. Kiếm khí quét trúng tối đa 5 mục tiêu gần nhất, gây sát thương nhẹ rồi kéo dài hàn khí khiến chúng chậm lại. Có Băng Linh Kiếm trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_bang_kiem_luan"
+  },
+  "bi_tich_tien_vu": {
+    "id": "bi_tich_tien_vu",
+    "name": "Bí Tịch Tiễn Vũ",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "desc": "Bí tịch trung cấp của cung thủ: kết ấn gọi một trận mưa tên vàng trút xuống điểm ngắm, trúng tối đa 4 mục tiêu. Mỗi kẻ trúng tên có 30% dính Thâm Thương — vết thương sâu rỉ máu 5 giây và chỉ hồi được một nửa Khí Huyết. Có Linh Cung trong hành trang thì nhận đủ sát thương, thiếu pháp khí còn 50%.",
+    "icon": "bi_tich_tien_vu"
+  },
+  "bi_tich_tram_ma": {
+    "id": "bi_tich_tram_ma",
+    "name": "Bí Tịch Trầm Ma",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Bí tịch trung cấp hạ đẳng của ma tu: thả ma khí lan rất xa quanh thân, tự tìm 3 kẻ địch gần nhất và mở dưới chân mỗi kẻ một xoáy ma khí, không cần ngắm; mỗi kẻ trúng có 50% dính Ma Hỏa — lửa đen tím thiêu đốt 4 giây.",
+    "icon": "bi_tich_tram_ma"
+  },
+  "bi_tich_ma_bao_an": {
+    "id": "bi_tich_ma_bao_an",
+    "name": "Bí Tịch Ma Bạo Ấn",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "desc": "Ấn pháp Ma Đạo của Thiên Thi Tông: kết ấn tại điểm ngắm, ba ấn nổ liền nhau, kẻ trúng chắc chắn dính Ma Hỏa. Chỉ dùng được khi đạt Trúc Cơ Trung Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_ma_bao_an"
+  },
+  "bi_tich_ma_hon_phe": {
+    "id": "bi_tich_ma_hon_phe",
+    "name": "Bí Tịch Ma Hồn Phệ",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Sứ Giả Thiên Thi Tông (Ma Động) bán cho người cầm Hồn Phiên.",
+    "desc": "Bí pháp Ma Đạo: 5–7 đầu lâu ma lần lượt xoáy quanh chủ rồi lao vào đối thủ. Cần Trúc Cơ Sơ Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_ma_hon_phe"
+  },
+  "bi_tich_cuu_u_ma_trao": {
+    "id": "bi_tich_cuu_u_ma_trao",
+    "name": "Bí Tịch Cửu U Ma Trảo",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp Ma Đạo: năm bàn tay ma từ Cửu U trồi lên dưới chân năm kẻ gần nhất rồi vồ xé. Cần Trúc Cơ Trung Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_cuu_u_ma_trao"
+  },
+  "bi_tich_phi_long_tai_thien": {
+    "id": "bi_tich_phi_long_tai_thien",
+    "name": "Bí Tịch Phi Long Tại Thiên",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp Chính Đạo: ba rồng ảo ảnh vàng bay quanh người rồi lao vào ba kẻ gần mục tiêu nhất. Cần Trúc Cơ Trung Kỳ và mang Kiếm Hạp.",
+    "icon": "bi_tich_phi_long_tai_thien"
+  },
+  "bi_tich_nguyet_quang": {
+    "id": "bi_tich_nguyet_quang",
+    "name": "Bí Tịch Thái Âm Nguyệt Quang",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp Thái Âm: triệu trăng lên cao rồi giáng luồng nguyệt quang cực mạnh xuống đối thủ, làm choáng kẻ trúng. Cần Trúc Cơ Trung Kỳ và mang Kiếm Hạp.",
+    "icon": "bi_tich_nguyet_quang"
+  },
+  "bi_tich_huyet_nguyet_am_thuc": {
+    "id": "bi_tich_huyet_nguyet_am_thuc",
+    "name": "Bí Tịch Huyết Nguyệt Ám Thực",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp huyết nguyệt: trăng máu bị bóng tối nuốt rồi giáng luồng ám quang xuống đối thủ, hút huyết kẻ trúng. Cần Trúc Cơ Trung Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_huyet_nguyet_am_thuc"
+  },
+  "bi_tich_kim_quang_cu_kiem": {
+    "id": "bi_tich_kim_quang_cu_kiem",
+    "name": "Bí Tịch Kim Quang Cự Kiếm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Chưởng Sự Chính Đạo (Chính Đảo) bán cho người mang Kiếm Hạp.",
+    "desc": "Bí pháp Chính Đạo: triệu một cây kim kiếm khổng lồ từ vòng năng lượng, bay chậm theo vòng cung rồi cắm vào đối thủ. Cần Trúc Cơ Sơ Kỳ và mang Kiếm Hạp.",
+    "icon": "bi_tich_kim_quang_cu_kiem"
+  },
+  "bi_tich_ngu_sac_than_chuong": {
+    "id": "bi_tich_ngu_sac_than_chuong",
+    "name": "Bí Tịch Ngũ Sắc Thần Chưởng",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp thượng cổ: một bàn tay ngũ sắc khổng lồ từ mây sương bổ xuống, đập nát và làm choáng kẻ trúng. Hồi chiêu rất lâu. Cần Trúc Cơ Trung Kỳ và mang Kiếm Hạp.",
+    "icon": "bi_tich_ngu_sac_than_chuong"
+  },
+  "bi_tich_am_huyet_ma_chuong": {
+    "id": "bi_tich_am_huyet_ma_chuong",
+    "name": "Bí Tịch Ám Huyết Ma Chưởng",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "desc": "Bí pháp ma thủ: bàn tay quỷ khổng lồ từ xoáy huyết vân cào xuống, gây Thâm Thương kẻ trúng. Hồi chiêu rất lâu. Cần Trúc Cơ Trung Kỳ và mang Hồn Phiên.",
+    "icon": "bi_tich_am_huyet_ma_chuong"
+  },
+  "bi_tich_huyet_buc_chuong": {
+    "id": "bi_tich_huyet_buc_chuong",
+    "name": "Bí Tịch Huyết Bức Chưởng",
+    "type": "bi_tich",
+    "grade": "Linh phẩm hạ",
+    "desc": "Vỗ một chưởng, bầy dơi huyết bắn vào đối thủ, có thể gây rỉ máu. Sức ngang Lôi Chưởng, tầm xa hơn.",
+    "icon": "bi_tich_huyet_buc_chuong"
+  },
+  "bi_tich_huyet_liem_tram": {
+    "id": "bi_tich_huyet_liem_tram",
+    "name": "Bí Tịch Huyết Liêm Trảm",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "obtain": "Rơi cực hiếm từ quái trong Yên Lãng Sơn. Quyển văng ra không chủ: ai nhặt trước thì được.",
+    "desc": "Bí pháp Huyết Đạo: vung một làn sóng liêm máu, nổ thành mây huyết trúng tối đa 4 kẻ. Cần Luyện Khí Tầng 10. Có Huyết Ma Liêm trong hành trang: sát thương gấp đôi và hút huyết; thiếu pháp khí còn 50%, không hút.",
+    "icon": "bi_tich_huyet_liem_tram"
+  },
+  "bi_tich_xich_ma_hoa_than": {
+    "id": "bi_tich_xich_ma_hoa_than",
+    "name": "Bí Tịch Xích Ma Hóa Thân",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Sứ Giả Thiên Thi Tông (U Uýnh Vực) bán cho người cầm Hồn Phiên; cũng nằm trong kho bảo vật Sỹ Sách Điện.",
+    "desc": "Bí pháp Thiên Thi Tông: cường hoá thân 12 giây, đánh nhanh gấp 1,6, hút huyết, có Ma Giáp, ma khí bao thân. Cần Trúc Cơ Sơ Kỳ và Hồn Phiên.",
+    "icon": "bi_tich_xich_ma_hoa_than"
+  },
+  "bi_tich_kim_cuong_hoa_than": {
+    "id": "bi_tich_kim_cuong_hoa_than",
+    "name": "Bí Tịch Kim Cương Hóa Thân",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Chưởng Sự Chính Đạo (Chính Đảo) bán cho người mang Kiếm Hạp; cũng nằm trong kho bảo vật Sỹ Sách Điện.",
+    "desc": "Bí pháp Chính Đạo: cường hoá thân 14 giây, đánh nhanh gấp 1,45, hút huyết, có Cương Khí, thân mạ vàng, mắt phát sáng. Cần Trúc Cơ Sơ Kỳ và Kiếm Hạp.",
+    "icon": "bi_tich_kim_cuong_hoa_than"
+  },
+  "bi_tich_tu_anh_phuoc_tien": {
+    "id": "bi_tich_tu_anh_phuoc_tien",
+    "name": "Bí Tịch Tứ Ảnh Phược Tiên",
+    "type": "bi_tich",
+    "grade": "Địa phẩm thượng",
+    "obtain": "Phần thưởng hạng 1 Top Sát Thương Boss tuần. Không rơi, không bán.",
+    "desc": "Thân hoá bốn bóng mờ, mỗi bóng quất một roi trói chân đối phương 2,5 giây. Cần Trúc Cơ Sơ Kỳ. Có Nhuyễn Tiên thì roi đỏ, không thì roi sét Bạch Lôi Tiên.",
+    "icon": "bi_tich_tu_anh_phuoc_tien"
+  },
+  "bi_tich_hoanh_tao_mac_ngan": {
+    "id": "bi_tich_hoanh_tao_mac_ngan",
+    "name": "Bí Tịch Hoành Tảo Mặc Ngân",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Tà Soái Hoàng Cửu Bảo (Bí Cảnh Lãm Làng); cực hiếm trong rương Tộc Trưởng Yên Lãng Sơn.",
+    "desc": "Vòng mực thủy mặc quét quanh thân, đánh tối đa 4 kẻ gần nhất. Cần Trúc Cơ Sơ Kỳ, theo Chính Đạo.",
+    "icon": "bi_tich_hoanh_tao_mac_ngan"
+  },
+  "bi_tich_son_ha_nhap_hoa": {
+    "id": "bi_tich_son_ha_nhap_hoa",
+    "name": "Bí Tịch Sơn Hà Nhập Họa",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Tà Soái Hoàng Cửu Bảo (Bí Cảnh Lãm Làng); cực hiếm trong rương Tộc Trưởng Yên Lãng Sơn.",
+    "desc": "Vẽ một quả núi lơ lửng trên điểm ngắm rồi giáng xuống, đè tối đa 5 kẻ bên dưới. Cần Trúc Cơ Sơ Kỳ, theo Chính Đạo.",
+    "icon": "bi_tich_son_ha_nhap_hoa"
+  },
+  "bi_tich_tu_van_cuong_phong": {
+    "id": "bi_tich_tu_van_cuong_phong",
+    "name": "Bí Tịch Tử Vân Cuồng Phong",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Tà Soái Hoàng Cửu Bảo (Bí Cảnh Lãm Làng); cực hiếm trong rương Tộc Trưởng Yên Lãng Sơn.",
+    "desc": "Dựng một cột khói tím xoáy xuống điểm ngắm, đánh tối đa 4 kẻ trong tầm xoáy. Cần Trúc Cơ Sơ Kỳ, theo Ma Đạo.",
+    "icon": "bi_tich_tu_van_cuong_phong"
+  },
+  "bi_tich_tu_van_ma_vuc": {
+    "id": "bi_tich_tu_van_ma_vuc",
+    "name": "Bí Tịch Tử Vân Ma Vực",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Tà Soái Hoàng Cửu Bảo (Bí Cảnh Lãm Làng); cực hiếm trong rương Tộc Trưởng Yên Lãng Sơn.",
+    "desc": "Ma khí tím toả thành vành quanh thân, đánh tối đa 5 kẻ gần nhất. Cần Trúc Cơ Sơ Kỳ, theo Ma Đạo.",
+    "icon": "bi_tich_tu_van_ma_vuc"
+  },
+  "bi_tich_cuu_u_hac_trao": {
+    "id": "bi_tich_cuu_u_hac_trao",
+    "name": "Bí Tịch Cửu U Hắc Trảo",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Vết Nứt Không Gian: mỗi lần Hòm Hư Không nổ đều có một quyển.",
+    "desc": "Bí pháp Ma Đạo: một bàn tay ma trồi dưới chân mục tiêu, siết rồi giật cào hai lần. Cần Trúc Cơ Trung Kỳ và Hồn Phiên.",
+    "icon": "bi_tich_cuu_u_hac_trao"
+  },
+  "bi_tich_hac_vu_xuyen_tam": {
+    "id": "bi_tich_hac_vu_xuyen_tam",
+    "name": "Bí Tịch Hắc Vũ Xuyên Tâm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Vết Nứt Không Gian: mỗi lần Hòm Hư Không nổ đều có một quyển.",
+    "desc": "Bí pháp Ma Đạo: bầy lông vũ đen xoáy quanh quạt rồi xuyên thẳng vào một mục tiêu. Cần Trúc Cơ Trung Kỳ và Hồn Phiên.",
+    "icon": "bi_tich_hac_vu_xuyen_tam"
+  },
+  "bi_tich_thanh_long_ngam": {
+    "id": "bi_tich_thanh_long_ngam",
+    "name": "Bí Tịch Thanh Long Ngâm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Vết Nứt Không Gian: mỗi lần Hòm Hư Không nổ đều có một quyển.",
+    "desc": "Bí pháp Chính Đạo: long ảnh xanh ngọc uốn mình lao tới một mục tiêu rồi cắn xuống. Cần Trúc Cơ Trung Kỳ và Kiếm Hạp.",
+    "icon": "bi_tich_thanh_long_ngam"
+  },
+  "bi_tich_cuu_thien_lien_am": {
+    "id": "bi_tich_cuu_thien_lien_am",
+    "name": "Bí Tịch Cửu Thiên Liên Âm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm thượng",
+    "obtain": "Vết Nứt Không Gian: mỗi lần Hòm Hư Không nổ đều có một quyển.",
+    "desc": "Bí pháp Chính Đạo: đài sen ngọc nở dưới chân một mục tiêu, dây âm và cột thanh quang bùng lên. Cần Trúc Cơ Trung Kỳ và Kiếm Hạp.",
+    "icon": "bi_tich_cuu_thien_lien_am"
+  },
+  "bi_tich_bich_nguc_giang_dao": {
+    "id": "bi_tich_bich_nguc_giang_dao",
+    "name": "Bí Tịch Bích Ngục Giáng Đao",
+    "type": "bi_tich",
+    "grade": "Địa phẩm",
+    "obtain": "Không bán, không rơi từ quái; chỉ ra ở tủ Thượng Phẩm.",
+    "desc": "Bí pháp bích ngục: đao khổng lồ giáng thẳng xuống một mục tiêu, kèm Hoảng Sợ 3 giây. Cần Trúc Cơ Trung Kỳ. Có Bích Ngục Tà Đao: đủ sát thương; thiếu: còn 50%.",
+    "icon": "bi_tich_bich_nguc_giang_dao"
+  },
+  "bi_tich_ngoc_luu_chan_am": {
+    "id": "bi_tich_ngoc_luu_chan_am",
+    "name": "Bí Tịch Ngọc Lưu Chấn Âm",
+    "type": "bi_tich",
+    "grade": "Linh phẩm trung",
+    "obtain": "Chưa có đường nhận.",
+    "desc": "Bí pháp âm luật: dòng âm ngọc nổ sóng, trúng tối đa 4 kẻ và làm chậm. Cần Trúc Cơ Sơ Kỳ. Có Ngọc Lưu Tiêu: đủ sát thương; thiếu: còn 50%.",
+    "icon": "bi_tich_ngoc_luu_chan_am"
+  },
+  "hat_linh_diep": {
+    "id": "hat_linh_diep",
+    "name": "Hạt Linh Diệp",
+    "type": "hat_giong",
+    "grade": "Phàm phẩm",
+    "seedOf": "linh_diep",
+    "desc": "Hạt giống Linh Diệp Đại Phu chia cho. Gieo xuống luống đất trong Dược Viên, để khô mất năm phút; tưới Linh Tuyền Thuỷ thì lớn nhanh hơn nhiều.",
+    "icon": "seed_luc"
+  },
+  "hat_huyet_thao": {
+    "id": "hat_huyet_thao",
+    "name": "Hạt Huyết Thảo",
+    "type": "hat_giong",
+    "grade": "Phàm phẩm",
+    "seedOf": "huyet_thao",
+    "desc": "Hạt Huyết Thảo vỏ đỏ sẫm như giọt máu khô. Kén đất, lớn chậm hơn Linh Diệp, nhưng được tưới Linh Tuyền Thuỷ thì khoảng một phút đã tới tuổi thuốc.",
+    "icon": "seed_huyet"
+  },
+  "hat_thanh_tam": {
+    "id": "hat_thanh_tam",
+    "name": "Hạt Thanh Tâm Hoa",
+    "type": "hat_giong",
+    "grade": "Phàm phẩm thượng",
+    "seedOf": "thanh_tam_hoa",
+    "desc": "Hạt hoa Thanh Tâm trắng ngà, hiếm và khó chiều. Phải chờ lâu nhất mới nở, để khô mất năm phút, tưới đúng nước Hồ Bích Thuỷ thì chỉ còn khoảng một phút.",
+    "icon": "seed_thanh"
+  },
+  "linh_diep": {
+    "id": "linh_diep",
+    "name": "Linh Diệp",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Lá xanh ngọc, gân lá ánh lên như có sương đọng. Vị ngọt hậu, tính bình — thứ dẫn thuốc căn bản nhất của mọi phương tụ khí.",
+    "icon": "herb_linh"
+  },
+  "huyet_thao": {
+    "id": "huyet_thao",
+    "name": "Huyết Thảo",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Cỏ thân đỏ sẫm, bẻ ra rỉ nhựa đỏ như máu. Bổ khí huyết, giữ cho thân phàm chịu nổi lúc linh khí ồ ạt chạy trong kinh mạch.",
+    "icon": "herb_huyet"
+  },
+  "thanh_tam_hoa": {
+    "id": "thanh_tam_hoa",
+    "name": "Thanh Tâm Hoa",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm hạ",
+    "desc": "Đoá hoa trắng ánh lam, hương thanh mát làm dịu tâm hoả. Trấn được tạp niệm lúc luyện đan, thiếu nó thì mẻ thuốc dễ tán khí.",
+    "icon": "flower_nguyet"
+  },
+  "hat_linh_ngoc": {
+    "id": "hat_linh_ngoc",
+    "name": "Hạt Linh Ngọc Diệp",
+    "type": "hat_giong",
+    "grade": "Địa phẩm hạ",
+    "seedOf": "linh_ngoc_diep",
+    "desc": "Hạt cứng như mảnh ngọc vụn, ấp tay thấy mát lạnh. Kén đất hơn giống Phàm phẩm nhiều: để khô mười phút mới tới tuổi, tưới nước cũng phải năm phút.",
+    "icon": "seed_ngoc"
+  },
+  "hat_xich_duong": {
+    "id": "hat_xich_duong",
+    "name": "Hạt Xích Dương Thảo",
+    "type": "hat_giong",
+    "grade": "Địa phẩm hạ",
+    "seedOf": "xich_duong_thao",
+    "desc": "Hạt vỏ cam đỏ, cầm lâu trong tay thấy ấm dần. Ưa nắng gắt, để khô mười phút, tưới Linh Tuyền Thuỷ thì rút còn năm phút.",
+    "icon": "seed_duong"
+  },
+  "hat_bich_van": {
+    "id": "hat_bich_van",
+    "name": "Hạt Bích Vân Diệp",
+    "type": "hat_giong",
+    "grade": "Địa phẩm",
+    "seedOf": "bich_van_diep",
+    "desc": "Hạt xanh biếc trong như giọt sương đọng, soi lên thấy vân mây cuộn bên trong. Để khô mười lăm phút, tưới nước còn tám phút.",
+    "icon": "seed_van"
+  },
+  "hat_long_huyet": {
+    "id": "hat_long_huyet",
+    "name": "Hạt Long Huyết Thảo",
+    "type": "hat_giong",
+    "grade": "Địa phẩm",
+    "seedOf": "long_huyet_thao",
+    "desc": "Hạt đỏ thẫm ánh kim, vỏ nổi vảy li ti như da giao long. Giống khó nhất trong vườn: khô mười lăm phút, tưới nước cũng phải tám phút mới hái được.",
+    "icon": "seed_long"
+  },
+  "hat_truc_co_thao": {
+    "id": "hat_truc_co_thao",
+    "name": "Hạt Trúc Cơ Thảo",
+    "type": "hat_giong",
+    "grade": "Địa phẩm",
+    "seedOf": "truc_co_thao",
+    "desc": "Hạt xanh ngả vàng, cầm lên thấy nặng tay như chứa sẵn một mạch đạo cơ. Giống Địa phẩm: khô sáu mươi phút, tưới nước cũng phải ba mươi phút mới hái được.",
+    "icon": "seed_truc_co"
+  },
+  "hat_dia_linh_qua": {
+    "id": "hat_dia_linh_qua",
+    "name": "Hạt Địa Linh Hóa Quả",
+    "type": "hat_giong",
+    "grade": "Địa phẩm",
+    "seedOf": "dia_linh_qua",
+    "desc": "Hạt tròn nâu đất, vỏ vân như mạch đá, áp tai nghe như có địa khí chảy bên trong. Giống Địa phẩm: khô sáu mươi phút, tưới nước cũng phải ba mươi phút mới hái được.",
+    "icon": "seed_dia_linh"
+  },
+  "hat_ngu_hanh_thao": {
+    "id": "hat_ngu_hanh_thao",
+    "name": "Hạt Ngũ Hành Thảo",
+    "type": "hat_giong",
+    "grade": "Địa phẩm thượng",
+    "seedOf": "ngu_hanh_thao",
+    "desc": "Hạt linh thảo ngũ sắc, bên trong luân chuyển đủ năm luồng linh khí. Giống dành cho tu sĩ Trúc Cơ: để khô ba giờ, tưới Linh Tuyền Thuỷ thì còn một giờ rưỡi mới tới tuổi thuốc.",
+    "icon": "seed_ngu_hanh"
+  },
+  "ngu_hanh_thao": {
+    "id": "ngu_hanh_thao",
+    "name": "Ngũ Hành Thảo",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Linh thảo năm lá mang đủ Kim, Mộc, Thuỷ, Hoả, Thổ. Thu hái đủ tuổi mới giữ được vòng linh quang. Giữ lại làm nguyên liệu luyện Đan Ngũ Hành.",
+    "icon": "ngu_hanh_thao"
+  },
+  "linh_ngoc_diep": {
+    "id": "linh_ngoc_diep",
+    "name": "Linh Ngọc Diệp",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm hạ",
+    "desc": "Lá dày như phiến ngọc mỏng, gân lá ánh kim tuyến. Dẫn thuốc mạnh gấp mấy lần Linh Diệp, là vị chính của Luyện Khí Đan.",
+    "icon": "herb_bang"
+  },
+  "xich_duong_thao": {
+    "id": "xich_duong_thao",
+    "name": "Xích Dương Thảo",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm hạ",
+    "desc": "Cỏ thân cam đỏ, ngọn cong như ngọn lửa. Tính đại nhiệt, đốt thông kinh mạch nghẽn — thiếu nó thì Luyện Khí Đan không đủ lực phá tầng.",
+    "icon": "flower_hoa_duong"
+  },
+  "bich_van_diep": {
+    "id": "bich_van_diep",
+    "name": "Bích Vân Diệp",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm",
+    "desc": "Lá xanh biếc mỏng như sương, đưa ra ánh sáng thì thấy vân mây trôi trong thớ lá. Vị chính của Phá Cảnh Đan.",
+    "icon": "leaf_thanh_moc"
+  },
+  "long_huyet_thao": {
+    "id": "long_huyet_thao",
+    "name": "Long Huyết Thảo",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm",
+    "desc": "Thân cỏ đỏ thẫm, bẻ ra ứa nhựa sánh như huyết giao long, thoảng mùi tanh ấm. Giữ cho thân thể chịu nổi lúc phá cảnh giới lớn.",
+    "icon": "herb_long_huyet"
+  },
+  "tu_khi_duoc": {
+    "id": "tu_khi_duoc",
+    "name": "Linh Dược",
+    "type": "dan_duoc",
+    "grade": "Phàm phẩm thượng",
+    "desc": "Thang nước thuốc sắc đặc từ Linh Diệp và Huyết Thảo. Uống nơi có linh khí tụ rồi lập tức vận công, linh khí tản mát trong người sẽ được gom cả về đan điền.",
+    "icon": "potion"
+  },
+  "hon_phien": {
+    "id": "hon_phien",
+    "name": "Hồn Phiên",
+    "type": "vat_pham",
+    "grade": "Địa phẩm",
+    "desc": "Lá phiên đen viền chỉ đỏ, cán bằng xương đã ngả vàng. Mang nó trong người thì thần hồn kẻ vừa ngã không tan đi được nữa — nó bị hút vào lá phiên. Thỉnh ở Sứ Giả Ma Đạo, tầng U Uỳnh Vực. Chỉ giữ được một lá.",
+    "icon": "hon_phien"
+  },
+  "pham_hon": {
+    "id": "pham_hon",
+    "name": "Phàm Hồn",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm",
+    "desc": "Một mảnh thần hồn xám nhạt, còn ấm. Chủ của nó không tu hành ngày nào, nên hồn mỏng — tám mươi mảnh mới đủ kết thành một Âm Hồn.",
+    "icon": "pham_hon"
+  },
+  "oan_hon": {
+    "id": "oan_hon",
+    "name": "Oán Hồn",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm",
+    "desc": "Hồn kẻ chết trong lúc còn đang giữ của: đặc hơn, tối hơn, và vẫn đang giậy. Ba mươi mảnh là đủ một Âm Hồn.",
+    "icon": "oan_hon"
+  },
+  "tu_si_hon": {
+    "id": "tu_si_hon",
+    "name": "Tu Sĩ Hồn",
+    "type": "duoc_lieu",
+    "grade": "Linh phẩm",
+    "desc": "Hồn một người đã dẫn khí nhập thể. Sáng như một hòn than trắng và nặng ngang tám phàm hồn cộng lại — mười mảnh là một Âm Hồn. Chỉ thu được khi hạ người trong lúc đang mang dấu Đồ Sát.",
+    "icon": "tu_si_hon"
+  },
+  "thu_hon_3": {
+    "id": "thu_hon_3",
+    "name": "Thú Hồn Cấp 3",
+    "type": "duoc_lieu",
+    "grade": "Linh phẩm hạ",
+    "desc": "Hồn một Yêu Thú Cấp 3, còn nóng hơi thú và mùi máu. Rơi từ Thần Thú Xích Long cho người ra đòn chót đang mang Hồn Phiên. Luyện Âm Hồn thứ ba cần một mảnh.",
+    "icon": "thu_hon_3"
+  },
+  "thu_hon_4": {
+    "id": "thu_hon_4",
+    "name": "Thú Hồn Cấp 4",
+    "type": "duoc_lieu",
+    "grade": "Linh phẩm trung",
+    "desc": "Hồn một Yêu Thú Cấp 4, gầm gừ trong lòng bàn tay. Rơi từ Linh Hổ Trấn Sơn cho người ra đòn chót đang mang Hồn Phiên. Luyện Âm Hồn thứ tư cần một mảnh.",
+    "icon": "thu_hon_4"
+  },
+  "thu_hon_6": {
+    "id": "thu_hon_6",
+    "name": "Thú Hồn Cấp 6",
+    "type": "duoc_lieu",
+    "grade": "Thiên phẩm hạ",
+    "desc": "Hồn một Yêu Thú Cấp 6, đôi cánh khói vẫn còn vỗ. Rơi từ Song Dực Ma Báo cho người ra đòn chót đang mang Hồn Phiên. Luyện Âm Hồn thứ năm cần năm mảnh.",
+    "icon": "thu_hon_6"
+  },
+  "am_hon": {
+    "id": "am_hon",
+    "name": "Âm Hồn",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Một con quỷ nhỏ đã luyện xong, nằm ngủ trong lá phiên. Gọi ra thì nó đánh giúp, đi xuyên tường, không ăn Linh Thạch — chỉ ăn Linh Lực. Bị đánh tan hay cạn khí thì về lại phiên.",
+    "icon": "am_hon"
+  },
+  "kiem_hap": {
+    "id": "kiem_hap",
+    "name": "Tụ Linh Kiếm Hạp",
+    "type": "vat_pham",
+    "grade": "Địa phẩm",
+    "desc": "Hộp kiếm gỗ trắc bịt đồng. Mang trong người thì chính khí của kẻ ác vừa ngã tụ lại trong hạp, luyện thành Kiếm Linh. Thỉnh ở Chưởng Sự Chính Đạo, Chính Đảo. Chỉ giữ được một hạp.",
+    "icon": "kiem_hap"
+  },
+  "chinh_khi": {
+    "id": "chinh_khi",
+    "name": "Chính Khí",
+    "type": "duoc_lieu",
+    "grade": "Phàm phẩm",
+    "desc": "Một đốm sáng ấm tụ lại sau khi hạ Sơn Tặc. Tám mươi đốm kết thành một Kiếm Linh.",
+    "icon": "chinh_khi"
+  },
+  "hiep_nghia_lenh": {
+    "id": "hiep_nghia_lenh",
+    "name": "Hiệp Nghĩa Lệnh",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm",
+    "desc": "Lệnh bài của Kiếp Tặc chặn đường Thương Đội. Nguyên liệu luyện Kiếm Linh bậc hai trở lên.",
+    "icon": "hiep_nghia_lenh"
+  },
+  "tru_ma_lenh": {
+    "id": "tru_ma_lenh",
+    "name": "Trừ Ma Lệnh",
+    "type": "duoc_lieu",
+    "grade": "Linh phẩm",
+    "desc": "Hạ một Ma tu, hoặc hạ kẻ đang mang dấu Đồ Sát, thì được lệnh này. Nguyên liệu luyện Kiếm Linh bậc ba trở lên.",
+    "icon": "tru_ma_lenh"
+  },
+  "kiem_linh": {
+    "id": "kiem_linh",
+    "name": "Kiếm Linh",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Một thanh kiếm linh đã luyện xong, nằm yên trong hạp. Gọi ra thì bay theo đánh giúp, chỉ ăn Linh Lực. Bị đánh tan hay cạn khí thì về lại hạp. Mang Sát Nghiệp thì không gọi được.",
+    "icon": "kiem_linh"
+  },
+  "khoi_loi_bich_moc": {
+    "id": "khoi_loi_bich_moc",
+    "name": "Bích Mộc Khôi Lỗi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Khôi lỗi tạc từ Cổ Bích Mộc, ngực khảm Trấn Thần Thạch. Nhẹ chân, bám sát chủ.",
+    "icon": "khoi_loi_bich_moc"
+  },
+  "khoi_loi_huyen_thiet": {
+    "id": "khoi_loi_huyen_thiet",
+    "name": "Huyền Thiết Khôi Lỗi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Khôi lỗi đúc bằng Huyền Thiết, sừng trâu trên mũ. Da sắt chịu đòn thay chủ.",
+    "icon": "khoi_loi_huyen_thiet"
+  },
+  "khoi_loi_yeu_cot": {
+    "id": "khoi_loi_yeu_cot",
+    "name": "Yêu Cốt Khôi Lỗi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Khôi lỗi dựng từ xương và nanh yêu thú, mắt đỏ. Máu mỏng, ra đòn nặng nhất.",
+    "icon": "khoi_loi_yeu_cot"
+  },
+  "thi_khoi_thanh": {
+    "id": "thi_khoi_thanh",
+    "name": "Thanh Thi Khôi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Xác mặc quan phục, bùa vàng dán trán, hai tay duỗi thẳng. Cân bằng, bám sát chủ.",
+    "icon": "thi_khoi_thanh"
+  },
+  "thi_khoi_dong": {
+    "id": "thi_khoi_dong",
+    "name": "Đồng Thi Khôi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Xác khoác giáp đồng rỉ lục, xích sắt quấn người. Da đồng chịu đòn thay chủ.",
+    "icon": "thi_khoi_dong"
+  },
+  "thi_khoi_bach": {
+    "id": "thi_khoi_bach",
+    "name": "Bạch Mao Thi Khôi",
+    "type": "vat_pham",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "khoiLoi": true,
+    "desc": "Xác tóc trắng, vuốt dài như dao, mắt tím. Máu mỏng, ra đòn nặng nhất.",
+    "icon": "thi_khoi_bach"
+  },
+  "linh_thuy": {
+    "id": "linh_thuy",
+    "name": "Linh Thúy",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm",
+    "desc": "Hạt tinh khí xanh biếc đọng lại trong thân Dược Linh Thú — do chúng ăn linh thảo cả đời mà kết thành. Thiếu thứ này thì Tụ Khí Đan chỉ là viên thuốc bổ.",
+    "icon": "essence"
+  },
+  "phuong_tu_khi_dan": {
+    "id": "phuong_tu_khi_dan",
+    "name": "Phương Tụ Khí Đan",
+    "type": "vat_pham",
+    "grade": "Địa phẩm hạ",
+    "desc": "Tờ đan phương Đại Phu chép tay từ thuở trước. Nay đan lô nào cũng đã biết công thức Tụ Khí Đan, tờ giấy này chỉ còn là kỷ niệm.",
+    "icon": "scroll"
+  },
+  "luyen_khi_dan": {
+    "id": "luyen_khi_dan",
+    "name": "Luyện Khí Đan",
+    "type": "dan_duoc",
+    "grade": "Địa phẩm hạ",
+    "desc": "Viên đan ánh lam luyện từ 3 Linh Ngọc Diệp, 3 Xích Dương Thảo và 4 Linh Thúy. Đan dược phá quan của Luyện Khí trung kỳ — dùng cho các tầng 4 tới 7, nuốt xong là tan.",
+    "icon": "pill_blue"
+  },
+  "tay_tam_dan": {
+    "id": "tay_tam_dan",
+    "name": "Tẩy Tâm Đan",
+    "type": "dan_duoc",
+    "grade": "Địa phẩm",
+    "desc": "Viên đan trắng ngọc luyện ở đan lô từ 20 Phong Linh Thảo, 3 Thanh Tâm Hoa, 1 Ngũ Hành Thảo và 20 Nấm Linh Chi. Uống một viên bớt 100 Sát Nghiệp.",
+    "icon": "pill_white"
+  },
+  "pha_canh_dan": {
+    "id": "pha_canh_dan",
+    "name": "Phá Cảnh Đan",
+    "type": "dan_duoc",
+    "grade": "Địa phẩm",
+    "desc": "Viên đan tím sẫm ánh kim luyện từ 3 Bích Vân Diệp, 3 Long Huyết Thảo và 5 Linh Thúy. Đan dược phá quan của Luyện Khí hậu kỳ — dùng cho các tầng 7 tới 13, nuốt xong là tan.",
+    "icon": "pill_violet"
+  },
+  "tu_khi_dan": {
+    "id": "tu_khi_dan",
+    "name": "Tụ Khí Đan",
+    "type": "dan_duoc",
+    "grade": "Địa phẩm hạ",
+    "desc": "Viên đan tròn óng như hổ phách, lõi xanh biếc xoay chậm. Luyện ở đan lô từ 3 Linh Diệp, 3 Huyết Thảo và 2 Linh Thúy. Uống lúc Đạo Hạnh viên mãn để phá cửa quan Tầng 2 → 3 và Tầng 3 → 4, mỗi cửa một viên, nuốt xong là tan.",
+    "icon": "tu_khi_dan"
+  },
+  "non_la": {
+    "id": "non_la",
+    "name": "Nón Lá",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Phàm phẩm",
+    "hatArt": "straw",
+    "desc": "Nón lá cọ khâu bằng cật tre, vành rộng che kín cả vai. Không đỡ nổi một nhát đao nào, nhưng che được nắng đồng và mưa núi — thứ mà kẻ đi bộ khắp Chân Núi Tản Viên cần hơn là một tấm giáp.",
+    "icon": "non_la"
+  },
+  "mu_bach_van": {
+    "id": "mu_bach_van",
+    "name": "Mũ Bạch Vân",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "hatArt": "white_sage",
+    "hpBonus": 8,
+    "mpBonus": 5,
+    "bpBonus": 3,
+    "desc": "Mũ vải trắng chóp thấp, lót nan trúc và gia cố vành bằng Huyền Thiết mỏng. Linh lực hộ thân chỉ tăng nhẹ, vừa sức tu sĩ Luyện Khí. Cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "mu_bach_van"
+  },
+  "mu_tieu_dao": {
+    "id": "mu_tieu_dao",
+    "name": "Mũ Tiêu Dao",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "hatArt": "tieu_dao",
+    "hpBonus": 8,
+    "mpBonus": 5,
+    "bpBonus": 3,
+    "desc": "Mũ du phương xanh chàm, vành rộng giữ gió núi và dây tua dẫn linh lực. Chỉ số ngang Mũ Bạch Vân; cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "mu_tieu_dao"
+  },
+  "mu_tieu_dao_linh": {
+    "id": "mu_tieu_dao_linh",
+    "name": "Tiêu Dao Linh Quan",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_10",
+    "hatArt": "tieu_dao",
+    "hpBonus": 9,
+    "mpBonus": 6,
+    "bpBonus": 3,
+    "desc": "Linh quan xanh ngọc viền kim, kết một viên thanh ngọc trước vành. Khí Huyết và Linh Lực nhỉnh hơn Mũ Tiêu Dao. Cần đạt Luyện Khí Tầng 10 mới mặc được. Chỉ rơi cực hiếm từ quái.",
+    "obtain": "Cực hiếm rơi từ quái ở mọi bản đồ. Món rơi dành cho người hạ quái; không rèn được.",
+    "icon": "mu_tieu_dao_linh"
+  },
+  "mu_tu_lien": {
+    "id": "mu_tu_lien",
+    "name": "Mũ Tử Liên",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "hatArt": "tu_lien",
+    "hpBonus": 8,
+    "mpBonus": 5,
+    "bpBonus": 3,
+    "desc": "Mũ tím viền kim, giữa trán kết một đóa Tử Liên thu linh khí. Chỉ số ngang Mũ Bạch Vân; cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "mu_tu_lien"
+  },
+  "mu_nguyet_bach": {
+    "id": "mu_nguyet_bach",
+    "name": "Mũ Nguyệt Bạch",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "hatArt": "nguyet_bach",
+    "hpBonus": 8,
+    "mpBonus": 5,
+    "bpBonus": 3,
+    "desc": "Mũ trắng ánh nguyệt, viền lam bạc và một mảnh tua mỏng như sương. Chỉ số ngang Mũ Bạch Vân; cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "mu_nguyet_bach"
+  },
+  "lan_thanh_trum_dau": {
+    "id": "lan_thanh_trum_dau",
+    "name": "Trùm Đầu Lan Thánh",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "hatArt": "lan_thanh_trum_dau",
+    "hpBonus": 18,
+    "mpBonus": 22,
+    "bpBonus": 20,
+    "desc": "Khăn trùm lam ngọc rủ hai bên má, vương miện bạc cài ngọc lục giữa trán. Món Đầu Quan độc lập, có thể phối với mọi y phục; cần đạt Trúc Cơ.",
+    "icon": "lan_thanh_trum_dau"
+  },
+  "dong_hoang_chung": {
+    "id": "dong_hoang_chung",
+    "name": "Đông Hoàng Chung",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "hatArt": "none",
+    "hpBonus": 40,
+    "bpBonus": 16,
+    "chuong": {
+      "below": 0.9,
+      "pct": 0.1,
+      "time": 20,
+      "cooldown": 20
+    },
+    "desc": "Chuông cổ bằng đồng vàng, khắc chữ Đông Hoàng. Tiếng ngân của nó úp xuống thành một lớp chuông mờ quanh thân người đeo.",
+    "icon": "dong_hoang_chung"
+  },
+  "bich_linh_ho": {
+    "id": "bich_linh_ho",
+    "name": "Bích Linh Hồ",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "hatArt": "none",
+    "hpBonus": 40,
+    "bpBonus": 12,
+    "phapBao": {
+      "kind": "heal",
+      "below": 0.6,
+      "pct": 0.05,
+      "cooldown": 20
+    },
+    "desc": "Bình ngọc bích khảm đồng cổ, trong lòng dưỡng một giọt linh dịch. Khi khí huyết suy yếu, bình tự mở nắp, dẫn linh dịch nhập thân chữa thương.",
+    "icon": "bich_linh_ho"
+  },
+  "huyen_bang_kinh": {
+    "id": "huyen_bang_kinh",
+    "name": "Huyền Băng Kính",
+    "type": "vat_pham",
+    "slot": "mu",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "hatArt": "none",
+    "hpBonus": 28,
+    "bpBonus": 20,
+    "phapBao": {
+      "kind": "reflect_slow",
+      "range": 240,
+      "mult": 0.5,
+      "time": 5,
+      "cooldown": 20
+    },
+    "desc": "Cổ kính viền bạc chạm vân, mặt kính kết một đóa băng sáu cánh. Kẻ ra tay ở gần bị hàn quang phản chiếu, bước chân nặng như giẫm trên sương lạnh.",
+    "icon": "huyen_bang_kinh"
+  },
+  "giap_moc_tam": {
+    "id": "giap_moc_tam",
+    "name": "Giáp Mộc Tâm",
+    "type": "vat_pham",
+    "slot": "giap",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "bpBonus": 12,
+    "resistBonus": 0.03,
+    "desc": "Giáp nhẹ ghép từ phiến linh mộc, viền bằng Huyền Thiết mỏng. Chỉ tăng 12 Giáp, đủ che thân cho tu sĩ Luyện Khí mà không nặng nề như giáp Trúc Cơ. Cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "giap_moc_tam"
+  },
+  "moc_linh_giap": {
+    "id": "moc_linh_giap",
+    "name": "Mộc Linh Giáp",
+    "type": "vat_pham",
+    "slot": "giap",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_10",
+    "hpBonus": 10,
+    "bpBonus": 15,
+    "resistBonus": 0.03,
+    "desc": "Giáp ghép từ lõi linh mộc xanh ngọc, nẹp kim ôm vai và hộ tâm khảm ngọc. Linh mộc dưỡng khí huyết, che thân và ổn định thần niệm. Cần đạt Luyện Khí Tầng 10 mới mặc được. Chỉ rơi cực hiếm từ quái.",
+    "obtain": "Cực hiếm rơi từ quái ở mọi bản đồ. Món rơi dành cho người hạ quái; không rèn được.",
+    "icon": "moc_linh_giap"
+  },
+  "hoang_lan_giap": {
+    "id": "hoang_lan_giap",
+    "name": "Hoàng Lân Giáp",
+    "type": "vat_pham",
+    "slot": "giap",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "hpBonus": 60,
+    "bpBonus": 80,
+    "resistBonus": 0.08,
+    "desc": "Giáp ghép từ vảy bụng Xích Long — thứ vảy ngả vàng ròng vì nằm sát nơi con thú nuôi lửa, dày tới mức đao thường chém vào chỉ trượt đi một đường trắng. Khoác lên thì thân xác nặng thêm mà lại vững như tường đá, Nhục Thân dày lên trông thấy. Người chưa qua Trúc Cơ mặc vào sẽ bị chính sức nặng của nó ghì cho khụy xuống.",
+    "icon": "hoang_lan_giap"
+  },
+  "thu_tuong_giap": {
+    "id": "thu_tuong_giap",
+    "name": "Thú Tượng Giáp",
+    "type": "vat_pham",
+    "slot": "giap",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_1",
+    "hpBonus": 55,
+    "bpBonus": 72,
+    "resistBonus": 0.07,
+    "desc": "Giáp bạc lam chạm hình thú tượng, viền vàng ôm lấy từng phiến giáp. Thân giáp vững chắc nhưng vẫn kém Hoàng Lân Giáp một bậc: cộng 55 Khí Huyết, 72 Giáp và 7% kháng. Cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "thu_tuong_giap"
+  },
+  "xuyen_son_thiet_giap": {
+    "id": "xuyen_son_thiet_giap",
+    "name": "Xuyên Sơn Thiết Giáp",
+    "type": "vat_pham",
+    "slot": "giap",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_1",
+    "hpBonus": 25,
+    "bpBonus": 15,
+    "resistBonus": 0.05,
+    "desc": "Giáp ngực ghép từ vảy Xuyên Sơn Giáp, đệm phôi Huyền Thiết và khảm Trấn Thần Thạch giữ thần niệm. Vảy đá xếp so le như vảy tê tê, mép kết chùm Phong Tinh lam: cộng 25 Khí Huyết, 15 Giáp và 5% kháng. Cần đạt Luyện Khí Tầng 1 mới mặc được.",
+    "icon": "xuyen_son_thiet_giap"
+  },
+  "giay_van_bo": {
+    "id": "giay_van_bo",
+    "name": "Giày Vân Bộ",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Phàm phẩm thượng",
+    "requireRealm": "luyen_khi_1",
+    "moveSpeedBonus": 0.03,
+    "desc": "Đôi vân ngoa xanh thẫm thêu mây bạc, nhẹ như đặt chân lên gió. Linh lực trong đế giày chỉ đủ đẩy mỗi bước đi nhanh hơn một chút, nhưng vẫn là món quà đáng giá cho người thường xuyên băng rừng săn yêu. Cần đạt Luyện Khí Tầng 1 mới giữ được bộ pháp.",
+    "icon": "giay_van_bo"
+  },
+  "giay_lang_phong": {
+    "id": "giay_lang_phong",
+    "name": "Giày Lãng Phong",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_1",
+    "moveSpeedBonus": 0.04,
+    "desc": "Đôi ngoa lục thẫm khâu từ da sơn thú Yên Lãng, đế lót lá phong khô. Mỗi bước chân như được gió núi đẩy đi, nhanh hơn Giày Vân Bộ một chút. Cần đạt Luyện Khí Tầng 1 mới giữ được bộ pháp.",
+    "icon": "giay_lang_phong"
+  },
+  "giay_tat_phong": {
+    "id": "giay_tat_phong",
+    "name": "Giày Tật Phong",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "moveSpeedBonus": 0.04,
+    "hasteProc": {
+      "chance": 0.01,
+      "mult": 1.3,
+      "time": 8
+    },
+    "desc": "Đôi ngoa trắng viền lam, gót khâu ba nét gió như bùa Tốc Hành. Đi nhanh hơn 4%; thỉnh thoảng bước chân tự bắt được gió, nhanh thêm 30% trong 8 giây. Cần đạt Trúc Cơ Sơ Kỳ mới giữ được bộ pháp.",
+    "icon": "giay_tat_phong"
+  },
+  "giay_xich_viem": {
+    "id": "giay_xich_viem",
+    "name": "Hồi Phong Ngoa",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "moveSpeedBonus": 0.04,
+    "hanhNgoa": {
+      "kind": "hoi_phong",
+      "pct": 0.02,
+      "time": 1.5,
+      "cooldown": 8
+    },
+    "desc": "Đôi ngoa đỏ thẫm thêu ngọn lửa vàng dọc ống, đế lót da hoả tê. Quay gót đổi hướng là gió lửa cuộn ngược sau lưng đẩy thêm một nhịp. Cần đạt Trúc Cơ Sơ Kỳ mới giữ được bộ pháp.",
+    "icon": "giay_xich_viem"
+  },
+  "giay_thanh_moc": {
+    "id": "giay_thanh_moc",
+    "name": "Lưu Ngân Ngoa",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "moveSpeedBonus": 0.04,
+    "hanhNgoa": {
+      "kind": "luu_ngan",
+      "run": 2,
+      "life": 2,
+      "pct": 0.02,
+      "time": 1.5,
+      "cooldown": 8
+    },
+    "desc": "Đôi ngoa lục bích dệt từ tơ mộc linh, dây leo bạc quấn quanh ống. Chạy lâu thì tơ bạc rụng xuống thành dấu chân, kẻ nào giẫm phải thì vướng chân. Cần đạt Trúc Cơ Sơ Kỳ mới giữ được bộ pháp.",
+    "icon": "giay_thanh_moc"
+  },
+  "giay_huyen_nham": {
+    "id": "giay_huyen_nham",
+    "name": "Định Sơn Ngoa",
+    "type": "vat_pham",
+    "slot": "giay",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "moveSpeedBonus": 0.04,
+    "hanhNgoa": {
+      "kind": "dinh_son",
+      "still": 1,
+      "pct": 0.02,
+      "time": 1.5,
+      "cooldown": 8
+    },
+    "desc": "Đôi ngoa thiết đen ghép phiến huyền nham, khe đá ánh mạch địa hỏa. Phanh chân đứng vững là đế đá bám xuống đất như núi, đòn đánh vào nhẹ đi. Cần đạt Trúc Cơ Sơ Kỳ mới giữ được bộ pháp.",
+    "icon": "giay_huyen_nham"
+  },
+  "nhan_tu_than": {
+    "id": "nhan_tu_than",
+    "name": "Tụ Thần Linh Giới",
+    "type": "vat_pham",
+    "slot": "nhan",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "luyen_khi_1",
+    "spRegen": 1,
+    "desc": "Chiếc nhẫn bạc ôm ngọc lam tụ thần, từng nhịp phát ra một luồng linh quang bồi dưỡng thần niệm. Đeo vào hồi 1 Thần Thức mỗi giây; cần đạt Luyện Khí Tầng 1 mới giữ nổi linh lực trong nhẫn.",
+    "icon": "nhan_tu_than"
+  },
+  "nhan_lang_tam": {
+    "id": "nhan_lang_tam",
+    "name": "Lãng Tâm Linh Giới",
+    "type": "vat_pham",
+    "slot": "nhan",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "luyen_khi_1",
+    "spRegen": 2,
+    "mpRegen": 1,
+    "desc": "Chiếc nhẫn bạc ôm ngọc tím lấy từ tế đàn Yên Lãng, tâm ngọc lặng như mặt hồ. Đeo vào hồi 2 Thần Thức và 1 Linh Lực mỗi giây; cần đạt Luyện Khí Tầng 1 mới giữ nổi linh lực trong nhẫn.",
+    "icon": "nhan_lang_tam"
+  },
+  "nhan_xich_viem": {
+    "id": "nhan_xich_viem",
+    "name": "Xích Viêm Giới",
+    "type": "vat_pham",
+    "slot": "nhan",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "linhGioi": {
+      "kind": "xich_viem",
+      "every": 5,
+      "pct": 0.25
+    },
+    "mpRegen": 1,
+    "spRegen": 2,
+    "desc": "Nhẫn đồng đỏ ôm viên hoả tinh, lõi ngọc cháy âm ỉ như than chưa tàn. Đánh thường trúng đích đủ năm nhát thì lửa trong nhẫn bùng theo đòn. Cần đạt Trúc Cơ Sơ Kỳ mới giữ nổi hoả khí.",
+    "icon": "nhan_xich_viem"
+  },
+  "nhan_huyen_nham": {
+    "id": "nhan_huyen_nham",
+    "name": "Huyền Nham Giới",
+    "type": "vat_pham",
+    "slot": "nhan",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "linhGioi": {
+      "kind": "huyen_nham",
+      "pct": 0.06,
+      "time": 4,
+      "cooldown": 12
+    },
+    "mpRegen": 1,
+    "spRegen": 2,
+    "desc": "Nhẫn thiết đen khảm phiến huyền nham, mặt đá nặng và lạnh như vách núi. Bị đánh thì đá trong nhẫn dựng thành một lớp nham giáp quanh thân. Cần đạt Trúc Cơ Sơ Kỳ mới giữ nổi thổ khí.",
+    "icon": "nhan_huyen_nham"
+  },
+  "nhan_thanh_moc": {
+    "id": "nhan_thanh_moc",
+    "name": "Thanh Mộc Giới",
+    "type": "vat_pham",
+    "slot": "nhan",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "linhGioi": {
+      "kind": "thanh_moc",
+      "pct": 0.01,
+      "cooldown": 2
+    },
+    "mpRegen": 1,
+    "spRegen": 2,
+    "desc": "Nhẫn bạc quấn dây leo ôm viên thanh ngọc, vân ngọc như gân lá non. Mỗi lần ra đòn trúng, mộc khí trong nhẫn rót ngược vào người đeo. Cần đạt Trúc Cơ Sơ Kỳ mới giữ nổi mộc khí.",
+    "icon": "nhan_thanh_moc"
+  },
+  "thanh_lam_dao_bao": {
+    "id": "thanh_lam_dao_bao",
+    "name": "Thanh Lam Đạo Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_7",
+    "outfitArt": "thanh_lam_dao_bao",
+    "desc": "Đạo bào xanh lam sẫm may theo lối giao lĩnh, tay rộng và tà dài chạm mắt cá. Lớp trong trắng giữ hơi ấm, đai lam thắt gọn ở eo với khóa vàng nhỏ và hai dải tua thẳng. Vải đã ngấm linh khí đủ cho một tu sĩ Luyện Khí tầng 7 dẫn khí mà không vướng tay áo; người dưới Luyện Khí tầng 7 chưa đủ chân nguyên để giữ nếp bào, vì vậy không thể mặc.",
+    "icon": "thanh_lam_dao_bao"
+  },
+  "tong_ngoc_y": {
+    "id": "tong_ngoc_y",
+    "name": "Tống Ngọc Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm trung",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "tong_ngoc_y",
+    "desc": "Lụa xanh ngọc nhạt phủ vạt trắng, tay rủ viền bạc và đai lam thắt ngọc. Khi mặc đồng bộ tóc nâu dài, trâm ngọc trắng, hoa cài hai bên và dây chuyền ngọc. Tháo bào trả lại kiểu tóc cũ. Dành cho nữ tu từ Luyện Khí tầng 7.",
+    "icon": "tong_ngoc_y"
+  },
+  "bach_nguyet_hong_lien": {
+    "id": "bach_nguyet_hong_lien",
+    "name": "Bạch Nguyệt Hồng Liên Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "bach_nguyet_hong_lien",
+    "desc": "Trường bào trắng bạc dệt sợi nguyệt tơ, vai có dải hộ tâm đỏ thẫm, tay áo rộng viền tuyết và đai hồng kết thành nút cánh sen. Hai dải lụa đỏ rủ sau gấu áo rung theo bộ pháp. Chỉ nữ tu sĩ đạt Luyện Khí tầng 7 mới dẫn nổi linh lực qua các đường chỉ song sắc, người dưới cảnh giới ấy không thể mặc; kiểu bào này cũng không may theo thân nam.",
+    "icon": "bach_nguyet_hong_lien"
+  },
+  "van_lo_lao_ma_bao": {
+    "id": "van_lo_lao_ma_bao",
+    "name": "Vạn Lộ Lão Ma Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "van_lo_lao_ma_bao",
+    "desc": "Trường bào trắng ngà phủ chỉ kim, vai xếp nếp như cánh quạt và lót đen giữ khí. Đai đỏ mận khóa bằng ngọc vàng, vạt áo thêu đường gió chạy dọc theo gấu. Bộ bào chỉ nhận nam tu sĩ đạt Luyện Khí tầng 7; người dưới cảnh giới không giữ nổi linh áp trên từng nếp gấp.",
+    "icon": "van_lo_lao_ma_bao"
+  },
+  "man_ho_tu_bao": {
+    "id": "man_ho_tu_bao",
+    "name": "Mạn Hổ Tử Chiến Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm trung",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "man_ho_tu_bao",
+    "desc": "Chiến bào xanh lam đậm phủ ngoài giáp ngực kim sắc, vai mở rộng và tay áo bản lớn như cánh hộ pháp. Đai vàng bản rộng khóa giữa ngực, hai bên treo tua kim cùng hộ phù; lớp giáp tối bên trong giữ thân hình vững như thiết trụ. Chỉ nam tu sĩ đạt Luyện Khí tầng 7 mới chịu nổi linh áp của bộ bào này.",
+    "icon": "man_ho_tu_bao"
+  },
+  "chi_ton_kiem_y": {
+    "id": "chi_ton_kiem_y",
+    "name": "Chí Tôn Kiếm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "chi_ton_kiem_y",
+    "desc": "Kiếm y đen viền kim sắc, cổ dựng, khóa đai tròn và tà trắng thêu vân. Phối Tóc Chí Tôn trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Thần Thú Xích Long hoặc Linh Hổ Trấn Sơn.",
+    "icon": "chi_ton_kiem_y"
+  },
+  "thien_luan_kiem_y": {
+    "id": "thien_luan_kiem_y",
+    "name": "Thiên Luân Kiếm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "thien_luan_kiem_y",
+    "desc": "Kiếm y lam băng giao lĩnh trắng, vai giáp kim, đai khóa tròn và hai tà thêu vân hồi. Phối Tóc Thiên Luân trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7; giữ nguyên bốn hướng và toàn bộ pose chiến đấu của paper-doll.",
+    "icon": "thien_luan_kiem_y"
+  },
+  "tuyet_son_kiem_y": {
+    "id": "tuyet_son_kiem_y",
+    "name": "Tuyết Sơn Kiếm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "tuyet_son_kiem_y",
+    "desc": "Kiếm y trắng tuyết, vai giáp lam thẫm khảm ngọc băng, đai đen khóa ngọc, dải lụa đỏ tua đỏ và hai tà thêu vân băng. Phối Tóc Tuyết Sơn trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "tuyet_son_kiem_y"
+  },
+  "man_ho_tu_y": {
+    "id": "man_ho_tu_y",
+    "name": "Mạn Hổ Tử Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "man_ho_tu_y",
+    "desc": "Pháp y lam hoàng gia, ngực giáp vảy vàng giữa hai vạt viền lam nhạt, đai ô liu khóa tròn vàng, ngọc bội treo dây vàng, vạt giữa và gấu thêu hồi văn, tay áo chuông viền đôi, găng và ủng đen viền vàng. Phối Tóc Mạn Hổ Tử và Râu Mạn Hổ Tử trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "man_ho_tu_y"
+  },
+  "than_kiem_y": {
+    "id": "than_kiem_y",
+    "name": "Thần Kiếm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "than_kiem_y",
+    "desc": "Áo choàng kem độn vai viền vàng, thêu vân mây, gấu tua so le phất theo gió; trong là áo đen cổ chéo trắng, dây chuyền vàng, đai đen hoa văn vàng khóa ngọc bích, vạt vàng nhọn, tà trắng và quần ống rộng tím than, găng và ủng đen viền vàng. Phối Tóc Thần Kiếm trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "than_kiem_y"
+  },
+  "hoang_cuu_bao_y": {
+    "id": "hoang_cuu_bao_y",
+    "name": "Hoàng Cửu Bảo Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "hoang_cuu_bao_y",
+    "desc": "Áo dài đen tuyền viền vàng, cổ giao lĩnh vàng, đai buộc gọn, quần đen. Phối Tóc Hoàng Cửu (mohawk đen pha bạc, kính lam) trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "hoang_cuu_bao_y"
+  },
+  "ta_tu_y": {
+    "id": "ta_tu_y",
+    "name": "Tà Tu Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "ta_tu_y",
+    "desc": "Áo dài tím than gần đen của kẻ tu tà đạo, cổ giao lĩnh và viền tay đỏ máu, quần tím đen. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "ta_tu_y"
+  },
+  "sat_luc_y": {
+    "id": "sat_luc_y",
+    "name": "Sát Lục Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "sat_luc_y",
+    "desc": "Chiến y của kẻ tu sát đạo: vai phải giáp vảy vàng, tay áo trắng ngà rủ rộng nâng u hỏa lam khi tay không; vai và tay trái bọc giáp đen móng vuốt, áo choàng xám đen rủ theo. Ngực giáp vàng khảm huyết ngọc, đai đỏ khóa vàng, tà trắng thêu vàng giữa hai dải đỏ, vạt tím rách mép, ủng đen viền vàng; sau lưng tấm hoa văn nâu huyết. Phối Tóc Sát Lục trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "sat_luc_y"
+  },
+  "tan_mo_y": {
+    "id": "tan_mo_y",
+    "name": "Tần Mỗ Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "tan_mo_y",
+    "desc": "Kiếm y của kẻ độc hành: áo khoác đen thêu vàng khoác lệch vai phải, vai gắn huy hiệu vàng, tay áo đen dải hoa văn bạc lót trắng, vạt đen vắt ra sau che kín lưng; tay trái áo trong trắng tay rộng cổ tay lót đen. Áo lót nâu cổ chéo, dây lam vắt ngực, đai xanh rêu quấn dây đỏ cam thắt tua, ngọc bội treo hông, ủng đen hoa văn vàng; tay không thì kiếm đeo chéo lưng. Phối Tóc Tần Mỗ trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "tan_mo_y"
+  },
+  "tri_vu_bao": {
+    "id": "tri_vu_bao",
+    "name": "Trĩ Vũ Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "outfitArt": "tri_vu_bao",
+    "desc": "Chiến bào của kẻ xưng hùng: trường bào đỏ thẫm viền vàng, hai vai gắn giáp đầu rồng vàng mắt đỏ, tay áo rộng lót bạc rủ dài, bao tay đen quấn vàng. Đai đen khoá vàng khảm huyết ngọc, tua đỏ rủ trước bụng; giữa tà là dải nâu thẫm viền vàng thêu chữ thọ, hai bên tà trắng bạc, ngoài là vạt đỏ thêu hoả văn vàng, sau lưng thêu phượng vàng; ủng nâu thẫm viền vàng. Phối Tóc Trĩ Vũ trong Tủ Ngoại Hình: tóc bạc dài, kim quan cài đôi lông trĩ đỏ bay theo bước chân. Nam nữ tu sĩ đều mặc được, từ Luyện Khí tầng 7.",
+    "icon": "tri_vu_bao"
+  },
+  "bich_diep_bao": {
+    "id": "bich_diep_bao",
+    "name": "Bích Diệp Tiên Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "bich_diep_bao",
+    "desc": "Hán phục xanh ngọc bích viền thẫm: cổ chéo lót trắng, tay áo rộng rủ dài lót trắng thêu hoa nút bạc, đai lam lục thẫm khoá nút bạc kết tua hạt, váy nhiều lớp từ ngọc sang lam lục nhạt nơi gấu, dây ngọc bội bạc rủ bên hông. Phối Tóc Ngân Diệp trong Tủ Ngoại Hình: tóc bạc pha lam tím dài gần tới gấu váy, đôi trâm lá bạc dựng như gạc và giọt ngọc lam sau tai. Dành cho nữ tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "bich_diep_bao"
+  },
+  "kim_ngan_tien_bao": {
+    "id": "kim_ngan_tien_bao",
+    "name": "Kim Ngân Tiên Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_7",
+    "outfitArt": "kim_ngan_tien_bao",
+    "desc": "Y bào vàng kim thêu lam ngọc: cổ chéo lót sáng, tay áo rộng xếp lớp rủ dài, đai vàng khoá bạc kết dây hạt ngọc lam, váy xếp ly hai lá bám theo bước chân. Mặc vào là tóc tự đổi thành mái tóc trắng bạc rủ dài, cài đôi trâm bạc dựng như cánh hai bên đỉnh đầu, dây hạt ngọc buông giữa lưng. Nam nữ đều mặc được, từ Luyện Khí tầng 7.",
+    "icon": "kim_ngan_tien_bao"
+  },
+  "nguyen_dao_y": {
+    "id": "nguyen_dao_y",
+    "name": "Nguyên Dao Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "nguyen_dao_y",
+    "desc": "Y bào đỏ cổ chéo khoác áo choàng đen không tay viền vàng, vai áo thêu vàng, vòng bạc quanh hai cánh tay, đai vàng kết nút buông tua ngọc, ủng đen. Mặc vào là tóc tự đổi thành mái tóc nâu dài nửa búi, cài trâm vàng và giọt ngọc đỏ. Dành cho nữ tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "nguyen_dao_y"
+  },
+  "cung_khuyet_y": {
+    "id": "cung_khuyet_y",
+    "name": "Cung Khuyết Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm hạ",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "cung_khuyet_y",
+    "desc": "Y bào nữ tu: giáp ngực đen viền kim, đai hồng ngọc, tà áo đỏ thêu vàng, quần tối và chiến hài điểm bạc. Mặc vào là tóc tự đổi thành mái tóc chu sa dài, cài trâm nguyệt vàng buông chuỗi hạt đỏ. Dành cho nữ tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "cung_khuyet_y"
+  },
+  "bach_loc_tien_bao": {
+    "id": "bach_loc_tien_bao",
+    "name": "Bạch Long Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "bach_loc_tien_bao",
+    "desc": "Tiên bào của công tử độc hành: trường bào trắng thêu ô vuông lam, tay áo rộng rủ dài viền lam, vai giáp vàng nhọn khảm ngọc lam, cổ chéo viền lam, đai đen khoá ngọc, dải kem viền vàng giữa tà, dây vàng và tua ngọc rủ hai bên, ủng đen ren vàng. Mặc vào là tóc tự đổi thành mái tóc đen dài búi cao cài trâm gạc hươu vàng ngọc lam, bông tai ngọc, dải lụa lam trắng buông sau lưng. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "bach_loc_tien_bao"
+  },
+  "long_tuong_y": {
+    "id": "long_tuong_y",
+    "name": "Long Tướng Thanh Ngọc Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "long_tuong_y",
+    "desc": "Chiến bào của võ tướng tu tiên: trường bào xanh ngọc hai tà, giáp lam viền vàng, khoá đai linh thú, hai dải đỏ sẫm, quần tối, chiến hài viền vàng. Phối Khăn Long Tướng trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "long_tuong_y"
+  },
+  "thanh_tam_y": {
+    "id": "thanh_tam_y",
+    "name": "Thanh Tàm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "thanh_tam_y",
+    "desc": "Pháp y dệt từ tơ thanh tàm: áo khoác lam ngọc mở giữa viền vàng, vai giáp vàng góc ngoài hơi vểnh nhọn, tay áo lam đậm loe rộng hình chuông, miệng tay chéo viền vàng lót lam thẫm. Áo trong lam nhạt cổ chéo trên cổ đứng lam thẫm, đai vàng khóa hình thoi treo hai dây tua hạt đỏ ngọc trắng; vạt áo xoè gấu thêu vân vàng, lưng thêu cành vân vàng dưới cổ và giữa vạt sau, ủng lam thẫm viền vàng. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "thanh_tam_y"
+  },
+  "toc_truong_y": {
+    "id": "toc_truong_y",
+    "name": "Tộc Trưởng Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "toc_truong_y",
+    "desc": "Y bào của Thạch Tộc Trưởng: tunic đen nâu, áo lông thú kem trùm hai vai mép răng cưa, chuỗi cườm đỏ trắng kèm nanh, đai đỏ nút thắt vàng, tạp dề kem thêu thoi đỏ, ủng đen thêu vàng. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Tộc Trưởng Yên Lãng Sơn.",
+    "icon": "toc_truong_y"
+  },
+  "ta_tu_y_xanh": {
+    "id": "ta_tu_y_xanh",
+    "name": "Tà Tu Y · Xanh Thẫm",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "ta_tu_y_xanh",
+    "desc": "Kiểu Tà Tu Y nhuộm xanh thẫm như nước đầm sâu, cổ giao lĩnh và viền tay xanh ngọc lạnh như lân quang, quần lam đen. Dành cho nam tu sĩ từ Luyện Khí tầng 7.",
+    "icon": "ta_tu_y_xanh"
+  },
+  "hoat_tu_y": {
+    "id": "hoat_tu_y",
+    "name": "Hoạt Tử Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "hoat_tu_y",
+    "desc": "Hắc y viền huyết sắc, băng tay trắng, đai giáp đen buộc dây đỏ và ngân liên. Phối Tóc Hoạt Tử · Mặt Nạ trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Thần Thú Xích Long hoặc Linh Hổ Trấn Sơn.",
+    "icon": "hoat_tu_y"
+  },
+  "nam_tu_y": {
+    "id": "nam_tu_y",
+    "name": "Nam Tư Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "nam_tu_y",
+    "desc": "Xích bào thêu hỏa văn vàng, giáp vai kim diễm, cổ giao lĩnh và vạt trong trắng. Đai đen khóa vàng, hộ uyển chạm kim. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Thần Thú Xích Long hoặc Linh Hổ Trấn Sơn.",
+    "icon": "nam_tu_y"
+  },
+  "lan_thanh_y": {
+    "id": "lan_thanh_y",
+    "name": "Lan Thánh Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "female",
+    "outfitArt": "lan_thanh_y",
+    "desc": "Áo lam thêu lông công, vai vảy bạc, eo trần, đai bạc, váy lam xẻ vạt và dải lụa cam bay hai bên. Tóc Lan Thánh và trùm đầu là hai món riêng có thể thay độc lập. Dành cho nữ tu từ Luyện Khí tầng 7.",
+    "icon": "lan_thanh_y"
+  },
+  "vuong_lam_y": {
+    "id": "vuong_lam_y",
+    "name": "Vương Lâm Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "vuong_lam_y",
+    "desc": "Hắc bào giao lĩnh lót đỏ, hộ vai chạm ngân văn, song ngọc khấu bạc và đai cốt ngọc. Tà kép viền mây bạc, dây tua đỏ rủ theo bước chân. Phối Tóc Vương Lâm bạc dài đội quan ngân diễm trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Thần Thú Xích Long hoặc Linh Hổ Trấn Sơn.",
+    "icon": "vuong_lam_y"
+  },
+  "bach_y": {
+    "id": "bach_y",
+    "name": "Bạch Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "bach_y",
+    "icon": "bach_y",
+    "desc": "Trường bào lụa trắng, đai lam thắt nơ bên hông."
+  },
+  "hac_y": {
+    "id": "hac_y",
+    "name": "Hắc Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "hac_y",
+    "icon": "hac_y",
+    "desc": "Áo chẽn dạ hành, khăn quàng đỏ rượu. Lẫn vào bóng tối dễ như không."
+  },
+  "lam_y": {
+    "id": "lam_y",
+    "name": "Lam Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "lam_y",
+    "icon": "lam_y",
+    "desc": "Đạo bào chàm mở vạt, sau lưng thêu Thái Cực đồ."
+  },
+  "tu_quang_y": {
+    "id": "tu_quang_y",
+    "name": "Tử Quang Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "tu_quang_y",
+    "icon": "tu_quang_y",
+    "desc": "Pháp bào tím của phù sư, dưới nắng ánh lên sắc tử quang."
+  },
+  "thanh_y": {
+    "id": "thanh_y",
+    "name": "Thanh Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "thanh_y",
+    "icon": "thanh_y",
+    "desc": "Thanh sam lục ngọc quá gối, lưng thêu một cành trúc."
+  },
+  "huyet_anh_y": {
+    "id": "huyet_anh_y",
+    "name": "Huyết Ảnh Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Phàm phẩm",
+    "outfitArt": "huyet_anh_y",
+    "icon": "huyet_anh_y",
+    "desc": "Trường bào đỏ huyết, gấu xé mũi nhọn như bóng lửa."
+  },
+  "quan_dui": {
+    "id": "quan_dui",
+    "name": "Quần Đùi",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "quan_dui",
+    "desc": "Chiếc quần đùi đen lột được từ ổ Song Dực Ma Báo. Cởi trần, đi chân đất, cả thân chỉ còn một mảnh vải — mà đứng giữa đám pháp bào vẫn chẳng kém ai. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi 5% từ Song Dực Ma Báo.",
+    "icon": "quan_dui"
+  },
+  "huyen_cot_y": {
+    "id": "huyen_cot_y",
+    "name": "Huyền Cốt Y",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "huyen_cot_y",
+    "desc": "Lam bào tay rộng, cổ đen dựng cao, ngực thêu cốt văn bạc và đai xanh nhiều nếp. Tà áo xẻ dài để lộ nội y xanh đen. Phối với Tóc Huyền Cốt trong Tủ Ngoại Hình. Dành cho nam tu sĩ từ Luyện Khí tầng 7; rơi từ Thần Thú Xích Long hoặc Linh Hổ Trấn Sơn.",
+    "icon": "huyen_cot_y"
+  },
+  "ma_vuong_bao": {
+    "id": "ma_vuong_bao",
+    "name": "Ma Vương Hắc Tử Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "ma_vuong_bao",
+    "desc": "Hắc bào tím đen mở ngực, vai nhọn, tà xẻ thêu kim văn và đai vàng khóa bằng ma tinh. Quần trùm tối cùng boots chiến giữ dáng người to và nặng lực; phối với tóc Ma Vương Tử Giác để hiện đủ song sừng và bờm tóc dài như mẫu. Chỉ nam tu sĩ Luyện Khí tầng 7 mới chịu nổi linh áp.",
+    "icon": "ma_vuong_bao"
+  },
+  "bach_kim_an_dien_bao": {
+    "id": "bach_kim_an_dien_bao",
+    "name": "Bạch Kim Ẩn Diện Bào",
+    "type": "vat_pham",
+    "slot": "ao",
+    "grade": "Địa phẩm thượng",
+    "requireRealm": "luyen_khi_7",
+    "requireGender": "male",
+    "outfitArt": "bach_kim_an_dien_bao",
+    "desc": "Pháp bào trắng ngà viền kim, tay áo rộng có lớp lót đỏ sẫm và hai tà thêu kim văn. Mũ trùm nối liền thân bào, dải vải sáng che kín vùng mắt nhưng không xoá khuôn mặt bên dưới. Chỉ nam tu sĩ đạt Luyện Khí tầng 7 mới giữ được nếp bào và linh áp của bộ y phục này.",
+    "icon": "bach_kim_an_dien_bao"
+  },
+  "phi_diep": {
+    "id": "phi_diep",
+    "name": "Phi Diệp",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Phàm phẩm thượng",
+    "fly": {
+      "art": "la",
+      "speed": 1.75,
+      "realmMin": "luyen_khi_4",
+      "name": "Phi Diệp Ngự Phong"
+    },
+    "mpRegen": 1,
+    "desc": "Một lá trúc to bằng cả bàn tay, gân lá ánh lên như dát bạc. Người ta nhặt được nó dưới gốc trúc đón sương đầu núi — nhẹ tới mức chỉ cần dẫn khí vào là nó cõng nổi người. Đứng lên rồi thì gió tự đẩy đi, nhanh hơn chạy bộ một chút: chưa bằng ngự kiếm, nhưng với người vừa tới Luyện Khí Tầng 4 thì đây là lần đầu tiên hai chân rời mặt đất.",
+    "icon": "phi_diep"
+  },
+  "lam_phi_kiem": {
+    "id": "lam_phi_kiem",
+    "name": "Lam Phi Kiếm",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "kiem",
+      "speed": 1.8375,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Lam Phi Kiếm"
+    },
+    "mpRegen": 2,
+    "desc": "Thanh phi kiếm ánh lam, tôi từ Huyền Thiết và phủ một lớp linh quang xanh lạnh. Chỉ tu sĩ Trúc Cơ mới đủ chân nguyên để giữ nó dưới chân.",
+    "icon": "lam_phi_kiem"
+  },
+  "xich_phi_kiem": {
+    "id": "xich_phi_kiem",
+    "name": "Xích Phi Kiếm",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "kiem",
+      "speed": 1.8529411764705883,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Xích Phi Kiếm"
+    },
+    "mpRegen": 2,
+    "desc": "Thanh phi kiếm đỏ rực, tôi từ Huyền Thiết trong lửa và phủ một lớp linh quang đỏ thẫm. Chỉ tu sĩ Trúc Cơ mới đủ chân nguyên để giữ nó dưới chân.",
+    "icon": "xich_phi_kiem"
+  },
+  "luc_phi_kiem": {
+    "id": "luc_phi_kiem",
+    "name": "Lục Phi Kiếm",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "kiem",
+      "speed": 1.8676470588235294,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Lục Phi Kiếm"
+    },
+    "mpRegen": 2,
+    "desc": "Thanh phi kiếm xanh biếc, tôi từ Huyền Thiết và phủ một lớp linh quang xanh lá. Chỉ tu sĩ Trúc Cơ mới đủ chân nguyên để giữ nó dưới chân.",
+    "icon": "luc_phi_kiem"
+  },
+  "kim_phi_kiem": {
+    "id": "kim_phi_kiem",
+    "name": "Kim Phi Kiếm",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm trung",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "kiem",
+      "speed": 1.8823529411764706,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Kim Phi Kiếm"
+    },
+    "mpRegen": 2,
+    "desc": "Thanh phi kiếm vàng kim, lưỡi ánh sắc sâm-panh, chắn tay đúc hình cánh phượng ôm một hạt hồng ngọc, núm chuôi buộc dải lụa đỏ. Lúc ngự kiếm, kim quang loang dưới chân và để lại một vệt vàng trên đường bay. Chỉ tu sĩ Trúc Cơ mới đủ chân nguyên để giữ nó dưới chân.",
+    "icon": "kim_phi_kiem"
+  },
+  "tham_than": {
+    "id": "tham_than",
+    "name": "Thảm Thần",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "tham",
+      "speed": 1.911764705882353,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Thảm Thần"
+    },
+    "mpRegen": 3,
+    "desc": "Tấm thảm đỏ son dệt chỉ vàng, giữa thêu trám lớn ôm sao tám cánh, bốn góc quạt vàng, hai đầu buông tua kem. Dẫn linh lực vào thì thảm tự căng phẳng dưới chân, mép thảm gợn sóng theo gió mà bay. Chỉ tu sĩ Trúc Cơ mới đủ chân nguyên giữ được nó.",
+    "icon": "tham_than"
+  },
+  "huyet_nguyet_ung": {
+    "id": "huyet_nguyet_ung",
+    "name": "Huyết Nguyệt Ưng",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "ung",
+      "speed": 1.8970588235294117,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Huyết Nguyệt Ưng"
+    },
+    "mpRegen": 3,
+    "desc": "Đại Bàng Huyết Nguyệt — linh cầm lông sẫm như máu khô, mào và đầu lông cánh đỏ rực, trên mỗi cánh in một vầng trăng khuyết đỏ. Tương truyền nó chỉ nở vào đêm trăng máu. Tu sĩ Trúc Cơ đứng trên lưng nó mà bay; cánh vỗ tới đâu, lông đỏ rơi tới đó.",
+    "icon": "huyet_nguyet_ung"
+  },
+  "phong_loi_si": {
+    "id": "phong_loi_si",
+    "name": "Phong Lôi Dực",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Thiên phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "canh",
+      "speed": 1.9852941176470589,
+      "realmMin": "truc_co_1",
+      "name": "Phong Lôi Dực"
+    },
+    "mpRegen": 4,
+    "desc": "Đôi cánh hư ảnh trắng bạc ngưng tụ thành thực thể sau lưng. Phù văn cổ lấp lánh trên từng phiến cánh, gió lam xoáy quanh cùng tia sét bạc. Nhanh hơn Lam Phi Kiếm.",
+    "icon": "phong_loi_si"
+  },
+  "phong_song_si": {
+    "id": "phong_song_si",
+    "name": "Phong Song Sí",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Thiên phẩm trung",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "canh",
+      "speed": 1.9705882352941178,
+      "realmMin": "truc_co_1",
+      "name": "Phong Song Sí"
+    },
+    "mpRegen": 3,
+    "desc": "Đôi cánh đen ánh tím dựng từ lông cánh Song Dực Ma Báo, gân cánh bọc Huyền Thiết và phù văn chạy dọc từng phiến. Gió tự cuốn lấy nó mà đẩy đi.",
+    "icon": "phong_song_si"
+  },
+  "ngua_hac_tho": {
+    "id": "ngua_hac_tho",
+    "name": "Hắc Thổ Linh Mã",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Phàm phẩm thượng",
+    "fly": {
+      "art": "ngua",
+      "speed": 1.7,
+      "realmMin": "luyen_khi_1",
+      "name": "Cưỡi Hắc Thổ Linh Mã",
+      "voLua": {
+        "step": 22,
+        "life": 2.4,
+        "radius": 14,
+        "oy": 6,
+        "burnTime": 2,
+        "dpsCoef": 0.3
+      }
+    },
+    "mount": {
+      "path": "assets/sprites/mount/ngua_hac_tho_2.png",
+      "frameW": 176,
+      "frameH": 128,
+      "frames": 6,
+      "idleFrames": 2,
+      "rows": 4,
+      "frontRows": true,
+      "fps": 11,
+      "idleFps": 2.5,
+      "drawW": 88,
+      "drawH": 64,
+      "anchorX": 44,
+      "anchorY": 30,
+      "groundY": 17.5,
+      "shadow": [
+        17,
+        8
+      ]
+    },
+    "desc": "Linh mã màu đỏ đen từ vùng Hắc Thổ, móng đạp đất nên không vượt được sông suối, đá tảng như ngự kiếm. Bờm và đuôi cháy như lửa, mỗi vó chân đều ngậm một đốm than hồng: chạy tới đâu, đất sau vó cháy tới đó — quái giẫm phải bị thiêu đốt.",
+    "icon": "ngua_hac_tho"
+  },
+  "hac_tien": {
+    "id": "hac_tien",
+    "name": "Hạc Tiên",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm thượng",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "hac",
+      "speed": 1.8823529411764706,
+      "realmMin": "truc_co_1",
+      "name": "Cưỡi Hạc Tiên"
+    },
+    "mount": {
+      "path": "assets/sprites/mount/hac_tien.png",
+      "frameW": 154,
+      "frameH": 120,
+      "frames": 2,
+      "fps": 3,
+      "fpsMove": 4.5,
+      "drawW": 77,
+      "drawH": 60,
+      "anchorX": 38,
+      "anchorY": 33
+    },
+    "mpRegen": 3,
+    "desc": "Tiên hạc lông trắng, đỉnh đầu son, yên vàng gắn hồng ngọc. Tu sĩ Trúc Cơ mới ngự nổi; vỗ cánh nhẹ, nhanh hơn Lam Phi Kiếm.",
+    "icon": "hac_tien"
+  },
+  "phi_hanh_ho_lo": {
+    "id": "phi_hanh_ho_lo",
+    "name": "Kim Vân Hồ Lô",
+    "type": "vat_pham",
+    "slot": "phi_hanh",
+    "grade": "Linh phẩm hạ",
+    "requireRealm": "truc_co_1",
+    "fly": {
+      "art": "ho_lo",
+      "speed": 1.8375,
+      "realmMin": "truc_co_1",
+      "name": "Ngự Kim Vân Hồ Lô"
+    },
+    "mpRegen": 2,
+    "desc": "Hồ lô vàng hổ phách khắc vân mây, buộc đai lụa đỏ và nút bích ngọc. Tu sĩ Trúc Cơ đứng lên lưng nó mà ngự phong; nhanh ngang Lam Phi Kiếm.",
+    "icon": "phi_hanh_ho_lo"
+  },
+  "hu_anh_phi_hanh": {
+    "id": "hu_anh_phi_hanh",
+    "name": "Hư Ảnh Phi Hành",
+    "type": "vat_pham",
+    "slot": "hu_anh",
+    "grade": "Thiên phẩm hạ",
+    "huAnh": {
+      "fly": "phong_loi_si",
+      "mo": 0.1
+    },
+    "equipLabel": "Dùng",
+    "desc": "Bóng đôi cánh Phong Lôi Dực ngưng trong một mảnh ngọc, khoác lên món Phi Hành đang đeo.",
+    "icon": "hu_anh_phi_hanh"
+  },
+  "van_xich_nhat_tuyen": {
+    "id": "van_xich_nhat_tuyen",
+    "name": "Vạn Xích Nhất Tuyến",
+    "type": "vat_pham",
+    "slot": "hu_anh",
+    "grade": "Thiên phẩm trung",
+    "donQuang": {
+      "nghi": 2
+    },
+    "equipLabel": "Dùng",
+    "desc": "Độn quang ngưng thành một tuyến vàng, vạn xích chỉ một nét.",
+    "icon": "van_xich_nhat_tuyen"
+  },
+  "duoc_y_boi": {
+    "id": "duoc_y_boi",
+    "name": "Dược Y Bội",
+    "type": "vat_pham",
+    "slot": "phap_boi",
+    "grade": "Phàm phẩm thượng",
+    "spBonus": 10,
+    "desc": "Hồ lô gỗ nhỏ khắc chữ \"Dược\", Đại Phu tặng để ghi nhận công chăm nom Dược Viên. Đeo bên hông, mùi thuốc thanh giữ thần niệm tỉnh táo — tăng 10 Thần Thức.",
+    "icon": "gourd"
+  },
+  "quy_dien": {
+    "id": "quy_dien",
+    "name": "Quỷ Diện",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Địa phẩm",
+    "desc": "Mặt nạ để vào Hắc Thị. Trong chợ, ai cũng chỉ là Khách Vô Danh.",
+    "icon": "quy_dien"
+  },
+  "hac_phieu": {
+    "id": "hac_phieu",
+    "name": "Hắc Phiếu",
+    "type": "tien_te",
+    "grade": "Linh phẩm",
+    "desc": "Tiền của Hắc Thị. Tiêu ở quầy đổi Quỷ Nha và phiên đấu giá. Không bán được.",
+    "icon": "hac_phieu"
+  },
+  "chien_huan": {
+    "id": "chien_huan",
+    "name": "Chiến Huân",
+    "type": "tien_te",
+    "grade": "Linh phẩm",
+    "desc": "Công trạng giữ Linh Mạch ở bí cảnh Lãm Làng. Đổi đồ ở Tông Môn Quản Sự. Không bán được.",
+    "icon": "chien_huan"
+  },
+  "htd_ngoc_phu": {
+    "id": "htd_ngoc_phu",
+    "name": "Sỹ Sách Ngọc Phù",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Địa phẩm",
+    "desc": "Tông gom đủ 3 viên (một người giữ tối đa 3) thì cửa Ải 1 mở sang Ải 2. Gục là rơi hết.",
+    "icon": "leaf_token"
+  },
+  "huyet_ngoc_chi": {
+    "id": "huyet_ngoc_chi",
+    "name": "Huyết Ngọc Chi",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Chủ dược của Ngưng Nguyên Đan. Chỉ đổi được ở Hắc Thị.",
+    "icon": "huyet_ngoc_chi"
+  },
+  "ngung_nguyen_dan": {
+    "id": "ngung_nguyen_dan",
+    "name": "Ngưng Nguyên Đan",
+    "type": "dan_duoc",
+    "grade": "Địa phẩm thượng",
+    "desc": "Cần để phá quan lên Trúc Cơ Trung Kỳ. Luyện ở Đan Lô từ Huyết Ngọc Chi. Không giao dịch được.",
+    "icon": "pill_crimson"
+  },
+  "toai_khong_linh_chi": {
+    "id": "toai_khong_linh_chi",
+    "name": "Toái Không Linh Chi",
+    "type": "duoc_lieu",
+    "grade": "Thiên phẩm hạ",
+    "desc": "Linh chi mọc nơi không gian vỡ. Chỉ nổ ra từ Hòm Hư Không ở Vết Nứt Không Gian, mỗi ngày cả thiên hạ 5–10 cây. Chủ dược của Định Cơ Đan.",
+    "icon": "toai_khong_linh_chi"
+  },
+  "van_hoang_huyet_lan": {
+    "id": "van_hoang_huyet_lan",
+    "name": "Vạn Hoang Huyết Lan",
+    "type": "duoc_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Lan đỏ mọc trên đất máu cổ chiến trường. Mỗi kỳ Vạn Hoang Chiến Trường chỉ mọc 10 khóm trên đảo — đứng cạnh giữ yên 2 giây là hái. Nguyên liệu Định Cơ Đan.",
+    "icon": "van_hoang_huyet_lan"
+  },
+  "dinh_co_dan_phuong": {
+    "id": "dinh_co_dan_phuong",
+    "name": "Định Cơ Đan Phương",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm thượng",
+    "desc": "Cuộn chép cách luyện Định Cơ Đan, truyền lại cho người đã ra trận Tam Lộ. Đổi 20 Điểm Tam Lộ ở quầy Tam Lộ. Mỗi lò Định Cơ Đan tiêu một cuộn. Bày bán được ở chợ.",
+    "icon": "dan_phuong"
+  },
+  "dinh_co_dan": {
+    "id": "dinh_co_dan",
+    "name": "Định Cơ Đan",
+    "type": "dan_duoc",
+    "grade": "Thiên phẩm hạ",
+    "desc": "Cần để phá quan lên Trúc Cơ Hậu Kỳ. Thắng Tâm Kiếp rồi mới gieo: kèm 10 Bảo Mệnh Phù chắc thành, không kèm thì 70% — hỏng là đan tan. Không giao dịch được.",
+    "icon": "pill_jade"
+  },
+  "so_sach_quy_nha": {
+    "id": "so_sach_quy_nha",
+    "name": "Sổ Sách Hắc Thị",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Linh phẩm",
+    "desc": "Giao Lão Ăn Mày Gù, hoặc nộp Chấp Pháp Sứ ở Thăng Long.",
+    "icon": "so_sach_den"
+  },
+  "manh_giay_am_hieu_1": {
+    "id": "manh_giay_am_hieu_1",
+    "name": "Mảnh Giấy Ám Hiệu · Thượng",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "\"Đêm không trăng…\" — Hắc Y Tà Tu ở Rừng Mãng Xà.",
+    "icon": "manh_giay"
+  },
+  "manh_giay_am_hieu_2": {
+    "id": "manh_giay_am_hieu_2",
+    "name": "Mảnh Giấy Ám Hiệu · Trung",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "\"…quỷ mua trăng…\" — Hắc Y Tà Tu ở Đầm Lầy.",
+    "icon": "manh_giay"
+  },
+  "manh_giay_am_hieu_3": {
+    "id": "manh_giay_am_hieu_3",
+    "name": "Mảnh Giấy Ám Hiệu · Hạ",
+    "type": "vat_pham_nhiem_vu",
+    "grade": "Phàm phẩm thượng",
+    "desc": "\"…người bán mặt.\" — Hắc Y Tà Tu ở Bãi Đá Hang Gió.",
+    "icon": "manh_giay"
+  },
+  "truc_co_thao": {
+    "id": "truc_co_thao",
+    "name": "Trúc Cơ Thảo",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm",
+    "icon": "truc_co_thao",
+    "desc": "Thu hoạch tại Huyết Xích. Trúc Cơ Thảo, Địa Linh Hóa Quả và Yêu Đan Cấp 3 luyện tại Đan Lô trong làng; Cổ Bích Mộc và Trấn Thần Thạch đem về Đan Lô (mục Chế Phù) để chế Bảo Mệnh Phù."
+  },
+  "dia_linh_qua": {
+    "id": "dia_linh_qua",
+    "name": "Địa Linh Hóa Quả",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm",
+    "icon": "dia_linh_qua",
+    "desc": "Thu hoạch tại Huyết Xích. Trúc Cơ Thảo, Địa Linh Hóa Quả và Yêu Đan Cấp 3 luyện tại Đan Lô trong làng; Cổ Bích Mộc và Trấn Thần Thạch đem về Đan Lô (mục Chế Phù) để chế Bảo Mệnh Phù."
+  },
+  "co_bich_moc": {
+    "id": "co_bich_moc",
+    "name": "Cổ Bích Mộc",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm",
+    "icon": "co_bich_moc",
+    "desc": "Thu hoạch tại Huyết Xích. Trúc Cơ Thảo, Địa Linh Hóa Quả và Yêu Đan Cấp 3 luyện tại Đan Lô trong làng; Cổ Bích Mộc và Trấn Thần Thạch đem về Đan Lô (mục Chế Phù) để chế Bảo Mệnh Phù."
+  },
+  "tran_than_thach": {
+    "id": "tran_than_thach",
+    "name": "Trấn Thần Thạch",
+    "type": "nguyen_lieu",
+    "grade": "Linh phẩm",
+    "icon": "stone_core",
+    "desc": "Thu hoạch tại Huyết Xích. Trúc Cơ Thảo, Địa Linh Hóa Quả và Yêu Đan Cấp 3 luyện tại Đan Lô trong làng; Cổ Bích Mộc và Trấn Thần Thạch đem về Đan Lô (mục Chế Phù) để chế Bảo Mệnh Phù."
+  },
+  "bao_menh_phu": {
+    "id": "bao_menh_phu",
+    "name": "Bảo Mệnh Phù",
+    "type": "phu_chu",
+    "grade": "Linh phẩm",
+    "icon": "phu_kim_giap",
+    "desc": "Dùng kèm Trúc Cơ Đan: gom đủ 5 lá thì tỷ lệ Trúc Cơ từ 70% lên 100%. Cũng dùng kèm khi ghép Mảnh Yêu Đan (3 lá)."
+  },
+  "manh_yeu_dan_cap_3": {
+    "id": "manh_yeu_dan_cap_3",
+    "name": "Mảnh Yêu Đan Cấp 3",
+    "type": "nguyen_lieu",
+    "grade": "Địa phẩm hạ",
+    "icon": "manh_yeu_dan_cap_3",
+    "desc": "Mảnh vỡ của một viên Yêu Đan Cấp 3, thưởng hạng 2–4 Đại Hội. Ghép 3 mảnh ở Đan Lô (mục Đan Khác) thành một Yêu Đan Cấp 3: 70%, kèm 3 Bảo Mệnh Phù thì chắc chắn."
+  }
+}

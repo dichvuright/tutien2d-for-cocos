@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "4028993c-2365-4538-9d85-9af3bbf5f1c5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "4028993c-2365-4538-9d85-9af3bbf5f1c5@6c48a",
+      "displayName": "icon_phu_loi_dong",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "4028993c-2365-4538-9d85-9af3bbf5f1c5",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "4028993c-2365-4538-9d85-9af3bbf5f1c5@f9941",
+      "displayName": "icon_phu_loi_dong",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -0.5,
+        "offsetY": 0,
+        "trimX": 4,
+        "trimY": 2,
+        "width": 23,
+        "height": 28,
+        "rawWidth": 32,
+        "rawHeight": 32,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -11.5,
+            -14,
+            0,
+            11.5,
+            -14,
+            0,
+            -11.5,
+            14,
+            0,
+            11.5,
+            14,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            4,
+            30,
+            27,
+            30,
+            4,
+            2,
+            27,
+            2
+          ],
+          "nuv": [
+            0.125,
+            0.0625,
+            0.84375,
+            0.0625,
+            0.125,
+            0.9375,
+            0.84375,
+            0.9375
+          ],
+          "minPos": [
+            -11.5,
+            -14,
+            0
+          ],
+          "maxPos": [
+            11.5,
+            14,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4028993c-2365-4538-9d85-9af3bbf5f1c5@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "4028993c-2365-4538-9d85-9af3bbf5f1c5@6c48a"
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "realms": [
+    {
+      "id": "pham_nhan",
+      "name": "Phàm Nhân",
+      "sub": "Thân thể trọc khí, chưa cảm ứng được linh khí trời đất",
+      "hpMax": 100,
+      "mpMax": 0,
+      "spMax": 20,
+      "bpMax": 40,
+      "expMax": 0,
+      "aura": "none",
+      "canMeditate": false
+    },
+    {
+      "id": "luyen_khi_1",
+      "name": "Luyện Khí Tầng 1",
+      "sub": "Cảm Ứng Kỳ — bắt đầu cảm nhận được linh khí",
+      "hpMax": 120,
+      "mpMax": 100,
+      "spMax": 30,
+      "bpMax": 55,
+      "expMax": 150,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_2",
+      "name": "Luyện Khí Tầng 2",
+      "sub": "Linh khí trong người dần dày lên",
+      "hpMax": 135,
+      "mpMax": 112,
+      "spMax": 36,
+      "bpMax": 63,
+      "expMax": 195,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_3",
+      "name": "Luyện Khí Tầng 3",
+      "sub": "Kinh mạch thông suốt hơn trước",
+      "hpMax": 150,
+      "mpMax": 125,
+      "spMax": 42,
+      "bpMax": 71,
+      "expMax": 255,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_4",
+      "name": "Luyện Khí Tầng 4",
+      "sub": "Chân khí vận chuyển đã thành nếp",
+      "hpMax": 165,
+      "mpMax": 138,
+      "spMax": 48,
+      "bpMax": 79,
+      "expMax": 630,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_5",
+      "name": "Luyện Khí Tầng 5",
+      "sub": "Bắt đầu cảm nhận rõ vòng tuần hoàn linh khí",
+      "hpMax": 180,
+      "mpMax": 150,
+      "spMax": 54,
+      "bpMax": 87,
+      "expMax": 810,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_6",
+      "name": "Luyện Khí Tầng 6",
+      "sub": "Nửa chặng đường Luyện Khí",
+      "hpMax": 195,
+      "mpMax": 163,
+      "spMax": 60,
+      "bpMax": 95,
+      "expMax": 1050,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_7",
+      "name": "Luyện Khí Tầng 7",
+      "sub": "Linh lực dồi dào, đả tọa mau tiến bộ",
+      "hpMax": 210,
+      "mpMax": 175,
+      "spMax": 66,
+      "bpMax": 103,
+      "expMax": 1350,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_8",
+      "name": "Luyện Khí Tầng 8",
+      "sub": "Thân thể dần thoát khỏi trọc khí phàm tục",
+      "hpMax": 225,
+      "mpMax": 188,
+      "spMax": 72,
+      "bpMax": 111,
+      "expMax": 1710,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_9",
+      "name": "Luyện Khí Tầng 9",
+      "sub": "Cảnh giới đã vững, chỉ còn chờ tích luỹ",
+      "hpMax": 240,
+      "mpMax": 200,
+      "spMax": 78,
+      "bpMax": 119,
+      "expMax": 2190,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_10",
+      "name": "Luyện Khí Tầng 10",
+      "sub": "Bước vào hàng ngũ đệ tử có căn cơ",
+      "hpMax": 255,
+      "mpMax": 213,
+      "spMax": 84,
+      "bpMax": 127,
+      "expMax": 2820,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_11",
+      "name": "Luyện Khí Tầng 11",
+      "sub": "Chân khí đã có thể hộ thể sơ bộ",
+      "hpMax": 270,
+      "mpMax": 225,
+      "spMax": 90,
+      "bpMax": 135,
+      "expMax": 3600,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_12",
+      "name": "Luyện Khí Tầng 12",
+      "sub": "Chỉ còn một bước là viên mãn Luyện Khí",
+      "hpMax": 285,
+      "mpMax": 238,
+      "spMax": 96,
+      "bpMax": 143,
+      "expMax": 4620,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "luyen_khi_13",
+      "name": "Luyện Khí Tầng 13",
+      "sub": "Viên mãn Luyện Khí — chờ cơ duyên Trúc Cơ",
+      "hpMax": 300,
+      "mpMax": 250,
+      "spMax": 102,
+      "bpMax": 151,
+      "expMax": 6000,
+      "aura": "none",
+      "canMeditate": true
+    },
+    {
+      "id": "truc_co_1",
+      "name": "Trúc Cơ Sơ Kỳ",
+      "sub": "Đạo cơ đã thành",
+      "hpMax": 420,
+      "mpMax": 340,
+      "spMax": 120,
+      "bpMax": 190,
+      "expMax": 140850,
+      "aura": "qi_ring",
+      "canMeditate": true,
+      "spRegen": 3,
+      "meditateMult": 2,
+      "meditateVitalsMult": 1
+    },
+    {
+      "id": "truc_co_2",
+      "name": "Trúc Cơ Trung Kỳ",
+      "sub": "Đạo cơ ngưng thực",
+      "hpMax": 540,
+      "mpMax": 430,
+      "spMax": 140,
+      "bpMax": 230,
+      "expMax": 281700,
+      "aura": "qi_ring",
+      "canMeditate": true,
+      "spRegen": 3,
+      "meditateMult": 3,
+      "meditateVitalsMult": 1
+    },
+    {
+      "id": "truc_co_3",
+      "name": "Trúc Cơ Hậu Kỳ",
+      "sub": "Đạo cơ viên mãn",
+      "hpMax": 660,
+      "mpMax": 520,
+      "spMax": 160,
+      "bpMax": 270,
+      "expMax": 563400,
+      "aura": "qi_ring",
+      "canMeditate": true,
+      "spRegen": 3,
+      "meditateMult": 3,
+      "meditateVitalsMult": 1
+    }
+  ],
+  "breakthrough": {
+    "luyen_khi_13": {
+      "item": "truc_co_dan",
+      "qty": 1
+    },
+    "pham_nhan": {
+      "blocked": "Thân còn trọc khí, dẫn khí nhập thể không nổi. Phải hoàn tất nghi thức Tẩy Tuỷ Phạt Mao trước đã."
+    },
+    "luyen_khi_2": {
+      "questStage": 12,
+      "item": "tu_khi_dan",
+      "qty": 1
+    },
+    "luyen_khi_3": {
+      "item": "tu_khi_dan",
+      "qty": 1
+    },
+    "luyen_khi_4": {
+      "item": "luyen_khi_dan",
+      "qty": 1
+    },
+    "luyen_khi_5": {
+      "questStage": 14,
+      "item": "luyen_khi_dan",
+      "qty": 1
+    },
+    "luyen_khi_6": {
+      "item": "luyen_khi_dan",
+      "qty": 1
+    },
+    "luyen_khi_7": {
+      "item": "pha_canh_dan",
+      "qty": 1
+    },
+    "luyen_khi_8": {
+      "item": "pha_canh_dan",
+      "qty": 1
+    },
+    "luyen_khi_9": {
+      "item": "pha_canh_dan",
+      "qty": 1
+    },
+    "luyen_khi_10": {
+      "item": "pha_canh_dan",
+      "qty": 2
+    },
+    "luyen_khi_11": {
+      "item": "pha_canh_dan",
+      "qty": 2
+    },
+    "luyen_khi_12": {
+      "item": "pha_canh_dan",
+      "qty": 3
+    },
+    "truc_co_1": {
+      "questStage": 35,
+      "items": [
+        {
+          "id": "ngung_nguyen_dan",
+          "qty": 1
+        },
+        {
+          "ids": [
+            "yeu_dan_cap_2",
+            "yeu_dan_cap_3",
+            "yeu_dan_cap_4",
+            "yeu_dan_cap_5",
+            "yeu_dan_cap_6"
+          ],
+          "qty": 20,
+          "name": "Yêu Đan cấp 2+"
+        },
+        {
+          "id": "truc_co_thao",
+          "qty": 30
+        },
+        {
+          "id": "bao_menh_phu",
+          "qty": 10
+        }
+      ],
+      "questFlag": "thang_tam_kiep",
+      "questFlagText": "Thắng Tâm Kiếp"
+    },
+    "truc_co_2": {
+      "questStage": 38,
+      "items": [
+        {
+          "id": "dinh_co_dan",
+          "qty": 1
+        }
+      ],
+      "questFlag": "thang_tam_kiep_hau_ky",
+      "questFlagText": "Thắng Tâm Kiếp"
+    }
+  },
+  "linhCanKhac": {
+    "kim": [
+      "moc",
+      "phong"
+    ],
+    "moc": [
+      "tho",
+      "loi"
+    ],
+    "thuy": [
+      "hoa",
+      "quang"
+    ],
+    "hoa": [
+      "kim",
+      "bang"
+    ],
+    "tho": [
+      "thuy",
+      "quang"
+    ],
+    "loi": [
+      "bang",
+      "am"
+    ],
+    "bang": [
+      "phong",
+      "moc"
+    ],
+    "phong": [
+      "hoa",
+      "loi"
+    ],
+    "am": [
+      "tho",
+      "thuy"
+    ],
+    "quang": [
+      "am",
+      "kim"
+    ]
+  },
+  "linhCanChiSo": {
+    "kim": {
+      "xuyenGiap": 0.042
+    },
+    "moc": {
+      "hpMax": 0.014,
+      "hutHuyet": 0.004
+    },
+    "thuy": {
+      "giamHoiChieu": 0.024,
+      "mpMax": 0.037
+    },
+    "hoa": {
+      "uyLuc": 0.004,
+      "chayTile": 0.006
+    },
+    "tho": {
+      "giamSatThuong": 0.008,
+      "bpMax": 0.015
+    },
+    "loi": {
+      "biKich": 0.026,
+      "satThuongBaoKich": 0.065
+    },
+    "bang": {
+      "khangKhongChe": 0.024,
+      "lamCham": 0.012
+    },
+    "phong": {
+      "tocChay": 0.015,
+      "tocDanh": 0.019
+    },
+    "am": {
+      "chemChet": 0.058,
+      "giamHoiMau": 0.12
+    },
+    "quang": {
+      "tamDanh": 0.029,
+      "khienPct": 0.019
+    }
+  },
+  "khungChiSo": {
+    "truc_co_1": {
+      "than": {
+        "hpMax": 420,
+        "mpMax": 340,
+        "spMax": 120,
+        "bpMax": 190,
+        "expMax": 140850
+      },
+      "chieu": {
+        "dien": 0.62,
+        "don": 0.72,
+        "mp": 26
+      }
+    },
+    "truc_co_2": {
+      "than": {
+        "hpMax": 540,
+        "mpMax": 430,
+        "spMax": 140,
+        "bpMax": 230,
+        "expMax": 281700
+      },
+      "chieu": {
+        "dien": 0.7,
+        "don": 0.8,
+        "mp": 32
+      }
+    },
+    "truc_co_3": {
+      "than": {
+        "hpMax": 660,
+        "mpMax": 520,
+        "spMax": 160,
+        "bpMax": 270,
+        "expMax": 563400
+      },
+      "chieu": {
+        "dien": 0.9,
+        "don": 1.03,
+        "mp": 38
+      }
+    },
+    "gia_dan": {
+      "than": {
+        "hpMax": 800,
+        "mpMax": 620,
+        "spMax": 185,
+        "bpMax": 320,
+        "expMax": 1126800
+      },
+      "chieu": {
+        "dien": 1.05,
+        "don": 1.2,
+        "mp": 45
+      }
+    },
+    "ket_dan_1": {
+      "than": {
+        "hpMax": 1200,
+        "mpMax": 900,
+        "spMax": 240,
+        "bpMax": 450,
+        "expMax": 2253600
+      },
+      "chieu": {
+        "dien": 1.3,
+        "don": 1.5,
+        "mp": 60
+      }
+    }
+  }
+}
