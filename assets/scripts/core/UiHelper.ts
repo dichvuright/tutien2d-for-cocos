@@ -205,19 +205,17 @@ export class UiHelper {
     ): Label {
         const sz = opts?.size ?? 14;
         lbl.useSystemFont = false;
-        const chosenFont = opts?.serif
-            ? (UiHelper.serifFont || UiHelper.pixelFont)
-            : (UiHelper.pixelFont || UiHelper.serifFont);
+        const chosenFont = UiHelper.pixelFont || UiHelper.serifFont;
         if (chosenFont) {
             lbl.font = chosenFont;
         } else {
             lbl.useSystemFont = true;
-            lbl.fontFamily = 'Segoe UI, Arial, sans-serif';
+            lbl.fontFamily = 'monospace';
         }
-        lbl.fontSize = sz;
-        lbl.lineHeight = opts?.lineHeight ?? (sz + 5);
+        lbl.fontSize = Math.round(sz);
+        lbl.lineHeight = Math.round(opts?.lineHeight ?? (sz + 5));
         lbl.isBold = !!opts?.bold;
-        lbl.color = UiHelper.hex(opts?.colorHex || '#f2e8d5');
+        lbl.color = UiHelper.hex(opts?.colorHex || '#f0f7f4');
         lbl.horizontalAlign = opts?.align ?? Label.HorizontalAlign.CENTER;
         lbl.verticalAlign = opts?.valign ?? Label.VerticalAlign.CENTER;
 

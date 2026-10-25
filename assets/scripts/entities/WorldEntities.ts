@@ -337,7 +337,9 @@ export class EnemyEntity implements YSortableItem {
         const hum = this.def?.human || this.def?.tuSi;
         if (hum) {
             const outfitFallbackMap: Record<string, string> = {
-                ao_thon_lac: 'quan_dui',
+                ao_thon_lac: 'nguyen_dao_y',
+                quan_dui: 'man_ho_tu_bao',
+                nhim_toc_y: 'man_ho_tu_bao',
                 lu_hanh_moc: 'thanh_y',
                 hoat_tu_y: 'ta_tu_y',
                 hau_toc_y: 'man_ho_tu_y',
@@ -350,7 +352,7 @@ export class EnemyEntity implements YSortableItem {
                 this._atlas = atlas;
                 this._isHumanSheet = true;
                 this._atlasPrefix = prefix;
-                this._bodyNode.getComponent(UITransform)!.setContentSize(35, 64);
+                this._bodyNode.getComponent(UITransform)!.setContentSize(48, 64);
                 this._bodyNode.getComponent(UITransform)!.setAnchorPoint(0.5, 0.03125);
                 const sf = atlas.getSpriteFrame(`${prefix}_down_06`) || atlas.getSpriteFrames()[0];
                 if (sf) this._sprite.spriteFrame = sf;
@@ -374,7 +376,7 @@ export class EnemyEntity implements YSortableItem {
                 this._isHumanSheet = true;
                 const first = all[0].name;
                 this._atlasPrefix = first.replace(/_(down|left|right|up)_\d+$/, '');
-                this._bodyNode.getComponent(UITransform)!.setContentSize(35, 64);
+                this._bodyNode.getComponent(UITransform)!.setContentSize(48, 64);
                 this._bodyNode.getComponent(UITransform)!.setAnchorPoint(0.5, 0.03125);
                 const sf = atlas.getSpriteFrame(`${this._atlasPrefix}_down_06`) || all[0];
                 if (sf) this._sprite.spriteFrame = sf;

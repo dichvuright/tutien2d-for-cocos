@@ -7,28 +7,28 @@
       <key>npc_lao_an_may_gu_00</key>
       <dict>
         <key>frame</key>
-        <string>{{0,0},{64,64}}</string>
+        <string>{{0,0},{56,68}}</string>
         <key>offset</key>
         <string>{0,0}</string>
         <key>rotated</key>
         <false/>
         <key>sourceColorRect</key>
-        <string>{{0,0},{64,64}}</string>
+        <string>{{0,0},{56,68}}</string>
         <key>sourceSize</key>
-        <string>{64,64}</string>
+        <string>{56,68}</string>
       </dict>
       <key>npc_lao_an_may_gu_01</key>
       <dict>
         <key>frame</key>
-        <string>{{64,0},{64,64}}</string>
+        <string>{{56,0},{56,68}}</string>
         <key>offset</key>
         <string>{0,0}</string>
         <key>rotated</key>
         <false/>
         <key>sourceColorRect</key>
-        <string>{{0,0},{64,64}}</string>
+        <string>{{0,0},{56,68}}</string>
         <key>sourceSize</key>
-        <string>{64,64}</string>
+        <string>{56,68}</string>
       </dict>
     </dict>
     <key>metadata</key>
@@ -38,7 +38,7 @@
       <key>realTextureFileName</key>
       <string>npc_lao_an_may_gu.png</string>
       <key>size</key>
-      <string>{128,64}</string>
+      <string>{112,68}</string>
       <key>textureFileName</key>
       <string>npc_lao_an_may_gu.png</string>
     </dict>

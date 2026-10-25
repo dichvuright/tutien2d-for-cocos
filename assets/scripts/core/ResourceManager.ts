@@ -175,6 +175,7 @@ const CORE_ICON_MAP: Record<string, string> = {
     'ic-leaf': 'textures/items/icon_phi_diep',
     'logo': 'textures/ui/branding/logo-256',
     'logo-icon': 'textures/ui/branding/tu-tien-2d-icon',
+    'loading-splash': 'textures/ui/branding/hero-gameplay-poster',
     'formation-dao': 'textures/ui/formations/dao-gia',
     'formation-fire': 'textures/ui/formations/liet-hoa',
     'formation-spirit': 'textures/ui/formations/tu-linh',
@@ -203,7 +204,7 @@ export class ResourceManager {
     private static _loadQueue: Array<() => void> = [];
 
     private static _acquireSlot(): Promise<void> {
-        if (ResourceManager._activeLoads < 10) {
+        if (ResourceManager._activeLoads < 32) {
             ResourceManager._activeLoads++;
             return Promise.resolve();
         }
@@ -280,6 +281,13 @@ export class ResourceManager {
                 ResourceManager.worldMaps = wmJson || {};
                 ResourceManager.objectDefs = odJson || {};
                 ResourceManager.gameplaySystems = gsJson || {};
+                const starterOutfits = ['bach_y', 'thanh_y', 'lam_y', 'hac_y', 'tu_quang_y', 'huyet_anh_y'];
+                await Promise.all(
+                    starterOutfits.flatMap((o) => [
+                        ResourceManager.loadCharacterAtlas('male', o),
+                        ResourceManager.loadCharacterAtlas('female', o),
+                    ])
+                );
             }],
         ];
 

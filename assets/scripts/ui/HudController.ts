@@ -240,15 +240,15 @@ export class HudController {
             }).node;
             UiHelper.pinWidget(node, { top: 8, left: 10 });
 
-            const avBox = UiHelper.createPanel('AvatarFrame', node, 40, 46, {
+            const avBox = UiHelper.createPanel('AvatarFrame', node, 42, 48, {
                 skin: 'slot',
                 ax: 0,
                 ay: 1,
             });
-            avBox.node.setPosition(8, -7, 0);
+            avBox.node.setPosition(8, -6, 0);
 
-            const avNode = UiHelper.createNode('AvatarSprite', avBox.node, 26, 42, 0.5, 0.05);
-            avNode.setPosition(20, -43, 0);
+            const avNode = UiHelper.createNode('AvatarSprite', avBox.node, 33, 44, 0.5, 0.05);
+            avNode.setPosition(21, -45, 0);
             const avSp = avNode.addComponent(Sprite);
             avSp.sizeMode = Sprite.SizeMode.CUSTOM;
             avSp.trim = false;
@@ -877,8 +877,8 @@ export class HudController {
     }
 
     private _buildBottomRightActions(): void {
-        const w = 248;
-        const h = 126;
+        const w = 256;
+        const h = 168;
         const root = UiHelper.findOrCreateNode('ActionCluster', this.rootNode, w, h, 1, 0);
         UiHelper.pinWidget(root, { bottom: 10, right: 12 });
 
@@ -886,9 +886,9 @@ export class HudController {
             root,
             'PrimaryAttackBtn',
             'CÔNG\n[Space]',
-            80,
-            80,
-            [-42, 42],
+            84,
+            84,
+            [-48, 48],
             () => {
                 this._world.interactOrAttackNearest();
             },
@@ -897,8 +897,27 @@ export class HudController {
                 iconKey: 'ic-bamboo-sword',
                 iconSize: 28,
                 iconTop: true,
-                textHex: '#fff0c2',
+                textHex: '#fff5c8',
                 fontSize: 11,
+            }
+        );
+
+        this._flyBtn = this._adoptOrCreateButton(
+            root,
+            'FlyBtn',
+            'Phi Hành',
+            92,
+            30,
+            [-150, 24],
+            () => {
+                const res = this._world.player.toggleFly(this._world.mapData, this._world.vfx);
+                this.showToast(res.msg, res.ok ? '#8fd8ff' : '#ff9c7a');
+            },
+            {
+                skin: 'wood',
+                iconKey: 'hud-fly',
+                iconSize: 17,
+                fontSize: 10,
             }
         );
 
@@ -906,9 +925,9 @@ export class HudController {
             root,
             'AutoBtn',
             'Tự Động',
-            94,
-            34,
-            [-138, 62],
+            92,
+            30,
+            [-158, 64],
             () => {
                 AudioManager.playSfx('ui_click');
                 this._world.player.autoCombat = !this._world.player.autoCombat;
@@ -921,26 +940,7 @@ export class HudController {
             {
                 skin: 'wood',
                 iconKey: 'hud-auto',
-                iconSize: 18,
-                fontSize: 10,
-            }
-        );
-
-        this._flyBtn = this._adoptOrCreateButton(
-            root,
-            'FlyBtn',
-            'Phi Hành',
-            94,
-            34,
-            [-138, 22],
-            () => {
-                const res = this._world.player.toggleFly(this._world.mapData, this._world.vfx);
-                this.showToast(res.msg, res.ok ? '#8fd8ff' : '#ff9c7a');
-            },
-            {
-                skin: 'wood',
-                iconKey: 'hud-fly',
-                iconSize: 18,
+                iconSize: 17,
                 fontSize: 10,
             }
         );
@@ -949,9 +949,9 @@ export class HudController {
             root,
             'MeditateBtn',
             'Đả Tọa',
-            94,
-            32,
-            [-138, 102],
+            90,
+            30,
+            [-132, 104],
             () => {
                 const res = this._world.player.toggleMeditate(false, this._world.vfx);
                 this.showToast(res.msg, res.ok ? '#9df2dd' : '#ff9c7a');
@@ -959,7 +959,7 @@ export class HudController {
             {
                 skin: 'wood',
                 iconKey: 'hud-sit',
-                iconSize: 18,
+                iconSize: 17,
                 fontSize: 10,
             }
         );
@@ -968,9 +968,9 @@ export class HudController {
             root,
             'TargetCycleBtn',
             'Mục Tiêu',
-            80,
-            32,
-            [-42, 102],
+            86,
+            30,
+            [-46, 114],
             () => {
                 this._world.cycleTarget();
             },

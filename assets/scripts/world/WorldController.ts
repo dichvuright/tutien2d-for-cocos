@@ -56,10 +56,10 @@ export class WorldController {
     public selectedEnemy: EnemyEntity | null = null;
     public selectedProp: RuntimePropEntry | null = null;
 
-    public zoom: number = 1.65;
-    private _zoomPresets: number[] = [1.2, 1.5, 1.85, 2.25];
-    private _zoomNames: string[] = ['Rất rộng', 'Rộng', 'Vừa', 'Cận'];
-    private _zoomIdx: number = 1;
+    public zoom: number = 2.0;
+    private _zoomPresets: number[] = [1.0, 1.5, 2.0, 3.0];
+    private _zoomNames: string[] = ['Toàn cảnh', 'Rộng', 'Chuẩn Pixel (2x)', 'Cận cảnh (3x)'];
+    private _zoomIdx: number = 2;
 
     private _ambientSprite: Sprite;
     private _groundNode: Node;
@@ -378,8 +378,8 @@ export class WorldController {
         const artKey = p.art || p.type;
         const objDef = ResourceManager.objectDefs[artKey];
 
-        const w = isNpc ? (p.npcGifAtlas ? 80 : 64) : (objDef?.w || 40);
-        const h = isNpc ? (p.npcGifAtlas ? 80 : 64) : (objDef?.h || 40);
+        const w = isNpc ? (p.npcGifAtlas ? 80 : 56) : (objDef?.w || 40);
+        const h = isNpc ? (p.npcGifAtlas ? 80 : 68) : (objDef?.h || 40);
         const ax = isNpc ? 0.5 : Math.max(0, Math.min(1, ((objDef?.ax ?? w * 0.5) / w)));
         const ay = isNpc ? 0.03 : Math.max(0, Math.min(1, (h - (objDef?.ay ?? h)) / h));
 
@@ -468,7 +468,7 @@ export class WorldController {
                         const f0 = cAtlas.getSpriteFrame(`${prefix}_down_06`);
                         const f1 = cAtlas.getSpriteFrame(`${prefix}_down_07`);
                         entry.frames = [f0, f1].filter((x): x is SpriteFrame => !!x);
-                        body.getComponent(UITransform)!.setContentSize(35, 64);
+                        body.getComponent(UITransform)!.setContentSize(48, 64);
                         if (entry.frames[0]) sp.spriteFrame = entry.frames[0];
                     });
                 }
@@ -1270,6 +1270,10 @@ export class WorldController {
         }
 
         this.worldContainer.setScale(new Vec3(this.zoom, this.zoom, 1));
-        this.worldContainer.setPosition(-this._camX * this.zoom + shakeX, this._camY * this.zoom + shakeY, 0);
+        this.worldContainer.setPosition(
+            Math.round(-this._camX * this.zoom + shakeX),
+            Math.round(this._camY * this.zoom + shakeY),
+            0
+        );
     }
 }

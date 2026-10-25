@@ -22,3 +22,6 @@ node_modules/
 # WebStorm
 #//////////////////////////
 .idea/
+
+# Local Editor MCP Extension
+extensions/cocos-creator-mcp/

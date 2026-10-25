@@ -138,7 +138,8 @@ export class PlayerActor implements YSortableItem {
         this._mountSprite = mt.sprite;
         this._mountNode.active = false;
 
-        const bd = ensureSpriteChild('CharBody', 35, 64, 0.5, 0.03125);
+        const bd = ensureSpriteChild('CharBody', 48, 64, 0.5, 0.03125);
+        bd.node.getComponent(UITransform)!.setContentSize(48, 64);
         this._bodyNode = bd.node;
         this._bodySprite = bd.sprite;
 

@@ -20,8 +20,8 @@
         "imageUuidOrDatabaseUri": "618ab6e8-b8e6-4580-a87a-ce05748d1684",
         "isUuid": true,
         "visible": false,
-        "minfilter": "linear",
-        "magfilter": "linear",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
         "mipfilter": "none",
         "anisotropy": 0
       },
@@ -60,17 +60,17 @@
         "meshType": 0,
         "vertices": {
           "rawPosition": [
-            -640,
-            -360,
+            -640.0,
+            -360.0,
             0,
-            640,
-            -360,
+            640.0,
+            -360.0,
             0,
-            -640,
-            360,
+            -640.0,
+            360.0,
             0,
-            640,
-            360,
+            640.0,
+            360.0,
             0
           ],
           "indexes": [
@@ -102,20 +102,20 @@
             1
           ],
           "minPos": [
-            -640,
-            -360,
+            -640.0,
+            -360.0,
             0
           ],
           "maxPos": [
-            640,
-            360,
+            640.0,
+            360.0,
             0
           ]
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "618ab6e8-b8e6-4580-a87a-ce05748d1684@6c48a",
         "atlasUuid": "",
-        "trimType": "auto"
+        "trimType": "none"
       },
       "ver": "1.0.12",
       "imported": true,

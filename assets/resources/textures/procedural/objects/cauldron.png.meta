@@ -42,11 +42,11 @@
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
-        "offsetY": -8,
-        "trimX": 2,
-        "trimY": 16,
-        "width": 38,
-        "height": 32,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 42,
+        "height": 48,
         "rawWidth": 42,
         "rawHeight": 48,
         "borderTop": 0,
@@ -60,17 +60,17 @@
         "meshType": 0,
         "vertices": {
           "rawPosition": [
-            -19,
-            -16,
+            -21,
+            -24,
             0,
-            19,
-            -16,
+            21,
+            -24,
             0,
-            -19,
-            16,
+            -21,
+            24,
             0,
-            19,
-            16,
+            21,
+            24,
             0
           ],
           "indexes": [
@@ -82,40 +82,40 @@
             3
           ],
           "uv": [
-            2,
-            32,
-            40,
-            32,
-            2,
             0,
-            40,
+            48,
+            42,
+            48,
+            0,
+            0,
+            42,
             0
           ],
           "nuv": [
-            0.047619047619047616,
             0,
-            0.9523809523809523,
             0,
-            0.047619047619047616,
-            0.6666666666666666,
-            0.9523809523809523,
-            0.6666666666666666
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
           ],
           "minPos": [
-            -19,
-            -16,
+            -21,
+            -24,
             0
           ],
           "maxPos": [
-            19,
-            16,
+            21,
+            24,
             0
           ]
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "977c5de1-e0b9-4bbe-a05d-0bd062747a07@6c48a",
         "atlasUuid": "",
-        "trimType": "auto"
+        "trimType": "none"
       },
       "ver": "1.0.12",
       "imported": true,

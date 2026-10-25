@@ -294,18 +294,22 @@ export class ModalPanels {
             formArt.sprite.color = new Color(255, 255, 255, 215);
             this._previewPedestal = formArt.node;
 
-            const spNode = UiHelper.createNode('PreviewChar', prevCard.node, 70, 128, 0.5, 0.03);
+            const spNode = UiHelper.createNode('PreviewChar', prevCard.node, 96, 128, 0.5, 0.03);
             spNode.setPosition(0, -34, 0);
             this._previewSprite = spNode.addComponent(Sprite);
             this._previewSprite.sizeMode = Sprite.SizeMode.CUSTOM;
             this._previewSprite.trim = false;
 
-            ResourceManager.loadCharacterAtlas(draft.gender, draft.outfit).then(({ atlas, prefix }) => {
+            const chosenOutfit = OUTFIT_CHOICES.some((o) => o.id === draft.outfit) ? draft.outfit : 'bach_y';
+            ResourceManager.loadCharacterAtlas(draft.gender, chosenOutfit).then(({ atlas, prefix }) => {
                 if (!spNode.isValid || !atlas) return;
                 this._previewAtlas = atlas;
                 this._previewPrefix = prefix;
-                const sf = atlas.getSpriteFrame(`${prefix}_down_06`);
-                if (sf && this._previewSprite) this._previewSprite.spriteFrame = sf;
+                const sf = atlas.getSpriteFrame(`${prefix}_down_06`) || atlas.getSpriteFrames()[0];
+                if (sf && this._previewSprite) {
+                    this._previewSprite.spriteFrame = sf;
+                    spNode.getComponent(UITransform)?.setContentSize(96, 128);
+                }
             });
 
             const lcObj = LINH_CAN_LIST.find((l) => l.id === draft.linhCan) || LINH_CAN_LIST[0];
